@@ -251,7 +251,7 @@ big plus.
 **Graybeard:** Wise words to end the night. My beer is empty and home is
 calling. Next time...
 
-I> ## Summary
+I> ## TL;DR
 I> * Start simple, [shelve][shelve] is a great option
 I> * Know your data and queries before selecting a database
 I>     * Think of things like embedded vs client server, SQL vs NoSQL vs

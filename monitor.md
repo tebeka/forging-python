@@ -148,7 +148,7 @@ ELK.
 
 **Graybeard:** OK, I'll shut up about monitoring and alerting now :)
 
-I> ## Summary
+I> ## TL;DR
 I> * Identify your KPIs and monitor them
 I> * Start with simple thresholds and move to more sophisticated systems later
 I> * Think about 

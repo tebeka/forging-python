@@ -174,7 +174,7 @@ later (and had one on configuration management already).
 
 **Youngstar:** OK then.
 
-I> ## Summary
+I> ## TL;DR
 I> * Start simple. A Python based configuration system with overrides will get
 I>    you a long way
 I> * Know that most times you move configuration complexity to another system.

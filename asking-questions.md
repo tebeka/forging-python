@@ -75,39 +75,44 @@ people called "[The anatomy of a Great Stack Overflow Question][soq]".
 **Youngstar:** Sure, I'll add them to my pile of things to read. Can you give me
 the TL;DR?
 
-**Graybeard:** (sighs) Sure, but that doesn't mean you're off the hook for
-reading these.
+**Graybeard:** (sighs) Sure, but it doesn't mean you're off the hook for reading
+these.
 
-**Youngstar:** Yup.
+**Youngstar:** Agree.
 
 **Graybeard:** The two main points are respecting people time and giving enough
 context. If people feel that you're asking them a trivial question instead of
-[RTFM][^rtfm] - they won't answer you. However if they see that you tried
-something before asking them - they'll be more inclined to help. While we're
-there - also be polite and make sure to thank people. And don't feed the trolls.
-The other thing is giving context. The worst questing you get are in the lines
-of "Help, it doesn't work". Give enough information of what where you trying to
-do, what did you expect to happen and what did actually happened.
+RTFM - they won't answer you. However if they see that you tried something
+before asking them - they'll be more inclined to help. The other thing is giving
+context. The worst questing you get are in the lines of "Help, it doesn't work".
+Give enough information of what where you trying to do, what did you expect to
+happen and what did actually happened.
 
 **Youngstar:** This sounds very much like bug reports.
 
 **Graybeard:** Well, we're in a technical world - so a lot of things that don't
 work seems like bugs. Check out [PBKAC][pbkac] acronym sometime.
 
+Also be polite and make sure to thank people. Oh, and don't feed the trolls.
+
+**Youngstar:** Trolls are the ones who argue for just for the sake of arguing?
+
+**Graybeard:** Yeah, and they usually do it in a foul manner.
+
 **Youngstar:** Any other advice?
 
-**Graybeard:** Yeah, get a rubber duck.
+**Graybeard:** Get a rubber duck.
 
 **Youngstar:** What? Like the ones kids use in a bath?
 
-**Graybeard:** Exactly like that.
+**Graybeard:** What do you mean kids? I have one like that.
 
 **Youngstar:** For real?
 
-**Graybeard:** You're never too old to have a bath with your rubber duck. Let me
-ask you something. Did it ever happen to you that you were stuck on something.
-Went to a co-worker for help, started to describe the problem and somewhere in
-the middle said - "never mind, found the solution."?
+**Graybeard:** You're never too old to have a bath with your rubber duck.  Did
+it ever happen to you that you were stuck on something.  Went to a co-worker for
+help, started to describe the problem and somewhere in the middle said - "never
+mind, found the solution."?
 
 **Youngstar:** Sure, several times. How does this relate to a rubber duck?
 
@@ -178,24 +183,62 @@ yourself.
 
 **Youngstar:** I ask myself questions all the time.
 
-**Graybeard:** You're a woman, can't help it. However a lot of people don't
-invest time in 
+**Graybeard:** You're a woman, can't help it. But I'm not talking about the
+usual day to day existential stuff. I'm talking about work related questions.
 
-FIXME: 
-    - Question you should ask yourself
-        - why aren't we shooting
-        - zero to one https://gist.github.com/jm3/45b0b9a40a8872a9051b
-    - Ask why? in the company (monkey story)
-    - 5 whys
+**Youngstar:** Like retrospective?
 
+**Graybeard:** Yes, we've converted that when talking about process. But it
+worth repeating. A lot of study shows that companies/groups who excel at what
+they do, do a lot of retrospective/debriefing.
 
+**Youngstar:** I was in some retrospectives where people got heated up.
+
+**Graybeard:** Yes, don't just do a retrospective - do it well. Note that
+retrospectives are not just for "end of sprint" but also for incidents. This is
+where Toyota's ["5 whys"][5ys] come in handy.
+
+**Youngstar:** OK, I'll brush up on how to make good retrospective.
+
+**Graybeard:** Another kind of questions you need to ask yourself are ones about
+the current state of things. I learned from a very talented person a trick about
+staying in focus. The idea is to find one question, and keep asking it
+repeatedly. For example "Why aren't we deploying?" - this will focus you on a
+JFDI attitude.
+
+**Youngstar:** Language! I already gave you a pass on RTFM.
+
+**Graybeard:** RTFM stand for "Read the Fine Manual", what's wrong with that?
+
+**Youngstar:** Yeah, right!
+
+**Graybeard:** But you're right. You should speak up whenever you feel the
+environment gets toxic. Good culture need gardening all the time.
+
+**Youngstar:** Thanks. I'll figure out a focusing mantra for me. Looks like a
+fun exercise. Any other questions I should ask myself?
+
+**Graybeard:** It depends on what you're doing and the state of things. For
+example in ["Zero to One"][z21] Peter Theil write about seven questions all
+business must ask themselves.
+
+**Youngstar:** And they are?
+
+**Graybeard:** Go read the book, it's a good one.
+
+**Youngstar:** I'll to rent a bigger place just to have room for all these
+books.
+
+**Graybeard:** Nah, one Kindle is all you need.
+
+**Youngstar:** That's right.
 
 **Youngstar:** Well, that will get me covered until you get back. When do you
 leave?
 
 **Graybeard:** We have time for one more beer before you drive me to my flight.
 
-I> ## Summary
+I> ## TL;DR
 I> * Learn how to ask questions - it's one of the most valuable skills you'll
 I>   every acquire
 I> * Start at StackOverflow, they probably already have an answer
@@ -206,8 +249,10 @@ I> * Know the difference between *synchronous* and *asynchronous* mediums of
 I>   communication
 I> * `#python` IRC channel on freenode is crowded but you can get help *right
 I>    now* - as long as you follow the rules
+I> * Ask yourself questions to stay in focus and to improve 
 
 
+[5ys]: https://en.wikipedia.org/wiki/5_Whys
 [af]: http://www.acronymfinder.com/
 [asksmart]: http://www.catb.org/esr/faqs/smart-questions.html
 [clp]: https://groups.google.com/forum/#!forum/comp.lang.python
@@ -217,11 +262,10 @@ I>    now* - as long as you follow the rules
 [rduck]: http://c2.com/cgi/wiki?RubberDucking
 [so]: http://stackoverflow.com
 [soq]: http://www.takipiblog.com/2014/02/03/the-anatomy-of-a-great-stack-overflow-question-after-analyzing-10000/
+[z21]: http://zerotoonebook.com/
 
 [^ibm]: IBM's iconic CEO Thomas J. Watson famously said "The ability to ask
     the right question is more than half the battle of finding the answer."
-[^rtfm]: Read the fine manual.
-[^seo]: Search engine optimization.
 
 {::comment}
 vim: ft=markdown spell

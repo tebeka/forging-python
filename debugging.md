@@ -120,7 +120,7 @@ side.
 great tools for log analysis. But let's talk about logging next time. I have a
 lot to say and I talked too much already.
 
-I> ## Summary
+I> ## TL;DR
 I> * Know how to work a debugger. Both from IDE and command line
 I> * *Understand* the bug before you fix it
 I> * When fixing a bug try to make sure these kind of bugs won't happen again

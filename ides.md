@@ -192,7 +192,7 @@ bad turn so I'll stop here.
 **Youngstar:** Right as usual, cheers!
 
 
-I> ## Summary
+I> ## TL;DR
 I> * Give Vim or Emacs a try, they will rock your world
 I>    * See [here][vimide] on how to turn Vim into a Python IDE
 I> * PyCharm or PyDev are a good choice

@@ -208,7 +208,7 @@ issue, it took us about half a day to do that.
 **Graybeard:** It is, don't take it lightly. We were lucky the switch was easy, you
 might not be.
 
-I> ## Summary
+I> ## TL;DR
 I> * Choose CPython 3.x of you have a new project with not many dependencies
 I>     * Python 3 is the future
 I> * Choose CPython 2.x if you have older code base or dependencies that does

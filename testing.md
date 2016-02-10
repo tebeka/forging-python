@@ -158,7 +158,7 @@ However sometime the cost of not mocking is too much - pain vs gain again.
 There's a [mock][mock] package in the Python 3 and for Python 2 it's [available
 on pypi][mock2].
 
-I> ## Summary
+I> ## TL;DR
 I> * Find the "gain vs pain" balance for your tests
 I> * Have one script to run tests
 I> * Separate tests to ones developers run and ones Jenkins runs

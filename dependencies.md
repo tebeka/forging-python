@@ -272,7 +272,7 @@ time to go home.
 **Graybeard:** Cheers!
 
 
-I> ## Summary
+I> ## TL;DR
 I> * Depending on the cost of error - pick a strategy for versioning
 I> * Version your dependencies and write them down
 I> * Use `wheel`s when possible

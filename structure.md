@@ -113,7 +113,7 @@ habit.
 
 **Youngstar:** Let's try with more bear - that might help.
 
-I> ## Summary
+I> ## TL;DR
 I> * Start with an established project structure (like GreaBeard's)
 I> * Separate code from tests
 I> * Have a `README` with elevator pitch and development instructions
