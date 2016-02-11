@@ -77,6 +77,10 @@ The second is that `virtualenv` has a Python module to setup the virtual
 environment from Python. This way you don't need to run `activate` before
 running your code, you can do it from your Python script.
 
+Also since `venv` is in the Python standard library, it'll updated only when a
+new version of Python is released. `virtualenv` will probably have a faster
+release cycle.
+
 **Youngstar:** Good to know. The downside of using virtual environments is I
 need to teach my IDE which is the right Python.
 
@@ -238,9 +242,12 @@ part of [msgpack site][msgp] has a "Languages" section with Python pointing to
 There you can see the project "health" - how many committers, commit history and
 last commit, number of open bugs ...
 
-Also ask around, the Python community is very friendly and helpful.
+Ask around, the Python community is very friendly and helpful. There are
+also sites who recommend package, such as [Awesome Python][ap]. However don't
+blindly trust them, make up your own mind. I find they have a tendency to
+recommend the shiny new toys.
 
-**Youngstar:** And err toward mature package.
+**Youngstar:** Err toward mature package.
 
 **Graybeard:** "Stability is sexy."
 
@@ -281,6 +288,7 @@ I> * `docker` will give you even more control but it comes with a cost
 I> * You might want to invest in your own internal package repository
 I> * Have a process for evaluating new packages. Lean toward old and stable ones
 
+[ap]: http://awesome-python.com/
 [atom]: http://atom.io/
 [clang]: http://clang.llvm.org/
 [conda]: http://conda.pydata.org/

@@ -64,8 +64,8 @@ fun since you made all that money selling your company and became a snob.
 **Youngstar:** I truly hope you're joking. Also you saw some of that money, if
 you recall you got some equity for all the advice you gave.
 
-**Graybeard:** I'm am joking. Money didn't spoil you, and once you're out of
-this big company we might hack together on a new one.
+**Graybeard:** I'm joking. Money didn't spoil you, and once you're out of this
+big company we might hack together on a new one.
 
 **Youngstar:** Anything else our readers need to know?
 

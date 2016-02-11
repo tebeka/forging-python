@@ -213,7 +213,7 @@ I> * Choose CPython 3.x of you have a new project with not many dependencies
 I>     * Python 3 is the future
 I> * Choose CPython 2.x if you have older code base or dependencies that does
 I>   not support Python 3
-I> * Choose Jython][jpy] if you need interaction with Java
+I> * Choose [Jython][jpy] if you need interaction with Java
 I>     * Or if you're in a Java shop and want to sneak Python in the back door
 I>       ;)
 I> * Similarly, choose [IronPyton][irpy] if you need
