@@ -22,7 +22,7 @@
 * Going faster
 * Storage [Done - storage.md]
 * Security
-* Asking Questions [Done - asking-questions.md]
+* Asking Questions [asking-questions.md]
     * Should enhance to learning.md?
 * Managing time
     * Work/life balance
