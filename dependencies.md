@@ -243,9 +243,9 @@ There you can see the project "health" - how many committers, commit history and
 last commit, number of open bugs ...
 
 Ask around, the Python community is very friendly and helpful. There are
-also sites who recommend package, such as [Awesome Python][ap]. However don't
-blindly trust them, make up your own mind. I find they have a tendency to
-recommend the shiny new toys.
+also sites who have a curated list of packages. However don't blindly trust
+them, make up your own mind. I find they have a tendency to recommend the shiny
+new toys.
 
 **Youngstar:** Err toward mature package.
 
