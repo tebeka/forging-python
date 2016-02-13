@@ -288,7 +288,6 @@ I> * `docker` will give you even more control but it comes with a cost
 I> * You might want to invest in your own internal package repository
 I> * Have a process for evaluating new packages. Lean toward old and stable ones
 
-[ap]: http://awesome-python.com/
 [atom]: http://atom.io/
 [clang]: http://clang.llvm.org/
 [conda]: http://conda.pydata.org/
