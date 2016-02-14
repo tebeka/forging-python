@@ -183,8 +183,8 @@ yourself.
 
 **Youngstar:** I ask myself questions all the time.
 
-**Graybeard:** You're a woman, can't help it. But I'm not talking about the
-usual day to day existential stuff. I'm talking about work related questions.
+**Graybeard:** I'm not talking about the usual day to day existential stuff. I'm
+talking about work related questions.
 
 **Youngstar:** Like retrospective?
 
