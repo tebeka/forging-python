@@ -86,7 +86,8 @@ other than what's in the code and in the `README`.
 **Youngstar:**  `.md` stand for [markdown][md] right?
 
 **Graybeard:** Yes. You can also use [ReStructuredText][rst] or plain text. But
-markdown became very dominant these days.
+markdown became very dominant these days. There are several variants of
+Markdown, pick one and stick to it.
 
 **Youngstar:** Markdown it is then.
 
@@ -170,8 +171,8 @@ I> * Have *one* script to run the tests
 
 [doct]: https://docs.python.org/3/library/doctest.html
 [down]: https://github.com/blog/744-today-s-outage
-[md]: FIXME
-[rst]: FIXME
+[md]: https://daringfireball.net/projects/markdown/
+[rst]: http://docutils.sourceforge.net/rst.html
 [sph]: http://www.sphinx-doc.org/en/stable/
 
 {::comment}
