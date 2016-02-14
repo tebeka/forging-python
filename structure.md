@@ -13,69 +13,68 @@ once directory and it looks messy.
 
 **Youngstar:** Not really, but I assume I should be more organized.
 
-**Graybeard:** As the bad guy in the very bad movie said: "Assumptions are the
-mother of all !#?@ups". (FIXME: link)
+**Graybeard:** As the bad guy in a very bad movie said: "Assumptions are the
+mother of all !#?@ups".
 
 **Youngstar:** Which movie was that?
 
-**Graybeard:** IIRC "Under Siege 2"
+**Graybeard:** "Under Siege 2" if my 1 bit memory serves me right.
 
 **Youngstar:** Don't think I saw this one.
 
 **Graybeard:** Trust me - you're not missing anything. But back to your
-unproblem. Why are you trying to fix something that you don't think not broken?
+question. Why are you trying to fix something that you thin is not broken?
 
 **Youngstar:** You're probably right. I'll leave it for now.
 
 **Graybeard:** I didn't say it's not broken. I just said *you* think it's not
 broken.
 
-**Youngstar:** OK, enlight me. (FIXME: spell)
+**Youngstar:** OK, enlighten me.
 
-**Graybeard:** You have tests?
+**Graybeard:** Do you have some tests?
 
-**Youngstar:** Yes, some.
+**Youngstar:** Sure!
 
 **Graybeard:** How do you make sure they don't get to production?
 
 **Youngstar:** Why shouldn't they?
 
-**Graybeard:** Ask github who were few hours down (FIXME: link) due to test
-running in production and deleting tables.
+**Graybeard:** Ask github who had [a few hours of downtime][down] a while back. The cause was tests deleting the production database.
 
-**Youngstar:** Ah, OK.
+**Youngstar:** Ouch!
 
-**Graybeard:** Python has an established way to place files in project. It's not
+**Graybeard:** Python has an established way to organize projects. It's not
 mandatory but I found it a good practice. Let's assume that the name of your
 project is `archer`.
 
 **Youngstar:** Do you have to bring that TV show into everything?
 
-**Graybeard:** Please be quiet, I'm trying to teach you something here. Also I'm
+**Graybeard:** Please be quiet, I'm trying to teach you something here. I'm also
 still hurt you didn't take my suggestion for a project name.
 
 **Youngstar:** I'm being quiet.
 
 GrayBeard draws the following diagram on a napkin:
 
-```
-archer
-├── archer
-│   └── __init__.py
-├── docs
-│   └── Makefile
-├── Makefile
-├── README.md
-├── runtests.py
-└── tests
-    └── test_archer.py
-```
+    archer
+    ├── README.md
+    ├── Makefile
+    ├── archer
+    │   └── __init__.py
+    ├── docs
+    │   └── Makefile
+    ├── runtests.py
+    └── tests
+        └── test_archer.py
 
-**Graybeard:** Let's go over this. The top `archer` directory is your project.
-The second `archer` directory is your Python package. `tests` are *outside* of
-the code so they won't get deployed.
+**Graybeard:** Let's go over this. The top `archer` directory is your project -
+the one you clone from source control.
 
-**Youngstar:** And the rest of the files.
+The second `archer` directory is your Python package where the code is.  `tests`
+are *outside* of the code so they won't get deployed.
+
+**Youngstar:** And the rest of the files?
 
 **Graybeard:** Every project should have a `README` with at least an elevator
 pitch. This focuses people on what we're doing here. It should also contain
@@ -84,22 +83,24 @@ instructions for developers not founds in the docs
 The `docs` directory is the generated documentation, I don't always have docs
 other than what's in the code and in the `README`.
 
-**Youngstar:**  `.md` stand for markdown right?
+**Youngstar:**  `.md` stand for [markdown][md] right?
 
-**Graybeard:** Yes. You can also use ReStructuredText or plain text. But
-markdown becomes very dominant these days.
+**Graybeard:** Yes. You can also use [ReStructuredText][rst] or plain text. But
+markdown became very dominant these days.
 
-**Youngstar:** OK
+**Youngstar:** Markdown it is then.
 
 **Graybeard:** What else? Oh, I usually have a main `Makefile` to automate some
 tasks. And *one* script to run all the tests, we'll discuss what's in it when we
 talk about testing.
 
-**Youngstar:** OK
+**Youngstar:** OK, I'll try to remind you - considering your 1 bit memory.
 
-**Graybeard:** As said, this is my personal preference which is based on how
-many Python projects are structured. You might find another one better for you
-but I suggest you start with it.
+**Graybeard:** Yay, an external memory! I'll drink to that.
+
+As said, this is my personal preference which is based on how many Python
+projects are structured. You might find another one better for you but I suggest
+you start with it.
 
 **Youngstar:** Anything else?
 
@@ -111,7 +112,54 @@ something and only if it becomes a problem fix it.
 **Graybeard:** Because it's a good one, and hopefully one day you'll make it a
 habit.
 
-**Youngstar:** Let's try with more bear - that might help.
+**Youngstar:** Is there a way to automatically generate documentation?
+
+**Graybeard:** Yeah, write simple code that people can understand.
+
+**Youngstar:** That's a manual way.
+
+**Graybeard:** Right. I always say that the only updated documentation is the
+code itself.
+
+**Youngstar:** That's good in the general case, however sometimes I need to
+write tricky code. For example when optimizing.
+
+**Graybeard:** Optimization is a subject for another talk. But you're right,
+when you do stuff that is not that obvious - write good docstrings.
+
+**Youngstar:** Are there tools to generate nice documentation from docstrings?
+
+**Graybeard:** Of course. In the Python world we mostly use [Sphinx][sph]. It
+has a format for documentation strings and can generate HTML, PDF and maybe
+other format. A nice feature of Sphinx is that it case run [doctest][doct]
+tests.
+
+**Youngstar:** `doctest` is where you write snippets of code in your docstrings?
+
+**Graybeard:** Exactly, and I find it cool that you have testable documentation.
+
+**Youngstar:** How about the "big stuff"? Things that don't fit inside one
+module?
+
+**Graybeard:** You have the README for this and also Sphinx can have top level
+documentation. Note that if you have documentation, you'll need to add checking
+it as part of the code review.
+
+**Youngstar:** How did we get from project structure to writing documentation?
+
+**Graybeard:** Not sure.
+
+**Youngstar:** Anything else about project structure?
+
+**Graybeard:** There are more files you might need. A `MANIFEST.in` files to
+help with packaging. `ChangeLog` to list changes, `NOTICE.txt` or `LICENSE.txt`
+for specifying license. `tox.ini` for running tests on multiple versions of
+Python and many other files. Start with the least amount of items and add ones
+only when you need.
+
+**Youngstar:** And trim and restructure periodically?
+
+**Graybeard:** Exactly.
 
 I> ## TL;DR
 I> * Start with an established project structure (like GreaBeard's)
@@ -120,5 +168,12 @@ I> * Have a `README` with elevator pitch and development instructions
 I> * Use a `Makefile` or other too to automate common tasks
 I> * Have *one* script to run the tests
 
+[doct]: https://docs.python.org/3/library/doctest.html
+[down]: https://github.com/blog/744-today-s-outage
+[md]: FIXME
+[rst]: FIXME
+[sph]: http://www.sphinx-doc.org/en/stable/
 
-%% vim: ft=markdown spell
+{::comment}
+vim: ft=markdown spell
+{:/comment}
