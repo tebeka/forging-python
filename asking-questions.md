@@ -9,14 +9,14 @@
 
 **Youngstar:** Where are you going to hike this time?
 
-**Graybeard:** The Apalache trail, not sure I'll do all of it but I'll probably
+**Graybeard:** The Appalachian trail, not sure I'll do all of it but I'll probably
 be offline for a month.
 
 **Youngstar:** That's awesome! Send pictures.
 
 **Graybeard:** What part of offline don't you understand?
 
-**Youngstar:** Cool ... oh wait - who is going to help me then?
+**Youngstar:** Doh! Oh wait... who's going to help me then?
 
 **Graybeard:** Don't you have other friends?
 
@@ -37,11 +37,11 @@ help somewhere other than here.
 
 **Youngstar:** Hmm, never thought of that. I'd guess I'm an average googler.
 
-**Graybeard:** Search is important, invest time in getting better.  Google has
-some excellent free online courses on searching called [Power
+**Graybeard:** Searching is important, invest time in getting better.  Google
+has some excellent free online courses on searching called [Power
 Searching][psearch]. As a rule of thumb add `python` to every query.
 
-**Youngstar:** Neat, will do that. Another place I usually find myself is
+**Youngstar:** Neat, I'll do that. Another place I usually find myself is
 [StackOverflow][so].
 
 **Graybeard:** Yeah, they have great SEO.
@@ -52,12 +52,13 @@ Searching][psearch]. As a rule of thumb add `python` to every query.
 case SEO stand for "search engine optimization".
 
 **Youngstar:** I found out that most cases StackOverflow has the answer to what
-I searching form.
+I'm searching for.
 
 **Graybeard:** Yeah, StackOverflow and the rest of StackExchange sites a great
 resource. Sometimes it's biased toward people who answer faster and not
-necessarily the best answer. What happens when you don't find your answer in
-StackOverflow?
+necessarily give the best answer.
+
+What happens when you don't find your answer in StackOverflow?
 
 **Youngstar:** I ask there, most times I get an answer within an hour.
 
@@ -65,7 +66,7 @@ StackOverflow?
 do not get the right answers. A question asked in the right way often points to
 its own answer." Do  you ask the right questions?
 
-**Youngstar:** I *think*, not sure. Any guidelines?
+**Youngstar:** I *think* so, not sure. Any guidelines?
 
 **Graybeard:** I'll give you two reading assignments. One is ["How To Ask
 Questions The Smart Way"][asksmart] by Eric Raymond where he goes into great
@@ -80,15 +81,15 @@ these.
 
 **Youngstar:** Agree.
 
-**Graybeard:** The two main points are respecting people time and giving enough
-context. If people feel that you're asking them a trivial question instead of
-RTFM - they won't answer you. However if they see that you tried something
-before asking them - they'll be more inclined to help. The other thing is giving
-context. The worst questing you get are in the lines of "Help, it doesn't work".
-Give enough information of what where you trying to do, what did you expect to
+**Graybeard:** The two main points are respecting people's time and giving
+enough context. If people feel that you're asking them a trivial question
+instead of RTFM - they won't answer you. However if they see that you tried
+something before asking them - they'll be more inclined to help. The other thing
+is giving context. The worst questions you can get "Help, it doesn't work".
+Give enough information of what you were trying to do, what did you expect to
 happen and what did actually happened.
 
-**Youngstar:** This sounds very much like bug reports.
+**Youngstar:** This sounds a lot like bug reports.
 
 **Graybeard:** Well, we're in a technical world - so a lot of things that don't
 work seems like bugs. Check out [PBKAC][pbkac] acronym sometime.
@@ -109,20 +110,20 @@ Also be polite and make sure to thank people. Oh, and don't feed the trolls.
 
 **Youngstar:** For real?
 
-**Graybeard:** You're never too old to have a bath with your rubber duck.  Did
-it ever happen to you that you were stuck on something.  Went to a co-worker for
-help, started to describe the problem and somewhere in the middle said - "never
-mind, found the solution."?
+**Graybeard:** You're never too old to have a bath with your rubber duck.  Has
+it ever happen to you that you were stuck on something, and  went to a co-worker
+for help, started to describe the problem and somewhere in the middle said -
+"never mind, found the solution."?
 
 **Youngstar:** Sure, several times. How does this relate to a rubber duck?
 
 **Graybeard:** There's something about formulating our questions verbally or in
 writing that helps us solve the problem. The idea here is that instead of
-waisting a co-worker time, you talk to the rubber duck. This is known as
-[Rubber Ducking][rduck]. Place a rubber duck next to your monitor and
-describe your problems to it when your stuck.
+wasting a co-worker's time, you talk to the rubber duck. This is known as
+[Rubber Ducking][rduck]. Place a rubber duck next to your monitor and describe
+your problems to it when you're stuck.
 
-**Youngstar:** Here goes my social life ... not that I had much
+**Youngstar:** Here goes my social life ... not that I had much of one.
 
 **Graybeard:** You can also write it down instead of talking to the duck. But
 try to do it as if explaining the problem to someone. Richard Feynman has 
@@ -140,7 +141,7 @@ solution.
 
 **Youngstar:** Got it. Back to the online world - any more good places?
 
-**Graybeard:** Well, there's the good old Python newgroup - comp.lang.python. I
+**Graybeard:** Well, there's the good old Python newsgroup - comp.lang.python. I
 access it via the [Google groups web interface][clp].
 
 **Youngstar:** Newsgroup? It's still alive?
@@ -150,8 +151,8 @@ access it via the [Google groups web interface][clp].
 **Youngstar:** What about IRC?
 
 **Graybeard:** That's a different mode of communication. So far we talked about
-*async* communication where you ask a question and someone replies where they
-can. Now we're moving to synchronous communication - very much like the
+*async*[^async] communication where you ask a question and someone replies where
+they can. Now we're moving to synchronous communication - very much like the
 conversation we're having now.
 
 **Youngstar:** Never thought about it like that.
@@ -159,14 +160,14 @@ conversation we're having now.
 **Graybeard:** Most people don't. One common mistake is to try to use one form
 of communication as the other. Mostly people who think you should reply to an
 email **right now**. But back to IRC - the `#python` IRC channel on freenode is
-very busy with more than thousand users logged in.
+very busy with more than a thousand users logged in.
 
 **Youngstar:** Whoa!
 
 **Graybeard:** Yes. That's why they seem rude, but they're just trying to be
 efficient. The room topic says: "don't ask to ask, just ask". If you're not
 familiar with IRC jargon, take to time to learn it. My best advice is hang
-around just reading conversations before you just in the water.
+around just reading conversations before you jump in the water.
 
 **Youngstar:** I'll do that. Do people actually manage to talk in such noisy
 environment?
@@ -188,9 +189,9 @@ talking about work related questions.
 
 **Youngstar:** Like retrospective?
 
-**Graybeard:** Yes, we've converted that when talking about process. But it
-worth repeating. A lot of study shows that companies/groups who excel at what
-they do, do a lot of retrospective/debriefing.
+**Graybeard:** Yes, we've converted that when talking about development process.
+But it worth repeating. A lot of studies shows that companies/groups who excel
+at what they do, do a lot of retrospective/debriefing.
 
 **Youngstar:** I was in some retrospectives where people got heated up.
 
@@ -198,8 +199,9 @@ they do, do a lot of retrospective/debriefing.
 retrospectives are not just for "end of sprint" but also for incidents. This is
 where Toyota's ["5 whys"][5ys] come in handy.
 
-**Youngstar:** OK, I'll brush up on how to make good retrospective.
+**Youngstar:** OK, I'll brush up on how to do good retrospective.
 
+FIXME: Adi
 **Graybeard:** Another kind of questions you need to ask yourself are ones about
 the current state of things. I learned from a very talented person a trick about
 staying in focus. The idea is to find one question, and keep asking it
@@ -213,26 +215,27 @@ JFDI attitude.
 **Youngstar:** Yeah, right!
 
 **Graybeard:** But you're right. You should speak up whenever you feel the
-environment gets toxic. Good culture need gardening all the time.
+environment get toxic. A good culture needs gardening all the time.
 
 **Youngstar:** Thanks. I'll figure out a focusing mantra for me. Looks like a
 fun exercise. Any other questions I should ask myself?
 
 **Graybeard:** It depends on what you're doing and the state of things. For
-example in ["Zero to One"][z21] Peter Theil write about seven questions all
-business must ask themselves.
+example in ["Zero to One"][z21] Peter Theil writes about seven questions all
+businesses must ask themselves.
 
-**Youngstar:** And they are?
+**Youngstar:** And they are?...
 
 **Graybeard:** Go read the book, it's a good one.
 
-**Youngstar:** I'll to rent a bigger place just to have room for all these
+**Youngstar:** I'll need to rent a bigger place just to have room for all these
 books.
 
 **Graybeard:** Nah, one Kindle is all you need.
 
 **Youngstar:** That's right.
 
+FIXME: Adi
 **Youngstar:** Well, that will get me covered until you get back. When do you
 leave?
 
@@ -240,7 +243,7 @@ leave?
 
 I> ## TL;DR
 I> * Learn how to ask questions - it's one of the most valuable skills you'll
-I>   every acquire
+I>   ever acquire
 I> * Start at StackOverflow, they probably already have an answer
 I> * Learn how to search properly
 I> * Formulate your question before asking
@@ -264,6 +267,7 @@ I> * Ask yourself questions to stay in focus and to improve
 [soq]: http://www.takipiblog.com/2014/02/03/the-anatomy-of-a-great-stack-overflow-question-after-analyzing-10000/
 [z21]: http://zerotoonebook.com/
 
+[^async]: Short for asynchronous.
 [^ibm]: IBM's iconic CEO Thomas J. Watson famously said "The ability to ask
     the right question is more than half the battle of finding the answer."
 
