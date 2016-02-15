@@ -106,14 +106,14 @@ Also be polite and make sure to thank people. Oh, and don't feed the trolls.
 
 **Youngstar:** What? Like the ones kids use in a bath?
 
-**Graybeard:** What do you mean kids? I have one like that.
+**Graybeard:** What do you mean by "kids"? I have one like that.
 
 **Youngstar:** For real?
 
 **Graybeard:** You're never too old to have a bath with your rubber duck.  Has
-it ever happen to you that you were stuck on something, and  went to a co-worker
-for help, started to describe the problem and somewhere in the middle said -
-"never mind, found the solution."?
+it ever happen to you that you were stuck on something, went to a co-worker for
+help, started to describe the problem and somewhere in the middle said - "never
+mind, found the solution."?
 
 **Youngstar:** Sure, several times. How does this relate to a rubber duck?
 
@@ -201,9 +201,8 @@ where Toyota's ["5 whys"][5ys] come in handy.
 
 **Youngstar:** OK, I'll brush up on how to do good retrospective.
 
-FIXME: Adi
-**Graybeard:** Another kind of questions you need to ask yourself are ones about
-the current state of things. I learned from a very talented person a trick about
+**Graybeard:** Other questions you should ask yourself are about the state of
+things. I learned from a very talented person a trick about
 staying in focus. The idea is to find one question, and keep asking it
 repeatedly. For example "Why aren't we deploying?" - this will focus you on a
 JFDI attitude.
@@ -235,8 +234,7 @@ books.
 
 **Youngstar:** That's right.
 
-FIXME: Adi
-**Youngstar:** Well, that will get me covered until you get back. When do you
+**Youngstar:** Well, that will keep me covered until you get back. When do you
 leave?
 
 **Graybeard:** We have time for one more beer before you drive me to my flight.
