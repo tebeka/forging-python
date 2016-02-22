@@ -1,7 +1,7 @@
 intro.md
 distros.md
 ides.md
-# structure.md
+structure.md
 dependencies.md
 storage.md
 # testing.md
