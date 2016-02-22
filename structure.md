@@ -18,12 +18,12 @@ mother of all !#?@ups".
 
 **Youngstar:** Which movie was that?
 
-**Graybeard:** "Under Siege 2" if my 1 bit memory serves me right.
+**Graybeard:** "Under Siege 2" if my one bit memory serves me right.
 
 **Youngstar:** Don't think I saw this one.
 
 **Graybeard:** Trust me - you're not missing anything. But back to your
-question. Why are you trying to fix something that you thin is not broken?
+question. Why are you trying to fix something that you don't know is broken?
 
 **Youngstar:** You're probably right. I'll leave it for now.
 
@@ -44,9 +44,11 @@ broken.
 
 **Youngstar:** Ouch!
 
-**Graybeard:** Python has an established way to organize projects. It's not
-mandatory but I found it a good practice. Let's assume that the name of your
-project is `archer`.
+**Graybeard:** Yes, and github are not the only ones bitten by this problem.
+
+Python has an established way to organize projects. It's not mandatory but I
+found it a good practice. Let's assume that the name of your project is
+`archer`.
 
 **Youngstar:** Do you have to bring that TV show into everything?
 
@@ -63,7 +65,6 @@ GrayBeard draws the following diagram on a napkin:
     ├── archer
     │   └── __init__.py
     ├── docs
-    │   └── Makefile
     ├── runtests.py
     └── tests
         └── test_archer.py
@@ -95,7 +96,7 @@ Markdown, pick one and stick to it.
 tasks. And *one* script to run all the tests, we'll discuss what's in it when we
 talk about testing.
 
-**Youngstar:** OK, I'll try to remind you - considering your 1 bit memory.
+**Youngstar:** OK, I'll try to remind you - considering your one bit memory.
 
 **Graybeard:** Yay, an external memory! I'll drink to that.
 
@@ -119,14 +120,15 @@ habit.
 
 **Youngstar:** That's a manual way.
 
-**Graybeard:** Right. I always say that the only updated documentation is the
-code itself.
+**Graybeard:** OK "Miss Always Right", I stand, actually sit, corrected. 
+
+I always say that the only updated documentation is the code itself.
 
 **Youngstar:** That's good in the general case, however sometimes I need to
 write tricky code. For example when optimizing.
 
 **Graybeard:** Optimization is a subject for another talk. But you're right,
-when you do stuff that is not that obvious - write good docstrings.
+when you do stuff that is not that obvious - write good docstrings and comments.
 
 **Youngstar:** Are there tools to generate nice documentation from docstrings?
 
@@ -142,15 +144,18 @@ tests.
 **Youngstar:** How about the "big stuff"? Things that don't fit inside one
 module?
 
-**Graybeard:** You have the README for this and also Sphinx can have top level
+**Graybeard:** You have the `README` for that and also Sphinx can have top level
 documentation. Note that if you have documentation, you'll need to add checking
 it as part of the code review.
 
 **Youngstar:** How did we get from project structure to writing documentation?
 
-**Graybeard:** Not sure.
+**Graybeard:** Not sure. Last thing about documentation is that several times I
+saw people investing a lot of time in generating very nice documentation that
+nobody looks at.
 
-**Youngstar:** Anything else about project structure?
+**Youngstar:** I'll start with simple documentation. Anything else about project
+structure?
 
 **Graybeard:** There are more files you might need. A `MANIFEST.in` files to
 help with packaging. `ChangeLog` to list changes, `NOTICE.txt` or `LICENSE.txt`
@@ -158,16 +163,33 @@ for specifying license. `tox.ini` for running tests on multiple versions of
 Python and many other files. Start with the least amount of items and add ones
 only when you need.
 
-**Youngstar:** And trim and restructure periodically?
+**Youngstar:** Then trim and restructure periodically?
 
 **Graybeard:** Exactly.
+
+**Youngstar:** What about `setup.py`, I've seen it in many projects.
+
+**Graybeard:** `setup.py` is used for packaging. Do you need packaging?
+
+**Youngstar:** Currently I deploy directly from `git`.
+
+**Graybeard:** So you probably don't need packaging. `setup.py` is mostly used
+when creating packages for other people to use and in open source code. There's
+a lot of options there and when you decided to release some of your code as open
+source we can talk about it.
+
+**Youngstar:** I'll live without `setup.py` for now. Priorities ...
+
+**Graybeard:** Very good.
 
 I> ## TL;DR
 I> * Start with an established project structure (like GreaBeard's)
 I> * Separate code from tests
 I> * Have a `README` with elevator pitch and development instructions
-I> * Use a `Makefile` or other too to automate common tasks
+I> * Use a `Makefile` or other tool to automate common tasks
 I> * Have *one* script to run the tests
+I> * Look into [Sphinx][sph] for generating documentation
+I>    * But only if you need to
 
 [doct]: https://docs.python.org/3/library/doctest.html
 [down]: https://github.com/blog/744-today-s-outage
