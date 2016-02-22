@@ -26,7 +26,7 @@ great examples the woman can make it in high tech.
 
 **Graybeard:** At least you try, my wife doesn't even bother.
 
-**Youngstar:** Oh, and we're a fictional characters.
+**Youngstar:** Oh, and we're fictional characters.
 
 **Graybeard:** We are?
 
