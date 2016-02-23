@@ -7,9 +7,9 @@
 > *- Conway's Law*
 
 **Youngstar:** How should I structure my code? I currently have everything in
-once directory and it looks messy.
+one directory and it looks messy.
 
-**Graybeard:** I there a problem you're facing?
+**Graybeard:** Are you facing a specific problem?
 
 **Youngstar:** Not really, but I assume I should be more organized.
 
@@ -20,7 +20,7 @@ mother of all !#?@ups".
 
 **Graybeard:** "Under Siege 2" if my one bit memory serves me right.
 
-**Youngstar:** Don't think I saw this one.
+**Youngstar:** Don't think I saw that one.
 
 **Graybeard:** Trust me - you're not missing anything. But back to your
 question. Why are you trying to fix something that you don't know is broken?
@@ -47,7 +47,7 @@ broken.
 **Graybeard:** Yes, and github are not the only ones bitten by this problem.
 
 Python has an established way to organize projects. It's not mandatory but I
-found it a good practice. Let's assume that the name of your project is
+found it's a good practice. Let's assume that the name of your project is
 `archer`.
 
 **Youngstar:** Do you have to bring that TV show into everything?
@@ -79,9 +79,9 @@ are *outside* of the code so they won't get deployed.
 
 **Graybeard:** Every project should have a `README` with at least an elevator
 pitch. This focuses people on what we're doing here. It should also contain
-instructions for developers not founds in the docs
+instructions for developers not found in the docs
 
-The `docs` directory is the generated documentation, I don't always have docs
+The `docs` directory is the generated documentation, I don't usually have docs
 other than what's in the code and in the `README`.
 
 **Youngstar:**  `.md` stand for [markdown][md] right?
@@ -160,8 +160,8 @@ structure?
 **Graybeard:** There are more files you might need. A `MANIFEST.in` files to
 help with packaging. `ChangeLog` to list changes, `NOTICE.txt` or `LICENSE.txt`
 for specifying license. `tox.ini` for running tests on multiple versions of
-Python and many other files. Start with the least amount of items and add ones
-only when you need.
+Python and many other files. Start with the least amount of items and add new
+ones only when you need to.
 
 **Youngstar:** Then trim and restructure periodically?
 
@@ -183,7 +183,7 @@ source we can talk about it.
 **Graybeard:** Very good.
 
 I> ## TL;DR
-I> * Start with an established project structure (like GreaBeard's)
+I> * Start with an established project structure (like GreaBeard's example above)
 I> * Separate code from tests
 I> * Have a `README` with elevator pitch and development instructions
 I> * Use a `Makefile` or other tool to automate common tasks
