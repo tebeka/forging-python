@@ -20,7 +20,7 @@ a quirky sense of humor.
 new to IT, finished college few years back. You're very bright and motivated and
 you sold your company not long ago for *way* too much money. You also like to
 learn and are one of the few people who get my humor. Oh - and you're one of the
-great examples the woman can make it in high tech.
+great examples that a woman can make it in high tech.
 
 **Youngstar:** Thanks. And yeah - I'm good at pretending to like your humor.
 

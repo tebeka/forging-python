@@ -111,7 +111,8 @@ do you know.
 Python 2 and Python 3.
 
 **Graybeard:** IronPyton is for .NET shops, which you're not. Jython is for Java
-shops or you need to use Java libraries - and I don't this is your case either.
+shops or you need to use Java libraries - and I don't think this is your case
+either.
 
 **Youngstar:** And I'm running on hosted servers so MicroPython is not for me as
 well.
@@ -209,7 +210,7 @@ issue, it took us about half a day to do that.
 might not be.
 
 I> ## TL;DR
-I> * Choose CPython 3.x of you have a new project with not many dependencies
+I> * Choose CPython 3.x if you have a new project with not many dependencies
 I>     * Python 3 is the future
 I> * Choose CPython 2.x if you have older code base or dependencies that does
 I>   not support Python 3
