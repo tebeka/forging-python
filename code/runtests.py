@@ -1,11 +1,22 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
+"""Run our test suite.
+
+Steps:
+    * Check for pdb calls in files
+    * Delete .pyc files
+    * flake8
+    * nosetests
+
+Any parameters passed to the script will be passed to `nosetests`. Without any
+parameters we'll run `nosetests -vd tests`
+"""
 
 from subprocess import call
 from pathlib import Path
 from os import remove
 from sys import argv
 
-code_dir, tests_dir = 'woodhouse', 'tests'
+code_dir, tests_dir = 'archer', 'tests'
 root = Path(__file__).parent
 
 
@@ -34,9 +45,9 @@ if code != 0:
     raise SystemExit(code)
 
 print('running tests...')
-cmd = ['python', '-m', 'unittest', 'discover']
+cmd = ['nosetests']
 if len(argv) == 1:
-    cmd += ['-v', 'tests']
+    cmd += ['-vd', 'tests']
 else:
     argv[1:]
 
