@@ -62,10 +62,11 @@ GrayBeard draws the following diagram on a napkin:
     archer
     ├── README.md
     ├── Makefile
+    ├── runtests.py
+    ├── requirements.txt
     ├── archer
     │   └── __init__.py
     ├── docs
-    ├── runtests.py
     └── tests
         └── test_archer.py
 
@@ -93,8 +94,9 @@ Markdown, pick one and stick to it.
 **Youngstar:** Markdown it is then.
 
 **Graybeard:** What else? Oh, I usually have a main `Makefile` to automate some
-tasks. And *one* script to run all the tests, we'll discuss what's in it when we
-talk about testing.
+tasks, `requirements.txt` to specify external requirments. And *one* script to
+run all the tests. We'll discuss what's in `requirements.txt` and `runtests.py`
+when we talk about dependencies and testing.
 
 **Youngstar:** OK, I'll try to remind you - considering your one bit memory.
 
@@ -120,9 +122,9 @@ habit.
 
 **Youngstar:** That's a manual way.
 
-**Graybeard:** OK "Miss Always Right", I stand, actually sit, corrected. 
+**Graybeard:** OK "Miss Always Right". I stand, actually sit, corrected. 
 
-I always say that the only updated documentation is the code itself.
+I say that the only updated documentation is the code itself.
 
 **Youngstar:** That's good in the general case, however sometimes I need to
 write tricky code. For example when optimizing.
