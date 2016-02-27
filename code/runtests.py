@@ -49,7 +49,7 @@ cmd = ['nosetests']
 if len(argv) == 1:
     cmd += ['-vd', 'tests']
 else:
-    argv[1:]
+    cmd += argv[1:]
 
 code = call(cmd)
 raise SystemExit(code)
