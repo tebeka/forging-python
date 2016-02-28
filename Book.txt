@@ -6,7 +6,7 @@ dependencies.md
 storage.md
 testing.md
 # config.md
-# debugging.md
+debugging.md
 # monitor.md
 asking-questions.md
 # backmatter.md
