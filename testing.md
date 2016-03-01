@@ -5,15 +5,18 @@
 >
 >    *- Mitch Radcliffe*
 
-**Youngstar:** I fixed a bug today and accidentally introduced a new one. Lucky
-I noticed it in one of my test runs.
+**Youngstar:** I fixed a bug today and accidentally introduced a new one.
 
-**Graybeard:** You don't have regression tests?
+**Graybeard:** Sounds like the "99 little bugs in the code" poem.
 
-**Youngstar:** I have few unit tests, but that's about it. What are regression
+**Youngstar:** I can guess the rest of it.
+
+**Graybeard:** Don't you have regression tests?
+
+**Youngstar:** I have a few unit tests, but that's about it. What are regression
 tests?
 
-**Graybeard:** These are tests that check exactly what happened to you - that
+**Graybeard:** Tests that guard against exactly what happened to you - that
 new changes didn't brake anything old. There are many kinds of tests and this is
 an important one. 
 
@@ -46,7 +49,7 @@ for sure.
 well. This makes sure that I didn't mess anything up, but also take more time.
 
 **Graybeard:** Yes. This is what the guys in [Getting Real][gr]
-call "mass". The more mass you have, the harder it is to move it.
+call "mass". The more mass you have, the harder it is to make changes.
 
 The amount and kind of testing is influenced by the cost of error. If
 you're writing a life support system - you'll use much more testing than what
@@ -70,7 +73,7 @@ the code is working.
 
 **Graybeard:** REPL stands for "read eval print loop", you might also know it as
 "the interactive prompt". You write little pieces of code and test them as you
-go. After I'm done and happy with the code I write some tests.
+go. After I'm done and happy with the code, I write some tests.
 
 People underestimate how much does the REPL help during development, give it a
 try next time.
@@ -80,20 +83,20 @@ try next time.
 **Graybeard:** I personally prefer [nose](nose). But I've used [py.test][pytest]
 and [unittest][unittest] with `discover` mode as well - all of them are good.
 
-**Youngstar:** Why do you prefer nose?
+**Youngstar:** Why do you prefer `nose`?
 
-**Graybeard:** I find nose simpler, and I always go for simple. Also love their
-[test generators][testgen] which let you run the same test with different input
-(AKA table driven testing).  Their [xunit output][xout] is great for
+**Graybeard:** I find `nose` simpler, and I always go for simple. Also love
+their [test generators][testgen] which let you run the same test with different
+input (AKA table driven testing).  Their [xunit output][xout] is great for
 [Jenkins][jenkins] integration as well.
 
 Oh, and I also use [tox][tox] for testing the same code on multiple
 versions/implementations of Python.
 
 **Youngstar:** I'll start with `nose` then, don't need multi version testing
-currently. How do I run it?
+currently. How do I run the tests?
 
-**Graybeard:** `nose` comes with `nosetests` scripts that discovers and executes
+**Graybeard:** `nose` comes with `nosetests` script that discovers and executes
 tests. But this is usually the last thing in I run.
 
 **Youngstar:** Last? What do you run before it?
@@ -115,12 +118,12 @@ code. Since the `.pyc` of the old module is still there - your test will pass.
 **Youngstar:** Gotcha.
 
 **Graybeard:** I also run linter, I use [flake8][flake8] which combines
-`pyflakes` and `pep8`, before the tests and fail on any output.
+[pyflakes][pyflakes] and [pep8][pep8], before the tests and fail on any output.
 
-**Youngstar:** Isn't `pep8` a check for coding conventions?
+**Youngstar:** Does `pep8` check for coding conventions?
 
 **Graybeard:** Yes, this is how I avoid wasting time on coding convention talks.
-If it passes `pep8` - it's fine.
+If the code passes `pep8` - it's fine.
 
 **Youngstar:** Anything else?
 
@@ -134,8 +137,8 @@ script to do this.
 **Youngstar:** I'll remind you.
 
 **Graybeard:** Thanks. Having one command to run your tests also makes sure
-other members in your team don't forget. I'm not the only one with a one bit
-memory.
+other members in your team don't forget steps. I'm not the only one with a one
+bit memory.
 
 **Youngstar:** I some cases I found out the tests run for a long time. Which
 makes it annoying to run them every time I make a change.
@@ -189,9 +192,9 @@ production.
 Most people create what they need in the `setup`, for example setting database
 tables and populating them with data. Then the use the `teardown` to cleanup
 everything. The problem is that `teardown` gets called even when the tests fail,
-and then if you want to debug the data is missing. I on the other hand use only
-the `setup` method and initially cleanup and then populate, this way if the
-tests fail I have the data to debug.
+and then if you want to debug - the data is missing. If on the other hand you
+use only the `setup` method and initially cleanup and then populate, you'll
+still have data to debug if the tests fail.
 
 **Youngstar:** Will do.
 
@@ -200,10 +203,11 @@ tests fail I have the data to debug.
 **Youngstar:** Yay, there's more!
 
 **Graybeard:** Testing is a mastery by itself, and done right it'll save you a
-lot of agony. But back to my point is that no matter how hard you test - bugs
-will get out into production and you need to be ready for that - monitoring and
-altering is something we'll talk about next time. NASA [which has a very strict
-and thorough development process][nasdev], [still manage][nasbug] to ship bugs to outer space.
+lot of agony. But no matter how hard you test - bugs will get out into
+production and you need to be ready for that. Monitoring and altering is
+something we'll talk about next time. NASA [which has a very strict and thorough
+development process][nasdev], [still manage][nasbug] to ship bugs to outer
+space.
 
 **Youngstar:** Really?
 
@@ -215,12 +219,12 @@ any advice on this?
 
 **Graybeard:** In general - don't mock! Every time you use a mock you cheat and
 don't really test your system. Mocks are another "mass" you acquire and need to
-be updated to match the actually part they are mocking. I've found out that with
-a little effort you can find a solution. I once worked at a company where we
-were doing web scraping, getting HTML pages, parsing them, analyzing and storing
-in a database ([Elasticsearch][elastic] by the way). At first someone suggest
-we'll mock the HTTP connection and get a canned HTML. But with a bit more coding
-we created an HTTP server using [Flask][flask] which returned canned HTML pages.
+be updated to match what they are mocking. I've found out that with a little
+effort you can usually avoid mocking. I once worked at a company where we were
+doing web scraping, getting HTML pages, parsing them, analyzing and storing in a
+database ([Elasticsearch][elastic] by the way). At first someone suggest we'll
+mock the HTTP connection and get a canned HTML. But with a bit more coding we
+created an HTTP server using [Flask][flask] which returned canned HTML pages.
 This way we also tested our connection infrastructure and when we wanted to test
 accessing pages with user/password - it was easy to add these kind of pages to
 the test HTTP server.
@@ -245,6 +249,8 @@ I> * Separate tests to ones developers run and ones Jenkins runs
 I> * Cleanup on `setup`
 I> * Make sure tests don't get into production
 I> * Avoid mocking as much as you can
+I> * No matter how hard your test, some bugs will slip though - be ready for
+this
 
 
  
@@ -258,6 +264,8 @@ I> * Avoid mocking as much as you can
 [nasbug]: http://en.wikipedia.org/wiki/Mars_Climate_Orbiter
 [nasdev]: http://www.fastcompany.com/28121/they-write-right-stuff
 [nose]: https://nose.readthedocs.org/
+[pep8]: https://pypi.python.org/pypi/pep8
+[pyflakes]: https://pypi.python.org/pypi/pyflakes
 [pytest]: http://pytest.org/
 [tdd]: https://en.wikipedia.org/wiki/Test-driven_development
 [testgen]: http://nose.readthedocs.org/en/latest/writing_tests.html#test-generators

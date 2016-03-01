@@ -51,8 +51,8 @@ docker container - which makes UI hard or impossible. Also once you get to know 
 **Youngstar:** Just like mastering Vim? OK, I'll spend some time with it.
 
 **Graybeard:** However, if you use good IDE it'll have a visual debugger and
-sometimes these are nice. As we said before, knowing your IDE well will save you
-tons of time.
+sometimes these are nice. As we talked before, knowing your IDE well will save
+you tons of time.
 
 **Youngstar:** OK. What else?
 
@@ -83,7 +83,7 @@ this line.
 
 **Youngstar:** I bet you do.
 
-**Graybeard:** Then you run your code normally, not via `pdb. And once the
+**Graybeard:** Then you run your code normally, not via `pdb`. And once the
 condition is met - you'll get the `pdb` prompt. If you have `IPython` installed
 you can used its debugger instead of `pdb`, its a bit nicer. You do it like
 this (codes again on a napkin):
@@ -93,27 +93,19 @@ if some_complex_condition():
     from IPython.core.debugger import Pdb; Pdb().set_trace()
 ```
 
-**Youngstar:** OK. How do you remember to take it out when you're done?
+**Youngstar:** And you make sure this is not left with the code in your [test
+script](#appendix-a).
 
-**Graybeard:** Excellent question. The script I have to run the tests check
-there's not `pdb` lines in the code, and if there are - it fails the tests.
+**Graybeard:** Exactly.
 
-**Youngstar:** That will work.
-
-**Graybeard:** Some people rely on code reviews and place it in the code review
-checklist. Some people use a commit hooks. I found out automation works best.
-
-**Youngstar:** Agree. Your memory is terrible in some aspects.
-
-**Graybeard:** But as I said earlier, I mostly use logs. It's an art to get the
-right balance between huge logs to to little information. Try to err on the TMI
-side.
+But as I said earlier, I mostly use logs. It's an art to get the right balance
+between huge logs to to little information. Try to err on the TMI side.
 
 **Youngstar:** TMI as in "Too Much Information"?
 
-**Graybeard:** Yes. Disk is pretty cheap comparing to programmer time.
+**Graybeard:** Yes. Storage is very cheap comparing to programmer time.
 
-**Youngstar:** Bug what if the logs get too big?
+**Youngstar:** But what if the logs get too big?
 
 **Graybeard:** You usually save only a window of time backwards. There are
 great tools for log rotation, both in the standard library and Unix utilities.
@@ -121,7 +113,7 @@ great tools for log rotation, both in the standard library and Unix utilities.
 **Youngstar:** Like [logrotate][lr]?
 
 **Graybeard:** Exactly. You can also ship logs to log aggregation services,
-we'll talk about logging and monitoring in a later session.
+we'll talk about logging and monitoring later.
 
 Oh, and Python's logging module can [listen on a socket][logc] and change the
 logging configuration in run time. This way you can temporary set a log level in
@@ -139,6 +131,10 @@ and get a logical view of an operation between several sub systems.
 
 **Graybeard:** Anything you think is useful. The bare minimum is just an
 identifier for the current operation/session.
+
+Another thing people do it sometimes connect to a running service and inspect
+what's going on with the Python `REPL`. There are several such systems, see
+[Twisted manhole][manhole] for example.
 
 **Youngstar:** OK. Armed with this knowledge I'm heading back to the office.
 
@@ -181,6 +177,7 @@ I> * Give your subconscious time to work
 [hdd]: https://www.youtube.com/watch?v=f84n5oFoZBc
 [logc]: https://docs.python.org/3/howto/logging-cookbook.html#configuration-server-example
 [lr]: http://www.linuxcommand.org/man_pages/logrotate8.html
+[manhole]: http://www.lothar.com/tech/twisted/manhole.xhtml
 [pdb]: https://docs.python.org/3/library/pdb.html
 [sys2]: https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow
 
