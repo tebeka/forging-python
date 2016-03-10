@@ -4,10 +4,14 @@
 > 
 >  *- "Fight Club" movie*
 
-**Youngstar:** Our logging system paid off this week. A customer called to say
-they are missing some data. A quick search in the log files found that one sub
-system was down for a couple of days, we brought it back up and the missing data
-was in front of the customer eyes in about an hour.
+**Youngstar:** Our logging system paid off this week. 
+
+**Graybeard:** Do tell.
+
+**Youngstar:** A customer called to say they are missing some data. A quick
+search in the log files found that one sub system was down for a couple of days,
+we brought it back up and the missing data was in front of the customer eyes in
+about an hour.
 
 **Graybeard:** Fixing a system in an hour is indeed good. However I think you
 can do better.
@@ -48,9 +52,22 @@ secondary role.
 
 **Youngstar:** I don't believe that everyone can solve every problem.
 
-**Graybeard:** Yeah, but it's the Pareto principle - most errors are easy to
-solve. The big bonus is the *everyone* feels the pain of failing system and
-start write more robust code and also pay more attention in code reviews.
+**Graybeard:** Yeah, but it's the [Pareto principle][pareto] - most errors are
+easy to solve. The big bonus is the *everyone* feels the pain of failing system
+and start write more robust code and also pay more attention in code reviews.
+
+I saw a great talk called "[Keys to SRE][ksre]" by the guy who started the SRE
+team in Google.
+
+**Youngstar:** SRE?
+
+**Graybeard:** Site Reliability Engineer. It's the group that makes sure things
+keep running in Google.
+
+**Youngstar:** OK.
+
+**Graybeard:** Where was I? ... Oh yeah, in the video he mentions that a couple
+of sleepless nights does wonders to the stability of code people write.
 
 **Youngstar:** I can see that. And I think that will be a good fit for my small
 team. I'll give it a try - getting woken up at 3am gets old real fast. How do
@@ -59,7 +76,7 @@ you actually alert?
 **Graybeard:** Usually by alert to cellphone, [pagerduty][pd] seems to be very
 popular. It's good also to alert to the ops chat room.
 
-**Youngstar:** OK. And if I recall you recommend to do post mortem on every
+**Youngstar:** OK. And if I recall you recommend to do postmortem on every
 issue.
 
 **Graybeard:** Yeah, start with [5 whys][5y] and develop your own system. Along
@@ -139,7 +156,7 @@ clean things up.
 **Graybeard:** There are many, many systems our there. See what you need and
 what they offer and try to find a good match. As usual go with boring reliable
 technology. Lately I've been using the [ELK][elk] stack, but that's just a
-personal preference. I already had elasticsearch in place, so not using yet
+personal preference. I already had Elasticsearch in place, so not using yet
 another system looked like a win to me. But really - have a look around, there
 are many and it might be that one of them is a better fit to your needs than
 ELK.
@@ -151,11 +168,19 @@ ELK.
 I> ## TL;DR
 I> * Identify your KPIs and monitor them
 I> * Start with simple thresholds and move to more sophisticated systems later
-I> * Think about 
+I> * Have a pager duty rotation, everyone should pitch in
+I> * Automate recovery as much as you can
+I> * Update a "red book" for solving problems
+I> * Do a postmortem for every outage
 
 
-
-[sps]: http://techblog.netflix.com/2015/02/sps-pulse-of-netflix-streaming.html
 [elk]: https://www.elastic.co/
+[pareto]: https://en.wikipedia.org/wiki/Pareto_principle
 [pd]: https://www.pagerduty.com/
+[sps]: http://techblog.netflix.com/2015/02/sps-pulse-of-netflix-streaming.html
 [5y]: https://en.wikipedia.org/wiki/5_Whys
+[ksre]: https://www.usenix.org/conference/srecon14/technical-sessions/presentation/keys-sre
+
+{::comment}
+vim: ft=markdown spell
+{:/comment}

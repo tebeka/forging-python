@@ -19,8 +19,7 @@ check a new database version, a new package version ...
 
 **Youngstar:** Eeeek, again accidental complexity bites us in the behind.
 
-**Graybeard:** How much did you have to drink? You usually get depressed later
-on.
+**Graybeard:** How much did you drink? You usually get depressed later on.
 
 **Youngstar:** You're right, lemme get another round and you can tell me how to
 solve my problems.
@@ -41,7 +40,7 @@ format is bad.
 
 **Graybeard:** Would you like to have some comments in your configuration?
 
-**Youngstar:** Probably yes ... we'll that rules out JSON. YAML?
+**Youngstar:** Probably yes ... that rules out JSON. YAML?
 
 **Graybeard:** YAML is a great format for configuration. I use it a lot, but
 there's something even simpler.
@@ -86,7 +85,7 @@ in `config.py`
 **Youngstar:** Yeah, and I see where you can use `PYTHONPATH` to get different
 `config_local.py` per environment.
 
-**Graybeard:** Yes. I other cases the deployment system, say [Ansible][ansible],
+**Graybeard:** Yes. In most cases the deployment system, say [Ansible][ansible],
 will generate `config_local.py` based on the environment.
 
 **Youngstar:** And I guess the default in `config.py` should be for local
@@ -102,15 +101,18 @@ one that fits your case. We talked about overrides, the usual order is default <
 **Youngstar:** OK. I guess adding command line support helps in quickly testing
 other systems.
 
-**Graybeard:** Yes, sometime the script that starts your program (say docker)
-gives all the right switches. Then you can go without configuration system at
-all in your code.
+**Graybeard:** Yes, sometime the script that starts your program (say
+[docker][docker]) gives all the right switches. Then you can go without
+configuration system at all in your code.
 
 **Youngstar:** It's not true, you just moved the configuration system to the
 deployment/running system.
 
 **Graybeard:** I said "in your code". Glad you caught that, many people when
-they talk about "zero configuration" mean "in the code".
+they talk about "zero configuration" mean "in the code". There's a nice thing
+about not having configuration in your code, but I found out that the code is
+usually tested better than the configuration system. I prefer to have the
+complexity where there are more tests.
 
 **Youngstar:** What about storing configuration in a server?
 
@@ -122,27 +124,46 @@ they talk about "zero configuration" mean "in the code".
 **Graybeard:** Yeah, but then someone need to populate the configuration values
 on the server.
 
-**Youngstar:** Oh yeah.
+**Youngstar:** Agree. Anything else about configuration?
 
-**Graybeard:** There's much more: 
-* Some people believe you should use just environment variables, read [the 12
-  factor app][ttfa] sometime. 
-* Some system use the IT automation system (Ansible, docker ...) to generate
-  fixed values. The database will be the same entry in `/etc/hosts` in the name
-  of `elastic` - the IP will change from system to system. 
-* `docker` based system like [docker-compose][dc] and [kubernetes][kb] have
-  their own system for hooking containers together.
+**Graybeard:** There's so much more.  Some people believe you should use just
+environment variables.
 
-**Youngstar:** Oh wow! All I wanted is just a way for my application to know
-where the database is.
+**Youngstar:** Why?
 
-**Graybeard:** Yeah. My usual advice is to start simple and grow in complexity
-only if you have no other choice.
+**Graybeard:** Read [the 12 factor app][ttfa] and see.
 
-**Youngstar:** Anything else?
+**Youngstar:** Yay, more reading.
 
-**Graybeard:** If you go back to the code I wrote, only `db_host` and `db_port`
-are defined. But in some cases you'll need a URI, something like
+**Graybeard:** As we said, the IT automation system (Ansible, docker ...) can
+generate fixed values. The database host will have the same name (say `elastic`)
+and the IP will change from system to system. 
+
+**Youngstar:** I just using [fabric][fabric], should I switch to Ansible?
+
+**Graybeard:** Depends on the complexity of your deployment. fabric is very
+simple so it usually start there and switch to something more complex only when
+I need to. If you use `docker` based system like [docker-compose][dc] and
+[kubernetes][kb] have their own system for hooking containers together.
+
+**Youngstar:** And then my code uses less configuration.
+
+**Graybeard:** Exactly. But beware of jumping into docker - it's cool but comes
+with it's own set of problems.
+
+**Youngstar:** Which are?
+
+**Graybeard:** Let's talk about it later when we discuss deployment.
+
+**Youngstar:** OK. I guess as usual I'll start simple and grow in complexity
+when I need to.
+
+**Graybeard:** So young and so wise.
+
+**Youngstar:** That's right. Anything else I should know regarding configuration?
+
+**Graybeard:** If you look at the code I wrote, only `db_host` and `db_port` are
+defined. But in some cases you'll need a URI, something like
 `pgsql://<db_host>:<db_port>`. Instead of having everyone constructing this URI
 themselves you can add a line `db_uri = 'pgsql://%s:%s' % (db_host, db_port)`
 *after* the import from `config_local`.
@@ -162,15 +183,12 @@ falls short. As long as it supports the majority of cases - you're fine.
 code. This complexity don't go away, but it's contained somewhere else which is
 a good thing.
 
-**Youngstar:** Anything else?
+**Youngstar:** What about passwords and other "secret" stuff? Where do I store
+it?
 
-**Graybeard:** Yeah, make sure that secrets (API keys, passwords ...) don't make
-it to configuration or checked in by mistake. We'll have a talk on security
-later (and had one on configuration management already).
-
-**Youngstar:** How do I do that?
-
-**Graybeard:** I'll let you think about it and we'll talk security next time.
+**Graybeard:** Make sure they don't make it to configuration or checked in by
+mistake. We'll have a talk on security later (and had one on configuration
+management already).
 
 **Youngstar:** OK then.
 
@@ -186,8 +204,10 @@ I> * Make sure "secrets" are protected in your configuration system
 
 [ansible]: http://www.ansible.com/
 [chmap]: https://docs.python.org/3/library/collections.html#collections.ChainMap
-[zk]: https://zookeeper.apache.org/
 [consul]: https://www.consul.io/
-[ttfa]: http://12factor.net/
+[docker]: https://www.docker.com/
 [dc]: https://docs.docker.com/compose/
+[fabric]: http://www.fabfile.org/
 [kb]: http://kubernetes.io/
+[ttfa]: http://12factor.net/
+[zk]: https://zookeeper.apache.org/

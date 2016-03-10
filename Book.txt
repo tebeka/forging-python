@@ -5,9 +5,11 @@ structure.md
 dependencies.md
 storage.md
 testing.md
-# config.md
+config.md
 debugging.md
-# monitor.md
+monitor.md
 # time.md
 asking-questions.md
 appendix-a.md
+
+# vim:ft=markdown
