@@ -11,3 +11,181 @@
 **Youngstar:** Yeah. It feels like I'm no longer in control of my time. You on
 the other hand seems to have a lot of free time. How do you do it?
 
+**Graybeard:** It's all about focus and priorities.
+
+**Youngstar:** Do tell.
+
+**Graybeard:** I once read an article call "[The Sad, Beautiful Fact That We're
+All Going To Miss Almost Everything][miss]". There is talks that even if you
+limit yourself to last 250 years of litrature and only English. You still won't
+be able to read all the good books even if you read a hundred books per year.
+
+**Youngstar:** I don't think even you read a hundred books per year.
+
+**Graybeard:** I did as a teenager. But work has slowed down my reading a lot,
+not to mention family.
+
+**Youngstar:** Good tradeoff for the family bit.
+
+**Graybeard:** Agree, but I also enjoy my work.
+
+**Youngstar:** OK, I get it - there's not enough time to do everything we want.
+
+**Graybeard:** It's not just about getting it, you need to internalize that and
+not regret missing things.
+
+**Youngstar:** I'll work on it. I guess this is connected to prioritizing
+things?
+
+**Graybeard:** Exactly. Once you understand you won't get to everything, you
+prioritize and do things the matter most. Not regretting or getting tempted to
+try more than you can swallow.
+
+**Youngstar:** Sounds hard.
+
+**Graybeard:** Yeah, I'll still learning to say "no". But this gives me enough
+time to work on the things I think are important and do them well.
+
+**Youngstar:** What if the things that are important require a lot of time?
+
+**Graybeard:** Then you prioritize what parts are more important and do them. I
+think it was Patrick Lencioni who said "If everything is important, then nothing
+is."
+
+**Youngstar:** Any tips on how to prioritize things?
+
+**Graybeard:** There are many systems our there. Try out some, but for me it's
+more of a gut feeling than anything else.
+
+**Youngstar:** Don't get me started on your gut.
+
+**Graybeard:** Took me year to develop it, used a lot of beer in the process.
+
+**Youngstar:** Ha! I guess I'll move "[Blink][blink]" to the top of my reading
+list.
+
+**Graybeard:** Nice prioritizing. Two common mistakes people do is not to follow
+their priorties and forgetting to prioritize things outside work.
+
+**Youngstar:** My boyfriend has been complaining I work too much.
+
+**Graybeard:** Ouch! "Nobody on their deathbed has ever said "I wish I had spent
+more time at the office".
+
+**Youngstar:** Yours?
+
+**Graybeard:** Nope, not sure who said that.
+
+**Youngstar:** I guess they didn't achieve much in their life either.
+
+**Graybeard:** Oh, you'll find lazy people accomplish a lot. According to Larry
+Wall the tree great virtues of a programmer are Laziness, Impatience and Hubris.
+
+**Youngstar:** Of Perl?
+
+**Graybeard:** And `patch` and many other things.
+
+**Youngstar:** OK. Can we move to focus now?
+
+**Graybeard:** Sure. The basic idea is the humans are very bad at context
+switching.
+
+**Youngstar:** I can chew gum and walk at the same time.
+
+**Graybeard:** I'm talking about things you need to cencentrate on. What is
+called [getting in the flow][flow].
+
+**Youngstar:** Oh that book by the guy who I can't pronounce his name?
+
+**Graybeard:** Yes, did you read it alreday?
+
+**Youngstar:** Nope, I'll re-prioritize.
+
+**Graybeard:** Good call. The main idea it takes about 15-20 minutes to get into
+flow state where you can do things that require a lot of mental effort. Snapping
+out of it is matter of seconds.
+
+**Youngstar:** That's why I do most of the good work early in the morning when
+no one is bothering me.
+
+**Graybeard:** Which says something about your work environment.
+
+**Youngstar:** Yeah, I just realized I need to fix this. I do like my mornings.
+
+**Graybeard:** I knew you'd find the lazy person inside you.
+
+**Youngstar:** I never lost it. It always surprises me how easy it is to become
+a workaholic.
+
+**Graybeard:** Yup.
+
+**Youngstar:** OK, focus and priorities. Last words before I head home?
+
+**Graybeard:** I'll keep you a bit more since I think it's important. Apologize
+to your boyfriend for me.
+
+**Youngstar:** Sure.
+
+**Graybeard:** One thing is that you need time to *think*. John Cleese says you
+need [a place in time and space][cleese] to be creative.
+
+**Youngstar:** Meaning?
+
+**Graybeard:** Allocate time for yourself, without interruptions. Use this time
+to think and reflect. Don't just get carried away with day to day. I do it when
+i jog.
+
+**Youngstar:** OK. I guess I need to start jogging.
+
+**Graybeard:** Find your own sport! Which also should be a priority for you.
+
+**Youngstar:** What's the matter? Afraid I'll out run you?
+
+**Graybeard:** You alreay do. And you're more than welcomed to join my silent
+jogging.
+
+**Youngstar:** Will do. Anything else?
+
+**Graybeard:** A good exercise that will force you to prioritize is leaving home
+early. Say 4pm.
+
+**Youngstar:** Yeah, right.
+
+**Graybeard:** I'm serious. Once you go home early, you start to priorotize and
+focus like nobody's business. I've seen many people doing long hours and hardly
+working.
+
+Anther good thing of short work days is it lets you charge. People get "burned"
+when doing long hours.
+
+**Youngstar:** I can feel it, seems like my productivity isn't what it used to
+be.
+
+**Graybeard:** Oh, and sleep - sleep is way underated. People perform badly when
+they're sleep deprived.
+
+**Youngstar:** Didn't they use [sleep depravation as kind of torture][sleep]?
+
+**Graybeard:** They did. So your work/life balance in order and stop torturing
+yourself.
+
+**Youngstar:** Said the person who's keeping me here.
+
+**Graybeard:** And here I was thinking you enjoy our meetings.
+
+**Youngstar:** I do, but I need some down time.
+
+**Graybeard:** Go home then. I'll see you next time.
+
+**Youngstar:** G'night.
+
+
+[blink]: http://www.amazon.com/Blink-The-Power-Thinking-Without/dp/0316010669
+[cleese]: https://www.brainpickings.org/index.php/2012/04/12/john-cleese-on-creativity-1991/
+[flow]: http://www.amazon.com/Flow-Sports-optimal-experiences-performances/dp/0880118768
+[miss]: http://www.npr.org/sections/monkeysee/2011/04/21/135508305/the-sad-beautiful-fact-that-were-all-going-to-miss-almost-everything
+[sleep]: http://sleepjunkies.com/features/sleep-deprivation-and-torture-a-brief-history/
+
+{::comment}
+vim: ft=markdown spell
+{:/comment}
