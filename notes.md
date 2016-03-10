@@ -17,7 +17,8 @@
 * Configuration [Done - config.md]
 * VCS 
 * Code Review
-* Packaging & Deployment [Done(?) - dependencies.md]
+* Deployment
+    * Packaging
 * Monitoring & Alerting [monitor.md]
 * Going faster
 * Storage [Done - storage.md]
