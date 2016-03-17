@@ -23,17 +23,18 @@ can do better.
 **Youngstar:** Well, we have great logging. But we look at the logs *after* we
 found out there's a problem. We do monitor our machines for load, disk space and other
 things. However this was an application crash and didn't cause a system problem,
-on the other hand, it reduced the load.
+it actually reduced the load.
 
-**Graybeard:** Two things. One is that monitoring without alerting is not that
-helpful. Second is that there are way better things to monitor than disk space.
+**Graybeard:** Two things: One is that monitoring without alerting is not that
+helpful - nobody is watching the graphs 24/7. Second is that there are better
+things to monitor than disk space.
 
 **Youngstar:** Let's take these one at a time. You're saying I need some
 automated system that will alert me when a metric goes funky?
 
 **Graybeard:** Yes. You usually start with a fixed threshold, but as your system
-goes more complex you need more advanced methods. Remember that if you have too
-many alerts - people will ignore them. It's the classic "the kid who cried wolf"
+grows complex you need more advanced methods. Remember that if you have too many
+alerts - people will ignore them. It's the classic "the kid who cried wolf"
 story. There are some cool new systems now that apply "anomaly detection"
 algorithms to metrics. There are even companies that provide a service where you
 send them your metrics and they alert when they find an anomaly.
@@ -161,9 +162,25 @@ another system looked like a win to me. But really - have a look around, there
 are many and it might be that one of them is a better fit to your needs than
 ELK.
 
-**Youngstar:** Great, more homework. Another beer?
+**Youngstar:** Great, more homework. Anything else?
 
-**Graybeard:** OK, I'll shut up about monitoring and alerting now :)
+**Graybeard:** It's a good idea to do "ops drills" where you simulate problems
+and people solve them.
+
+**Youngstar:** I guess we'll have plenty of the real thing to practice on.
+
+**Graybeard:** It's better to deal with your first outage not at 3am with a
+customer shouting over the phone. Also other team members can look and learn.
+
+**Youngstar:** Isn't that what Netflix [chaos monkey][cmonkey] do?
+
+**Graybeard:** Sort of, but wait until you get there. By the way they have more
+tools that destroy things. It's called [the Simian Army][sarmy] now.
+
+**Youngstar:** Oh my... I need another drink to reflect on that. Want some?
+
+**Graybeard:** OK, I get the hint. I'll shut up about monitoring and alerting
+now :)
 
 I> ## TL;DR
 I> * Identify your KPIs and monitor them
@@ -172,11 +189,14 @@ I> * Have a pager duty rotation, everyone should pitch in
 I> * Automate recovery as much as you can
 I> * Update a "red book" for solving problems
 I> * Do a postmortem for every outage
+I> * Have ops drills
 
 
+[cmonkey]: http://techblog.netflix.com/2012/07/chaos-monkey-released-into-wild.html
 [elk]: https://www.elastic.co/
 [pareto]: https://en.wikipedia.org/wiki/Pareto_principle
 [pd]: https://www.pagerduty.com/
+[sarmy]: https://github.com/Netflix/SimianArmy
 [sps]: http://techblog.netflix.com/2015/02/sps-pulse-of-netflix-streaming.html
 [5y]: https://en.wikipedia.org/wiki/5_Whys
 [ksre]: https://www.usenix.org/conference/srecon14/technical-sessions/presentation/keys-sre

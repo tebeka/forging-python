@@ -4,7 +4,7 @@ sitefiles = $(patsubst %.md,site/%.html,$(shell cat Book.txt | grep -v '\#'))
 prjdir = ~/Dropbox/forging-python
 
 any:
-	$(error Please pick a target: sync, preview, status, view)
+	$(error Please pick a target: sync, preview, status, view, site or publish)
 
 sync:
 	rsync \

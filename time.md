@@ -15,15 +15,16 @@ the other hand seems to have a lot of free time. How do you do it?
 
 **Youngstar:** Do tell.
 
-**Graybeard:** I once read an article call "[The Sad, Beautiful Fact That We're
-All Going To Miss Almost Everything][miss]". There is talks that even if you
-limit yourself to last 250 years of literature and only English. You still won't
-be able to read all the good books even if you read a hundred books per year.
+**Graybeard:** I once read an article called "[The Sad, Beautiful Fact That
+We're All Going To Miss Almost Everything][miss]". It states that even if
+you limit yourself to last 250 years of literature and only English. You still
+won't be able to read all the good books even if you read a hundred books per
+year.
 
 **Youngstar:** I don't think even you read a hundred books per year.
 
-**Graybeard:** I did as a teenager. But work has slowed down my reading a lot,
-not to mention family.
+**Graybeard:** I did as a teenager. But work has slowed me down a lot, not to
+mention family.
 
 **Youngstar:** Good trade-off for the family bit.
 
@@ -31,19 +32,19 @@ not to mention family.
 
 **Youngstar:** OK, I get it - there's not enough time to do everything we want.
 
-**Graybeard:** It's not just about getting it, you need to internalize that and
+**Graybeard:** It's not just about getting it, you need to internalize it and
 not regret missing things.
 
 **Youngstar:** I'll work on it. I guess this is connected to prioritizing
 things?
 
-**Graybeard:** Exactly. Once you understand you won't get to everything, you
+**Graybeard:** Exactly. Once you understand you won't get to do everything, you
 prioritize and do things the matter most. Not regretting or getting tempted to
 try more than you can swallow.
 
 **Youngstar:** Sounds hard.
 
-**Graybeard:** Yeah, I'll still learning to say "no". But this gives me enough
+**Graybeard:** Yeah, I'm still learning to say "no". But this gives me enough
 time to work on the things I think are important and do them well.
 
 **Youngstar:** What if the things that are important require a lot of time?
@@ -54,12 +55,12 @@ is."
 
 **Youngstar:** Any tips on how to prioritize things?
 
-**Graybeard:** There are many systems out there. I'd start with probably with
+**Graybeard:** There are many systems out there. I'd probably start with with
 [the Eisenhower Method][emethod].
 
 **Youngstar:** What's that?
 
-**Graybeard:** Draws on a napkin.
+**Graybeard:** (Draws on a napkin)
 
         ^
         |
@@ -77,7 +78,7 @@ is."
                    important
 
 The idea is that you want to be in the `not urgent/important` square. If
-something is both urgent and important - JFDI.
+something is `urgent/important` - JFDI.
 
 **Youngstar:** Cool. What about the other two?
 
@@ -102,12 +103,12 @@ at `not urgent/important` area. If you find you spend most of your time in
 **Youngstar:** Funny! I guess I'll move "[Blink][blink]" to the top of my
 reading list.
 
-**Graybeard:** Nice prioritizing. Two common mistakes people do is not to follow
+**Graybeard:** Nice prioritizing! Two common mistakes people do is not to follow
 their priorities and forgetting to prioritize things outside work.
 
 **Youngstar:** My boyfriend has been complaining I work too much.
 
-**Graybeard:** Ouch! "Nobody on their deathbed has ever said "I wish I had spent
+**Graybeard:** Ouch! Nobody on their deathbed has ever said "I wish I had spent
 more time at the office".
 
 **Youngstar:** Yours?
@@ -117,9 +118,9 @@ more time at the office".
 **Youngstar:** I guess they didn't achieve much in their life either.
 
 **Graybeard:** Oh, you'll find lazy people accomplish a lot. According to Larry
-Wall the tree great virtues of a programmer are Laziness, Impatience and Hubris.
+Wall the tree great virtues of a programmer are: Laziness, Impatience and Hubris.
 
-**Youngstar:** Of Perl?
+**Youngstar:** Larry Wall Of Perl?
 
 **Graybeard:** And `patch` and many other things.
 
@@ -140,7 +141,7 @@ called [getting in the flow][flow].
 **Youngstar:** Nope, I'll re-prioritize.
 
 **Graybeard:** Good call. The main idea it takes about 15-20 minutes to get into
-flow state where you can do things that require a lot of mental effort. Snapping
+flow state where you can do things which require a lot of mental effort. Snapping
 out of it is matter of seconds.
 
 **Youngstar:** That's why I do most of the good work early in the morning when
@@ -177,7 +178,7 @@ i jog.
 
 **Graybeard:** Find your own sport! Which also should be a priority for you.
 
-**Youngstar:** What's the matter? Afraid I'll out run you?
+**Youngstar:** What's the matter? Afraid I'll outrun you?
 
 **Graybeard:** You already do. And you're more than welcomed to join my silent
 jogging.
@@ -204,8 +205,8 @@ they're sleep deprived.
 
 **Youngstar:** Didn't they use [sleep deprivation as kind of torture][sleep]?
 
-**Graybeard:** They did. So your work/life balance in order and stop torturing
-yourself.
+**Graybeard:** They did. So get your work/life balance in order and stop
+torturing yourself.
 
 **Youngstar:** Said the person who's keeping me here.
 
