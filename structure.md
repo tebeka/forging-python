@@ -136,8 +136,7 @@ when you do stuff that is not that obvious - write good docstrings and comments.
 
 **Graybeard:** Of course. In the Python world we mostly use [Sphinx][sph]. It
 has a format for documentation strings and can generate HTML, PDF and maybe
-other format. A nice feature of Sphinx is that it case run [doctest][doct]
-tests.
+other format. A nice feature of Sphinx is that it can run [doctest][doct] tests.
 
 **Youngstar:** `doctest` is where you write snippets of code in your docstrings?
 
