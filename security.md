@@ -9,8 +9,8 @@
 
 **Graybeard:** ["Little Bobby Tables"][xkmom]?
 
-**Youngstar:** There was some SQJ injection, some trying to run scripts on the
-system and other fishy requests. How do I protect myself against such things?
+**Youngstar:** There was some SQJ injection, some trying to run script and other
+fishy requests. How do I protect myself against such things?
 
 **Graybeard:** One think you need to keep in mind is that if someone is really
 targeting you - you will get hacked. Hackers managed to get into NASA, banks and
@@ -25,7 +25,7 @@ many other secure places.
 **Graybeard:** And you think that people who rob banks can't get in your house?
 
 **Youngstar:** *They'll* be able to. But I do it to deter most casual thieves.
-Oh, I see where you're going with this. I shouldn't make my site an easy target.
+Oh, I see where you're going with this. I shouldn't make myself an easy target.
 
 **Graybeard:** Exactly. I'll give you some simple rules to follow. Keep in mind
 I'm not a security expert.
@@ -48,8 +48,8 @@ this and plan how to keep things up while rebooting.
 **Youngstar:** I remember our talk on "hot deploys".
 
 **Graybeard:** Exactly. Another thing is to make security reviews to your code.
-Both as part of code reviews and dedicated security audits. Have someone in
-your company in charge of security.
+Both as part of code reviews and dedicated security audits. Appoint someone in
+your company to be in charge of security.
 
 **Youngstar:** Anything special I should look for?
 
@@ -105,9 +105,9 @@ automation to alert you when something fishy happens. There are software
 more?
 
 **Graybeard:** Yeah they do. Some companies, like [CloudFlare][cloudflare] do
-exactly that. But they cost, so again "pain vs gain". You need to think how much
-each security breach will cost you, not just money but also reputation. Then
-prioritize and protect.
+specialize in securing your site. But they cost, so again "pain vs gain". You
+need to think how much each security breach will cost you, not just money but
+also reputation. Then prioritize and protect.
 
 **Youngstar:** Oh, I like that slogan.
 
@@ -137,12 +137,12 @@ password is in my head.
 
 **Youngstar:** Yup. By the way, is `gpg` good enough?
 
-**Graybeard:** It's better than `rot13`.
+**Graybeard:** It's better than `rot13`, which I saw people use.
 
 **Youngstar:** `rot13`?
 
-**Graybeard:** Some people use it. It's a substitution cypher where each letter
-is replaced with the letter 13 places after it, in a cyclic manner.
+**Graybeard:** It's a substitution cypher where each letter is replaced with the
+letter 13 places after it, in a cyclic manner.
 
 **Youngstar:** And since there are 26 letters in the English alphabet, if you
 `rot13` and `rot13` you'll get the original.
@@ -164,17 +164,18 @@ databases][hvault] for managing secrets and some companies role their own.
 **Youngstar:** Any other things I should know?
 
 **Graybeard:** Never forget the social aspect. All the security in the world
-won't help if you have passwords on a sticky note, or if people blindly click on
-any link sent to them.
+won't help if you have weak passwords, if your computer don't ask for login when
+you turn it on, if the secretary writes passwords on a sticky note, or if people
+blindly click on any link sent to them.
 
-**Youngstar:** You mean phishing?
+**Youngstar:** You mean [phishing][phishing]?
 
 **Graybeard:** Yup. And other social hacks. The key is to be aware, keep
 learning and education people.
 
 **Youngstar:** Good paranoid culture, sounds like fun.
 
-**Graybeard:** Nah, just be careful - thats all. You don't think locking your
+**Graybeard:** Nah, just be careful - that's all. You don't think locking your
 door makes you a paranoid.
 
 **Youngstar:** You're right. But you told me that only the paranoids survive.
@@ -199,10 +200,11 @@ have at home.
 [ansible]: https://www.ansible.com/
 [avault]: http://docs.ansible.com/ansible/playbooks_vault.html
 [cloudflare]: https://www.cloudflare.com
-[sneakers]: http://www.imdb.com/title/tt0105435/
-[xkmom]: https://xkcd.com/327/
 [gpg]: https://www.gnupg.org/
 [hvault]: https://www.vaultproject.io/
+[phishing]: https://en.wikipedia.org/wiki/Phishing
+[sneakers]: http://www.imdb.com/title/tt0105435/
+[xkmom]: https://xkcd.com/327/
 
 [^tr]: `ge '[N-Mn-m]' '[A-MN-Za-mn-z]'`[^tr2]
 [^tr2]: The answer of course is encrypted with `rot13` ☺
