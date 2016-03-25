@@ -123,9 +123,10 @@ code. Since the `.pyc` of the old module is still there - your test will pass.
 **Youngstar:** Does `pep8` check for coding conventions?
 
 **Graybeard:** Yes, this is how I avoid wasting time on coding convention talks.
-If the code passes `pep8` - it's fine.
+If the code passes `pep8` - it's fine. However don't get too stuck on coding
+conventions, see Raymond Hettinger's talk called [Beyond PEP8][bpep8].
 
-**Youngstar:** Anything else?
+**Youngstar:** Will do, anything else?
 
 **Graybeard:** Nope. After that I run the test suite.
 
@@ -255,6 +256,7 @@ this
 
  
 [elastic]: http://elastic.co/
+[bpep8]: https://www.youtube.com/watch?v=wf-BqAjZb8M
 [flake8]: https://pypi.python.org/pypi/flake8
 [flask]: http://flask.pocoo.org/
 [gr]: https://gettingreal.37signals.com/
