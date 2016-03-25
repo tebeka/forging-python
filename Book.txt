@@ -8,6 +8,7 @@ testing.md
 config.md
 debugging.md
 monitor.md
+security.md
 time.md
 asking-questions.md
 appendix-a.md
