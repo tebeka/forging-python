@@ -10,7 +10,6 @@
 * Project Structure [Done - structure.md]
 * Managing Dependencies [Done - dependencies.md]
 * Code Format [Done - testing.md]
-    * add note on beyond pep8
 * Debugging [Done - debugging.md]
 * Testing [Done - testing.md]
 * CI [Done - testing.md]
@@ -22,10 +21,10 @@
 * Monitoring & Alerting [monitor.md]
 * Going faster
 * Storage [Done - storage.md]
-* Security
+* Security [Done - security.md]
 * Asking Questions [asking-questions.md]
     * Should enhance to learning.md?
-* Managing time
+* Managing time [done - time.md]
     * Work/life balance
     * Adams quote - deadlines swooshing sound
 * 
