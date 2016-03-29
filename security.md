@@ -9,10 +9,10 @@
 
 **Graybeard:** ["Little Bobby Tables"][xkmom]?
 
-**Youngstar:** There was some SQJ injection, some trying to run script and other
+**Youngstar:** There was some SQL injection, some trying to run script and other
 fishy requests. How do I protect myself against such things?
 
-**Graybeard:** One think you need to keep in mind is that if someone is really
+**Graybeard:** One thing you need to keep in mind is that if someone is really
 targeting you - you will get hacked. Hackers managed to get into NASA, banks and
 many other secure places.
 
@@ -36,32 +36,72 @@ I'm not a security expert.
 
 **Youngstar:** Ha. OK, rules?
 
-**Graybeard:** First one is to keep things updated, what's called "patching".
-Depends on your hosting choice, they usually do a good job patching. But you
-should keep track and make sure you're up to date.
+**Graybeard:** Let's start with the social aspect. All the security in the world
+won't help if you have weak passwords, if your computer don't ask for login when
+you turn it on, if the people write passwords on a sticky note, or blindly click
+on any link sent to them.
+
+**Youngstar:** You mean [phishing][phishing]?
+
+**Graybeard:** Yup. And other social hacks. The key is to be aware, keep
+learning and education people.
+
+**Youngstar:** Good paranoid culture, sounds like fun.
+
+**Graybeard:** Nah, just be careful - that's all. You don't think locking your
+door makes you a paranoid.
+
+**Youngstar:** You're right. But you told me that only the paranoids survive.
+
+**Graybeard:** That was Andy Grove, not me.
+
+**Youngstar:** OK. Apart from culture?
+
+**Graybeard:** One more thing about culture is that you need to make security
+part of the process. Make security reviews to your code - Both as part of code
+reviews and dedicated security audits. Appoint someone in your company to be in
+charge of security.
+
+**Youngstar:** Anything special I should look for in those reviews?
+
+**Graybeard:** Try to think like the bad guy. "How can I break this piece of
+code?". Read "[The Security Mindset][mindset]" by Bruce Schneier to get some
+ideas.
+
+**Youngstar:** OK. What else?
+
+**Graybeard:** We usually think of security in layers. There's network layer,
+server layer, deception layer, encryption layer and more. Each has its own set
+of tools and practices. Think about the layers that are more valuable and
+effective and invest your time there.
+
+**Youngstar:** Deception?
+
+**Graybeard:** Yeah, something called [honeypots][honey].
+
+**Youngstar:** Now I can't get the image of Winnie the Pooh out of my head.
+
+**Graybeard:** Funny, now I can't either. In any case, security is a cat & mouse
+game and you need to be updated all the time. One good practice to keep things
+patched. Depends on your hosting choice, they usually do a good job patching. But
+you should keep track and make sure you're up to date.
 
 **Youngstar:** OK. I'll patch away.
 
 **Graybeard:** Note that some patches require reboots. You need to be ready for
 this and plan how to keep things up while rebooting.
 
-**Youngstar:** I remember our talk on "hot deploys".
+**Youngstar:** I remember our talk on "hot deploys". Any security tools I should
+familiarize myself with?
 
-**Graybeard:** Exactly. Another thing is to make security reviews to your code.
-Both as part of code reviews and dedicated security audits. Appoint someone in
-your company to be in charge of security.
+**Graybeard:** There are many. A good starting point is what comes with [Kali
+Linux][kali].
 
-**Youngstar:** Anything special I should look for?
+**Youngstar:** Isn't Kali some Hindu goddess?
 
-**Graybeard:** Try to think like the bad guy. "How can I break this piece of
-code?".
+**Graybeard:** Envy of the competition?
 
-**Youngstar:** Any tools?
-
-**Graybeard:** There are many. One thing people use is "fuzzers". These tools
-execute your code with random data, trying to break it.
-
-**Youngstar:** Cool.
+**Youngstar:** Never envy, always cautious.
 
 **Graybeard:** If you have time and money, you can hire a pentesting team.
 
@@ -82,40 +122,31 @@ site and will give you a report.
 
 **Graybeard:** The poor guy. I hope he appreciate his luck.
 
-**Youngstar:** Oh man! Let's get back to security please?
+**Youngstar:** Let's get back to security please?
 
-**Graybeard:** OK. Use open source.
-
-**Youngstar:** I do, but why?
-
-**Graybeard:** Security experts agree that the only real secure software is one
-that was viewed by many people. Of course make sure to pick old reliable code.
-
-**Youngstar:** Like you?
-
-**Graybeard:** I'm human ... sort of.
-
-**Youngstar:** Sure you are.
-
-**Graybeard:** Back to security. Do what you did - monitor your logs. Add some
-automation to alert you when something fishy happens. There are software
-"tripwires" you can use.
+**Graybeard:** OK. Do what you did - monitor your logs. Add some automation to
+alert you when something fishy happens. There are several tools for that, the
+technical term you're looking for is [SIEM][siem].
 
 **Youngstar:** OK. You mentioned hosting companies doing patches. Do they do
 more?
 
-**Graybeard:** Yeah they do. Some companies, like [CloudFlare][cloudflare] do
-specialize in securing your site. But they cost, so again "pain vs gain". You
-need to think how much each security breach will cost you, not just money but
-also reputation. Then prioritize and protect.
+**Graybeard:** Yeah they do, sometimes for free since it's their reputation as
+well, sometimes at cost. And there are companies who give security as serivce,
+[WAF][waf] for example.
+
+**Youngstar:** I'll Google what WAF is. How much should I spend on security?
+
+**Graybeard:** You need to think how much each security breach will cost you,
+not just money but also reputation. Then prioritize and protect.
 
 **Youngstar:** Oh, I like that slogan.
 
-**Graybeard:** No about secrets...
+**Graybeard:** Now about secrets...
 
 **Youngstar:** Secrets? I don't have any.
 
-**Graybeard:** Yes you do. You're email password, keys to your hosting provider
+**Graybeard:** Sure you do. You're email password, keys to your hosting provider
 and more.
 
 **Youngstar:** Oh these, what about them?
@@ -157,30 +188,11 @@ my secrets.
 modules][avault] that automate this process, There are [special
 databases][hvault] for managing secrets and some companies role their own.
 
-**Youngstar:** NIH syndrome?
+**Youngstar:** [NIH syndrome]?
 
 **Graybeard:** Probably. Sadly it's a very common syndrome.
 
 **Youngstar:** Any other things I should know?
-
-**Graybeard:** Never forget the social aspect. All the security in the world
-won't help if you have weak passwords, if your computer don't ask for login when
-you turn it on, if the secretary writes passwords on a sticky note, or if people
-blindly click on any link sent to them.
-
-**Youngstar:** You mean [phishing][phishing]?
-
-**Graybeard:** Yup. And other social hacks. The key is to be aware, keep
-learning and education people.
-
-**Youngstar:** Good paranoid culture, sounds like fun.
-
-**Graybeard:** Nah, just be careful - that's all. You don't think locking your
-door makes you a paranoid.
-
-**Youngstar:** You're right. But you told me that only the paranoids survive.
-
-**Graybeard:** That was Andy Grove, not me.
 
 **Youngstar:** Right. Now I'm heading back to my place, and will make sure the
 door is locked.
@@ -202,9 +214,15 @@ have at home.
 [cloudflare]: https://www.cloudflare.com
 [gpg]: https://www.gnupg.org/
 [hvault]: https://www.vaultproject.io/
+[kali]: https://www.kali.org/
+[mindset]: https://www.schneier.com/blog/archives/2008/03/the_security_mi_1.html
 [phishing]: https://en.wikipedia.org/wiki/Phishing
 [sneakers]: http://www.imdb.com/title/tt0105435/
 [xkmom]: https://xkcd.com/327/
+[honey]: https://en.wikipedia.org/wiki/Honeypot_(computing)
+[siem]: https://en.wikipedia.org/wiki/Security_information_and_event_management
+[waf]: https://www.owasp.org/index.php/Web_Application_Firewall
+[nih]: https://en.wikipedia.org/wiki/Not_invented_here
 
 [^tr]: `ge '[N-Mn-m]' '[A-MN-Za-mn-z]'`[^tr2]
 [^tr2]: The answer of course is encrypted with `rot13` ☺
