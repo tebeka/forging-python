@@ -1,8 +1,9 @@
 # Time Management
 
-> Your time is limited, so don't waste it living someone else's life.
+
+> I love deadlines. I like the whooshing sound they make as they fly by.
 >
->    *- Steve Jobs*
+>    *- Douglas Adams*
 
 **Youngstar:** Sorry I'm late, got stuck at work.
 
