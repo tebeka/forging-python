@@ -188,7 +188,7 @@ my secrets.
 modules][avault] that automate this process, There are [special
 databases][hvault] for managing secrets and some companies role their own.
 
-**Youngstar:** [NIH syndrome]?
+**Youngstar:** [NIH syndrome][nih]?
 
 **Graybeard:** Probably. Sadly it's a very common syndrome.
 
@@ -207,6 +207,16 @@ have at home.
 **Youngstar:** And probably need a walk, I'm out of here.
 
 **Graybeard:** Cheers.
+
+I> ## TL;DR
+I> * Get in security mindset
+I> * Appoint someone to be in charge of security
+I> * Make security part of your process. Do security audits and look for
+I>   violations in code review
+I> * Keep software up to date, make sure patches happen
+I> * Secure in layers. Invest in the ones that give you the best benefit
+I> * If you have money, hire a pentesting team
+I> * Have a process to keep secrets
 
 
 [ansible]: https://www.ansible.com/

@@ -22,6 +22,8 @@
 * Going faster
 * Storage [Done - storage.md]
 * Security [Done - security.md]
+    * TODO: github search for AWS keys
+    * `https://github.com/search?q=SECRET_ACCESS_KEY&type=Code`
 * Asking Questions [asking-questions.md]
     * Should enhance to learning.md?
 * Managing time [done - time.md]

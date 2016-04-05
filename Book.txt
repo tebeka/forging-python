@@ -9,6 +9,7 @@ config.md
 debugging.md
 monitor.md
 security.md
+process.md
 time.md
 asking-questions.md
 appendix-a.md
