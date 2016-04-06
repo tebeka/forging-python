@@ -6,9 +6,12 @@
     * numba, psyco
     * pypy
     * http://c2.com/cgi/wiki?RulesOfOptimization
+    * http://www.shouldioptimize.com/
+    * Go over https://pinboard.in/search/u:tebeka?query=optimization
 * Add github search for AWS keys in security.md
     * `https://github.com/search?q=SECRET_ACCESS_KEY&type=Code`
 * Chapter on Learning
     * learning.md (combing with asking questions?)
     * http://aosabook.org
     * coursera
+* Add programmer IO to time.md
