@@ -254,7 +254,8 @@ lot of fun to write and use them.
 
 **Youngstar:** And fun is important to keep people around.
 
-**Graybeard:** This reminds of another book.
+**Graybeard:** Not to mention that you spend a lot of time at work, so it better
+be fun... This reminds of another book.
 
 **Youngstar:** Great.
 
@@ -285,8 +286,9 @@ new process. Show them this (draws on a napkin)
 **Youngstar:** I see, good one.
 
 **Graybeard:** Note that process is procedure. You've succeeded once it become
-culture. When people come to standup since this is the way we communicate and
-not since the boss told them.
+culture. Peter Drucker said "Culture Eats Strategy For Breakfast." When people
+come to standup since this is the way we communicate and not since the boss told
+them - that when you win.
 
 **Youngstar:** I'll work on that. And now I'll begin my journey home.
 
