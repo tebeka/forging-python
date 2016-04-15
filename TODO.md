@@ -14,4 +14,8 @@
     * learning.md (combing with asking questions?)
     * http://aosabook.org
     * coursera
+* Career
+    * http://pythonwise.blogspot.co.il/2013/09/advice-for-new-managers.html
+    * personal brand (joke about writing a book)
+    * management vs technical
 * Add programmer IO to time.md

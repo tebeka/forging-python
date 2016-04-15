@@ -216,7 +216,11 @@ plus ones.
 
 **Graybeard:** Both [Slack][slack] and [HipChat][hipchat] are nice and comes
 with many bells and whistles. Internally companies usually install a
-[Jabber](jabber) server.
+[Jabber](jabber) server. Oh, and don't forget IRC.
+
+**Youngstar:** IRC? With the hashtags and AFK? It's still a thing?
+
+**Graybeard:** Very much, it works and there's a lot tooling around it.
 
 **Youngstar:** I'll start with hosted, save me operations.
 
@@ -290,9 +294,25 @@ culture. Peter Drucker said "Culture Eats Strategy For Breakfast." When people
 come to standup since this is the way we communicate and not since the boss told
 them - that when you win.
 
-**Youngstar:** I'll work on that. And now I'll begin my journey home.
+**Youngstar:** Interesting ... This also affects hiring.
 
-**Graybeard:** G'night.
+**Graybeard:** Very much. You need to think about the company you want to
+create. I prefer places where everything is allowed unless explicitly forbidden.
+
+**Youngstar:** Don't we all? I'll think on that on my journey home.
+
+**Graybeard:** Oh, one more book for you.
+
+**Youngstar:** You do deliver on your promises, which one is that?
+
+**Graybeard:** It's called ["Getting Real"][greal]. You'll like the "meetings
+are toxic" part of it.
+
+**Youngstar:** Yes I will.
+
+**Graybeard:** Alright, g'night and happy reading.
+
+**Youngstar:** G'night.
 
 I> ## TL;DR
 I> * Start with light process.
@@ -318,6 +338,7 @@ I>     * After sprint: retrospective which yields new issues
 [gerrit]: https://www.gerritcodereview.com/
 [git]: https://git-scm.com/
 [github]: https://github.com
+[greal]: https://gettingreal.37signals.com/
 [hipchat]: https://www.hipchat.com/
 [jabber]: http://www.jabber.org/
 [jenkins]: https://jenkins.io/index.html
