@@ -57,7 +57,7 @@ secondary role.
 easy to solve. The big bonus is the *everyone* feels the pain of failing system
 and start write more robust code and also pay more attention in code reviews.
 
-I saw a great talk called "[Keys to SRE][ksre]" by the guy who started the SRE
+I saw a great talk called ["Keys to SRE"][ksre] by the guy who started the SRE
 team in Google.
 
 **Youngstar:** SRE?
