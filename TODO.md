@@ -1,5 +1,4 @@
 * Add crash only software to monitoring
-* Chapter on deployment and packaging
 * Chapter on going faster
     * Cython
     * ctypes
@@ -19,3 +18,9 @@
     * personal brand (joke about writing a book)
     * management vs technical
 * Add programmer IO to time.md
+* supervisor & restarts in deploy.md
+* Chapter on good code
+    * simple
+    * speak the language (vodka)
+    * small funcs
+    * 
