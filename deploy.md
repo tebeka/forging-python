@@ -31,7 +31,7 @@ than the local IT.
 
 **Graybeard:** We'll fix that later. However today it's more common for
 companies to host data outside. And even companies that say "we host data
-ourselves" usually mean "on own hosted servers". Sometimes you can't host data
+ourselves" usually mean "on our hosted servers". Sometimes you can't host data
 outside due to legal reasons or some compliance policies.
 
 **Youngstar:** IANAL, but I think I'm OK with hosting data outside.
@@ -170,8 +170,14 @@ rebuild if it's gone.
 
 **Youngstar:** OK. I will.
 
-**Graybeard:** It's important that there won't be one production environment.
-You need one or more for QA.
+**Graybeard:** Automation also helps with avoiding errors. Some people swear by
+checklists, but manage to forget a step.
+
+**Youngstar:** I get it, you sent me the ["automate all the things"][auto] meme
+enough times already.
+
+**Graybeard:** OK, moving on then ... It's important that there won't be one
+production environment.  You need one or more for QA.
 
 **Youngstar:** But probably not that fancy.
 
@@ -206,7 +212,7 @@ help with this.
 
 **Youngstar:** Don't forget the cute canaries.
 
-**Graybeard:** That's right. They we helpful at the coal mines and they are
+**Graybeard:** That's right. They were helpful at the coal mines and they are
 helpful now. Every release is a risk.
 
 **Youngstar:** And we don't like risk.
@@ -239,11 +245,13 @@ fit in one of the no-ops hosting. And now that beer please.
 I> ## TL;DR
 I> * Don't underestimate how much operations will cost you in time and money
 I> * Pick a solution that will reduce the operations burden
+I>      * Automate everything you can
 I> * Do your homework. Learn about deployment methods, tools and procedures
 I> * Be ready to roll back releases
 I> * Mark release in your monitoring tools
 
 [ansible]: https://www.ansible.com/
+[auto]:  http://i.imgur.com/C1mswyP.jpg
 [blueg]: http://martinfowler.com/bliki/BlueGreenDeployment.html
 [canary]: http://martinfowler.com/bliki/CanaryRelease.html
 [chef]: http://saltstack.com/
