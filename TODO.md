@@ -19,6 +19,7 @@
     * management vs technical
 * Add programmer IO to time.md
 * supervisor & restarts in deploy.md
+    * crash only software
 * Chapter on good code
     * simple
     * speak the language (vodka)
