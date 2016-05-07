@@ -80,7 +80,7 @@ while ago when we talked about testing.
 `config_local.py` next to the file everything written there will override what's
 in `config.py`
 
-**Graybeard:** In the import path, no just next to `config.py`
+**Graybeard:** In the import path, not just next to `config.py`
 
 **Youngstar:** Yeah, and I see where you can use `PYTHONPATH` to get different
 `config_local.py` per environment.
@@ -139,7 +139,7 @@ environment variables.
 generate fixed values. The database host will have the same name (say `elastic`)
 and the IP will change from system to system. 
 
-**Youngstar:** I just using [fabric][fabric], should I switch to Ansible?
+**Youngstar:** I am just using [fabric][fabric], should I switch to Ansible?
 
 **Graybeard:** Depends on the complexity of your deployment. fabric is very
 simple so it usually start there and switch to something more complex only when
@@ -179,7 +179,7 @@ falls short. As long as it supports the majority of cases - you're fine.
 
 **Youngstar:** As usual, simple things go very deep with you.
 
-**Graybeard:** A good configuration system will reduce the complexity if your
+**Graybeard:** A good configuration system will reduce the complexity in your
 code. This complexity don't go away, but it's contained somewhere else which is
 a good thing.
 
