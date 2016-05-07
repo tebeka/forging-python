@@ -141,7 +141,7 @@ script to do this.
 other members in your team don't forget steps. I'm not the only one with a one
 bit memory.
 
-**Youngstar:** I some cases I found out the tests run for a long time. Which
+**Youngstar:** In some cases I found out the tests run for a long time. Which
 makes it annoying to run them every time I make a change.
 
 **Graybeard:** My rule of thumb is that developers won't run tests that take
@@ -212,7 +212,7 @@ space.
 
 **Youngstar:** Really?
 
-**Graybeard:** Yup. But the have a system in place to fix bugs in outer space
+**Graybeard:** Yup. But they have a system in place to fix bugs in outer space
 as well.
 
 **Youngstar:** I guess I'll have to mock some parts of the system for testing,
