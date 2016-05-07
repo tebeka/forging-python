@@ -151,7 +151,7 @@ whenever the code changes.
 
 **Youngstar:** I can see that. Any other advice?
 
-**Graybeard:** What? That was not enough for you? I guess another good advice it
+**Graybeard:** What? That was not enough for you? I guess another good advice is
 to be patient.
 
 **Youngstar:** Have you seen my hair color? I wasn't born with the patience
