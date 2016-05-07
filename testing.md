@@ -101,7 +101,7 @@ tests. But this is usually the last thing in I run.
 
 **Youngstar:** Last? What do you run before it?
 
-**Graybeard:** Few things: I check that there are no called to `pdb` in the
+**Graybeard:** Few things: I check that there are no calls to `pdb` in the
 code.
 
 **Youngstar:** `pdb` is the Python debugger?
