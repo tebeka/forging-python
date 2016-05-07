@@ -85,7 +85,7 @@ this line.
 
 **Graybeard:** Then you run your code normally, not via `pdb`. And once the
 condition is met - you'll get the `pdb` prompt. If you have `IPython` installed
-you can used its debugger instead of `pdb`, its a bit nicer. You do it like
+you can use its debugger instead of `pdb`, its a bit nicer. You do it like
 this (codes again on a napkin):
 
 ```python
@@ -116,7 +116,7 @@ great tools for log rotation, both in the standard library and Unix utilities.
 we'll talk about logging and monitoring later.
 
 Oh, and Python's logging module can [listen on a socket][logc] and change the
-logging configuration in run time. This way you can temporary set a log level in
+logging configuration in run time. This way you can temporarily set a log level in
 one of your modules for a while, collect enough data and then return it back to
 the normal level.
 
@@ -149,7 +149,7 @@ the problem.
 **Youngstar:** System 2?
 
 **Graybeard:** Yeah, not very imaginative name. Think of it as the part of your
-brain the works below the surface. It's the one the does most of the leaps in
+brain the works below the surface. It's the one that does most of the leaps in
 understanding but it needs time. Instead of heading back to the office, go home
 and watch a video called ["Hammock Driven Development"][hdd] by Rich Hickey.
 
