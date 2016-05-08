@@ -207,7 +207,7 @@ to a specific release.
 **Youngstar:** OK.
 
 **Graybeard:** Also make you you can do a rollback as well. If a release goes
-back you need to be able to quickly get back. Blue-Green and rolling releases
+bad you need to be able to quickly get back. Blue-Green and rolling releases
 help with this.
 
 **Youngstar:** Don't forget the cute canaries.
