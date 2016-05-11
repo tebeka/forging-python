@@ -80,7 +80,7 @@ are *outside* of the code so they won't get deployed.
 
 **Graybeard:** Every project should have a `README` with at least an elevator
 pitch. This focuses people on what we're doing here. It should also contain
-instructions for developers not found in the docs
+instructions for developers not found in the docs.
 
 The `docs` directory is the generated documentation, I don't usually have docs
 other than what's in the code and in the `README`.
@@ -108,7 +108,7 @@ you start with it.
 
 **Youngstar:** Anything else?
 
-**Graybeard:** Yes, don't over think this and spend too much on it. Start with
+**Graybeard:** Yes, don't overthink this and spend too much on it. Start with
 something and only if it becomes a problem fix it.
 
 **Youngstar:** That's advice you give for many things.
@@ -136,7 +136,7 @@ when you do stuff that is not that obvious - write good docstrings and comments.
 
 **Graybeard:** Of course. In the Python world we mostly use [Sphinx][sph]. It
 has a format for documentation strings and can generate HTML, PDF and maybe
-other format. A nice feature of Sphinx is that it can run [doctest][doct] tests.
+other formats. A nice feature of Sphinx is that it can run [doctest][doct] tests.
 
 **Youngstar:** `doctest` is where you write snippets of code in your docstrings?
 
@@ -184,9 +184,9 @@ source we can talk about it.
 **Graybeard:** Very good.
 
 I> ## TL;DR
-I> * Start with an established project structure (like GreaBeard's example above)
+I> * Start with an established project structure (like GreyBeard's example above)
 I> * Separate code from tests
-I> * Have a `README` with elevator pitch and development instructions
+I> * Have a `README` with an elevator pitch and development instructions
 I> * Use a `Makefile` or other tool to automate common tasks
 I> * Have *one* script to run the tests
 I> * Look into [Sphinx][sph] for generating documentation

@@ -172,7 +172,7 @@ Python 2?
 **Youngstar:** Because of dependencies?
 
 **Graybeard:** I'd say this is the main reason. However the situation has
-improved significantly in the last couple of year. If you head over to [Python 3
+improved significantly in the last couple of years. If you head over to [Python 3
 Wall of Superpowers][sp] (which used to be call "Python 3 Wall of Shame") you'll
 see mostly green now, which means most "top downloaded" packages support Python
 3 now.
@@ -180,7 +180,7 @@ see mostly green now, which means most "top downloaded" packages support Python
 **Youngstar:** What other reason are there? Legacy code?
 
 **Graybeard:** You won't believe how fast the new cool code you wrote a while
-ago becomes legacy code. Most of our time we improve existing code, not write
+ago becomes legacy code. Most of the time we improve existing code, not write
 new stuff. If you already have a decent code base, writing new code from scratch
 is a dangerous thing. Read "[Things You Should Never Do][notdo]" once.
 
@@ -194,7 +194,7 @@ edge, not your tech ... stability is sexy."
 **Youngstar:** I wonder how we make progress then.
 
 **Graybeard:** Sometimes the advantages of new technology overweigh the risk.
-Also, people are way too optimistic to their own good.
+Also, people are way too optimistic for their own good.
 
 **Youngstar:** OK then, it's getting to the point where my boyfriend will get
 jealous of you.  Final recommendation?
@@ -210,7 +210,7 @@ issue, it took us about half a day to do that.
 might not be.
 
 I> ## TL;DR
-I> * Choose CPython 3.x if you have a new project with not many dependencies
+I> * Choose CPython 3.x if you have a new project with few dependencies
 I>     * Python 3 is the future
 I> * Choose CPython 2.x if you have older code base or dependencies that does
 I>   not support Python 3

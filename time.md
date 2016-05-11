@@ -10,7 +10,7 @@
 **Graybeard:** Happens a lot lately.
 
 **Youngstar:** Yeah. It feels like I'm no longer in control of my time. You on
-the other hand seems to have a lot of free time. How do you do it?
+the other hand seem to have a lot of free time. How do you do it?
 
 **Graybeard:** It's all about focus and priorities.
 
@@ -173,7 +173,7 @@ need [a place in time and space][cleese] to be creative.
 
 **Graybeard:** Allocate time for yourself, without interruptions. Use this time
 to think and reflect. Don't just get carried away with day to day. I do it when
-i jog.
+I jog.
 
 **Youngstar:** OK. I guess I need to start jogging.
 
@@ -181,7 +181,7 @@ i jog.
 
 **Youngstar:** What's the matter? Afraid I'll outrun you?
 
-**Graybeard:** You already do. And you're more than welcomed to join my silent
+**Graybeard:** You already do. And you're more than welcome to join my silent
 jogging.
 
 **Youngstar:** Will do. Anything else?

@@ -38,7 +38,7 @@ much of my time ... not programming.
 **Youngstar:** Yeah, but you trained many of your managers.
 
 **Graybeard:** That I did. I'll give you some guidelines. The first thing is to
-think about *why* do we need process.
+think about *why* we need a process.
 
 **Youngstar:** To remove chaos?
 
@@ -56,7 +56,7 @@ Own Worst Enemy"][genemy]. Highly recommended.
 
 **Graybeard:** Oh, we're going to fill this list today. One of the main points
 in Clay's article is that in order for a group to function, individuals need to
-do some sacrifices.
+make some sacrifices.
 
 **Youngstar:** The same way I don't park my car in the middle of the road but in
 a free parking spot?
@@ -83,7 +83,7 @@ risky.
 
 **Youngstar:** Practical is my middle name.
 
-**Graybeard:** Didn't know you change it. Anyway ... Start with a light
+**Graybeard:** Didn't know you changed it. Anyway ... Start with a light
 process. Jared Spool said "Too much process is just like no process, except
 slower."
 
@@ -289,9 +289,9 @@ new process. Show them this (draws on a napkin)
 
 **Youngstar:** I see, good one.
 
-**Graybeard:** Note that process is procedure. You've succeeded once it become
+**Graybeard:** Note that process is procedure. You've succeeded once it becomes
 culture. Peter Drucker said "Culture Eats Strategy For Breakfast." When people
-come to standup since this is the way we communicate and not since the boss told
+come to standup because this is the way we communicate and not because the boss told
 them - that when you win.
 
 **Youngstar:** Interesting ... This also affects hiring.
