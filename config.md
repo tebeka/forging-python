@@ -5,7 +5,7 @@
 >   *- General Robert H. Barrow*
 
 **Youngstar:** I now have two environment where the code run. We have a
-production environment but we also has a QA environment. I have an 
+production environment but we also have a QA environment. I have an 
 `if env == 'PROD':`  in my code but I'm not to happy about it. I also remember
 you once said I should try to minimize `if` in my code. How would you handle it.
 
@@ -116,8 +116,8 @@ complexity where there are more tests.
 
 **Youngstar:** What about storing configuration in a server?
 
-**Graybeard:** People do that as well, they use systems like [ZooKeeper][zk]
-,[Consul][consul] and others for this.
+**Graybeard:** People do that as well, they use systems like [ZooKeeper][zk],
+[Consul][consul] and others for this.
 
 **Youngstar:** Then you need just to know where the configuration server is.
 

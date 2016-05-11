@@ -26,7 +26,7 @@ war][edwar] sometime.
 
 **Youngstar:** Editor war?
 
-**Graybeard:** Yeah, some people get too passionate sometime.
+**Graybeard:** Yeah, some people get too passionate sometimes.
 
 **Youngstar:** OK. Let's start with what you're using. Why are you using Vim?
 
@@ -121,12 +121,12 @@ and [IDEs Wiki][idewiki] on the Python web site if the above are not enough.
 
 **Youngstar:** As usual, I'm more confused than before.
 
-**Graybeard:** My advice - pick one or two (and make sure Vim is one of them ;)
+**Graybeard:** My advice - pick one or two (and make sure Vim is one of them ;))
 and try them out. Do a little project with each, see what fits your work style
 and then start specializing. I personally try a new one every now and then - but
 always get back to Vim eventually. Maybe I'm too old to learn new tricks.
 
-**Youngstar:** OK. Anything I need to pay attention while learning or using
+**Youngstar:** OK. Anything I need to pay attention to while learning or using
 these IDEs?
 
 **Graybeard:** Most of them have good integration with linters, make sure to
@@ -158,7 +158,7 @@ to be patient.
 gene.
 
 **Graybeard:** You kids ... The point is that it takes time to master an editor
-on an IDE. Give it time, and you'll see your productivity jumping. I call it the
+or an IDE. Give it time, and you'll see your productivity jumping. I call it the
 "output" part of a programmer I/O.
 
 **Youngstar:** Programmer I/O? As in input/output?
@@ -210,7 +210,7 @@ I> * If you're doing a lot of scientific Python - take a look at Spyder
 [lc]: http://www.terminally-incoherent.com/blog/wp-content/uploads/2006/08/curves.jpg
 [ptvs]: http://microsoft.github.io/PTVS/
 [pycharm]: https://www.jetbrains.com/pycharm/
-[pydev]: https://www.jetbrains.com/pycharm/
+[pydev]: http://www.pydev.org/
 [vim]: http://www.vim.org/
 [vs]: https://www.visualstudio.com/
 [spyder]: https://github.com/spyder-ide/spyder

@@ -54,8 +54,8 @@ secondary role.
 **Youngstar:** I don't believe that everyone can solve every problem.
 
 **Graybeard:** Yeah, but it's the [Pareto principle][pareto] - most errors are
-easy to solve. The big bonus is the *everyone* feels the pain of failing system
-and start write more robust code and also pay more attention in code reviews.
+easy to solve. The big bonus is that *everyone* feels the pain of failing system
+and start writing more robust code and also pay more attention in code reviews.
 
 I saw a great talk called ["Keys to SRE"][ksre] by the guy who started the SRE
 team in Google.

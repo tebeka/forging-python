@@ -37,14 +37,14 @@ I'm not a security expert.
 **Youngstar:** Ha. OK, rules?
 
 **Graybeard:** Let's start with the social aspect. All the security in the world
-won't help if you have weak passwords, if your computer don't ask for login when
+won't help if you have weak passwords, if your computer doesn't ask for login when
 you turn it on, if the people write passwords on a sticky note, or blindly click
 on any link sent to them.
 
 **Youngstar:** You mean [phishing][phishing]?
 
 **Graybeard:** Yup. And other social hacks. The key is to be aware, keep
-learning and education people.
+learning and educating people.
 
 **Youngstar:** Good paranoid culture, sounds like fun.
 
@@ -120,7 +120,7 @@ site and will give you a report.
 
 **Youngstar:** ... Sure, I like to keep him on his toes.
 
-**Graybeard:** The poor guy. I hope he appreciate his luck.
+**Graybeard:** The poor guy. I hope he appreciates his luck.
 
 **Youngstar:** Let's get back to security please?
 
@@ -156,7 +156,7 @@ and more.
 **Youngstar:** I have an encrypted file with [gpg][gpg] with these. The master
 password is in my head.
 
-**Graybeard:** And if you have software that need some of these keys?
+**Graybeard:** And if you have software that needs some of these keys?
 
 **Youngstar:** I set it in the environment when deploying.
 
@@ -178,7 +178,7 @@ letter 13 places after it, in a cyclic manner.
 **Youngstar:** And since there are 26 letters in the English alphabet, if you
 `rot13` and `rot13` you'll get the original.
 
-**Graybeard:** Yes. Not that secure but I've people use it. You can implement it
+**Graybeard:** Yes. Not that secure but I've seen people use it. You can implement it
 with a single `tr` command[^tr].
 
 **Youngstar:** You and your aliases. Let's get back to how can I fully automate
@@ -197,19 +197,19 @@ databases][hvault] for managing secrets and some companies role their own.
 **Youngstar:** Right. Now I'm heading back to my place, and will make sure the
 door is locked.
 
-**Graybeard:** Sadly they didn't invent a virtual guard dogs like the beast you
+**Graybeard:** Sadly they didn't invent virtual guard dogs like the beast you
 have at home.
 
 **Youngstar:** What do you mean beast? He's a cutie!
 
 **Graybeard:** He is cute, but also very big and scary sometimes.
 
-**Youngstar:** And probably need a walk, I'm out of here.
+**Youngstar:** And probably needs a walk, I'm out of here.
 
 **Graybeard:** Cheers.
 
 I> ## TL;DR
-I> * Get in security mindset
+I> * Get in a security mindset
 I> * Appoint someone to be in charge of security
 I> * Make security part of your process. Do security audits and look for
 I>   violations in code review

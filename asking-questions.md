@@ -54,7 +54,7 @@ case SEO stand for "search engine optimization".
 **Youngstar:** I found out that most cases StackOverflow has the answer to what
 I'm searching for.
 
-**Graybeard:** Yeah, StackOverflow and the rest of StackExchange sites a great
+**Graybeard:** Yeah, StackOverflow and the rest of StackExchange sites are a great
 resource. Sometimes it's biased toward people who answer faster and not
 necessarily give the best answer.
 
@@ -64,7 +64,7 @@ What happens when you don't find your answer in StackOverflow?
 
 **Graybeard:** Edward Hodnett said "If you do not ask the right questions, you
 do not get the right answers. A question asked in the right way often points to
-its own answer." Do  you ask the right questions?
+its own answer." Do you ask the right questions?
 
 **Youngstar:** I *think* so, not sure. Any guidelines?
 
@@ -189,8 +189,8 @@ talking about work related questions.
 
 **Youngstar:** Like retrospective?
 
-**Graybeard:** Yes, we've converted that when talking about development process.
-But it worth repeating. A lot of studies shows that companies/groups who excel
+**Graybeard:** Yes, we've covered that when talking about development process.
+But it worth repeating. A lot of studies show that companies/groups who excel
 at what they do, do a lot of retrospective/debriefing.
 
 **Youngstar:** I was in some retrospectives where people got heated up.
@@ -199,7 +199,7 @@ at what they do, do a lot of retrospective/debriefing.
 retrospectives are not just for "end of sprint" but also for incidents. This is
 where Toyota's ["5 whys"][5ys] come in handy.
 
-**Youngstar:** OK, I'll brush up on how to do good retrospective.
+**Youngstar:** OK, I'll brush up on how to do good retrospectives.
 
 **Graybeard:** Other questions you should ask yourself are about the state of
 things. I learned from a very talented person a trick about

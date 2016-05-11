@@ -98,7 +98,7 @@ need to teach my IDE which is the right Python.
 
 **Graybeard:** In general, it's preferred to leave the system Python alone since
 a lot of system utilities are written in Python and a system upgrade might break
-your code. [Red Hat][redhat] based distros uses *a lot* of Python.
+your code. [Red Hat][redhat] based distros use *a lot* of Python.
 
 **Youngstar:** I thought `virtualenv` makes sure you don't use any system
 package.
@@ -172,7 +172,7 @@ extension as a shared library.
 **Graybeard:** Some companies have a "build machine" which has all the required
 dependencies to build the packages. This way you don't need to install a lot of
 tools on your production machines. This build machine is usually also the one
-serves these third party packages. By the way, this process of keeping third
+serving these third party packages. By the way, this process of keeping third
 party dependencies locally is sometimes known as "vendoring".
 
 **Youngstar:** How deep does this rabbit hole go?

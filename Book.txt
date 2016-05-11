@@ -9,7 +9,6 @@ config.md
 debugging.md
 deploy.md
 monitor.md
-deploy.md
 security.md
 process.md
 time.md
