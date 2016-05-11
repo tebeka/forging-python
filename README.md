@@ -8,7 +8,7 @@ The book is written with [Leanpub](https://leanpub.com) and using
 
 Most of the tasks are automated in the Makefile.
 
-Published chapters are the ones [Book.txt](Book.txt) (the line *not* starting
+Published chapters are the ones in [Book.txt](Book.txt) (the lines *not* starting
 with `#`). Chapters that are commented out in `Book.txt` are at pre-alpha stage.
 
 To generate HTML preview, run `make site`. This will generate HTML files in the
