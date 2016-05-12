@@ -1,5 +1,6 @@
 files = Book.txt $(shell cat Book.txt)
 sitefiles = $(patsubst %.md,site/%.html,$(shell cat Book.txt | grep -v '\#'))
+email ?= true
 
 prjdir = ~/Dropbox/forging-python
 
@@ -31,10 +32,10 @@ site/%.html: %.md
 site: $(sitefiles)
 
 publish: sync
-	sleep 5  # Give dropbox time to sync
+	sleep 10  # Give dropbox time to sync
 	curl \
 	    -d "api_key=$(shell cat leanpub.key)" \
-	    -d "publish[email_readers]=true" \
+	    -d "publish[email_readers]=$(email)" \
 	    https://leanpub.com/forging-python/publish.json
 
 .PHONY: any html pdf clean site
