@@ -1,6 +1,6 @@
 # Going Faster
 
-> Write clear, precise code. Every ten years it will run 1,000 times faster."
+> Write clear, precise code. Every ten years it will run 1,000 times faster.
 >
 >    *- Joe Armstrong*
 
