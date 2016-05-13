@@ -198,8 +198,8 @@ There are some less painful options.
 **Youngstar:** [Cython][cython]?
 
 **Graybeard:** That's on popular option. There's also [numba][numba] which is a
-jit compiler, and you can use alternative Python implementation such as
-[pypy][pypy].
+JIT compiler who also can shed work to the GPU, and you can use alternative
+Python implementation such as [pypy][pypy].
 
 **Youngstar:** Hold on, you told me not to use pypy.
 
@@ -220,26 +220,89 @@ for more, and you'll probably pick more as you go.
 **Youngstar:** OK.
 
 **Graybeard:** Also there are many other tools you can use. For example
-[strace][strace]
+[strace][strace] let's you see what system calls your program is doing.
 
+**Youngstar:** I've played with strace, it's fun.
 
+**Graybeard:** Oh, you're getting around to my definition of fun now?
+
+**Youngstar:** Busted! What about parallelization?
+
+**Graybeard:** This is also an option. Always remember [Amdahl's law][alaw],
+don't expect miracles. There are many way to parallelize, from threads, to
+processes to different machines. Do your homework again.
+
+**Youngstar:** [Threading][threading], [multiprocessing][mp] and
+[Celery][celery]?
+
+**Graybeard:** There are so many solutions out there. There's the new
+[concurrent.futures][concurrent] modules in the standard library. And for multi
+machine parallelization there are many solutions, from [Spark][spark] to
+[distributed][distributed] to many more. However before you get that path, try a
+better algorithm and better hardware. Going "big data" is painful.
+
+**Youngstar:** OK. And writing stuff in C?
+
+**Graybeard:** Once you *know* this is the right solution. You have several
+options, from the [native C API][capi] to [SWIG][swig] and others. But I'd start
+with [Cython][cython].
+
+**Youngstar:** OK. So I'll start but not optimizing and see how it goes for me.
+
+**Graybeard:** Yes. Last thing to remember is not to expect miracles. Raymond
+Hettinger phrased it nicely: Much of the doubling of speed for core Python that
+has occurred over the last ten decade has occurred one little step at a time,
+none of the them being individually "dramatic"[^speedbug].
+
+**Youngstar:** OK, I'll remember that - baby steps.
+
+**Graybeard:** And now, let's continue with our baby steps toward [Ballmer
+Peak][ballmer].
+
+**Youngstar:** Two beers coming up.
+
+I> ## TL;DR
+I> * Know the numbers you need to hit
+I> * Don't optimize before you measure
+I> * Know the tools and algorithms available to you
+I> * Cheat whenever you can
+I> * Think pain vs gain
+I> * Hardware is cheap comparing to developer time
+I> * Going multi-machine is painful, try to stay with one
+I> * Do whatever you can in Python before dropping to C
+I> * Don't expect miracles, small steps will get you there
 
 [^c2]: From the wonderful [c2 wiki][c2]
 [^lies]: Originally "Lies, damned lies, and statistics." attributed to Mark Twain
+[^speedbug]: http://bugs.python.org/issue25823
+[alaw]: https://en.wikipedia.org/wiki/Amdahl%27s_law
+[ballmer]: https://xkcd.com/323/
 [c2]: http://c2.com/cgi/wiki?RulesOfOptimization
-[pyprof]: https://docs.python.org/3/library/profile.html
-[pstats]: https://docs.python.org/3/library/profile.html#module-pstats
-[yslow]: https://yslow.org
-[mlaw]: https://en.wikipedia.org/wiki/Moore%27s_law
-[rec]: http://www.catb.org/esr/writings/taoup/html/ch01s06.html#id2878666
-[decimal]: https://docs.python.org/3/library/decimal.html
-[x1]: https://aws.amazon.com/blogs/aws/ec2-instance-update-x1-sap-hana-t2-nano-websites/
-[deque]: https://docs.python.org/3.3/library/collections.html#collections.deque
-[tspeed]: https://twitter.com/holly_cummins/status/530372145025908737
+[capi]: https://docs.python.org/3/extending/index.html
+[celery]: http://www.celeryproject.org/
 [cfriend]: http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-172-performance-engineering-of-software-systems-fall-2010/video-lectures/lecture-8-cache-efficient-algorithms/
+[concurrent]: https://docs.python.org/3/library/concurrent.futures.html
 [cython]: http://cython.org/
+[decimal]: https://docs.python.org/3/library/decimal.html
+[deque]: https://docs.python.org/3.3/library/collections.html#collections.deque
+[distributed]: http://distributed.readthedocs.io/en/latest/
+[mlaw]: https://en.wikipedia.org/wiki/Moore%27s_law
+[mp]: https://docs.python.org/3/library/multiprocessing.html
 [numba]: http://numba.pydata.org/
-[pypy]: http://pypy.org/
-[slots]: https://docs.python.org/3/reference/datamodel.html#slots
 [perfwiki]: https://wiki.python.org/moin/PythonSpeed/PerformanceTips
+[pstats]: https://docs.python.org/3/library/profile.html#module-pstats
+[pyprof]: https://docs.python.org/3/library/profile.html
+[pypy]: http://pypy.org/
+[rec]: http://www.catb.org/esr/writings/taoup/html/ch01s06.html#id2878666
+[slots]: https://docs.python.org/3/reference/datamodel.html#slots
+[spark]: https://spark.apache.org/
 [strace]: https://en.wikipedia.org/wiki/Strace
+[swig]: http://www.swig.org/
+[threading]: https://docs.python.org/3/library/threading.html
+[tspeed]: https://twitter.com/holly_cummins/status/530372145025908737
+[x1]: https://aws.amazon.com/blogs/aws/ec2-instance-update-x1-sap-hana-t2-nano-websites/
+[yslow]: https://yslow.org
+
+{::comment}
+vim: ft=markdown spell
+{:/comment}

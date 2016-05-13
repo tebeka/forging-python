@@ -10,6 +10,7 @@ debugging.md
 deploy.md
 monitor.md
 security.md
+fast.md
 process.md
 time.md
 asking-questions.md
