@@ -56,8 +56,18 @@ and two years to get as fast as I can."
 
 **Youngstar:** Nice!
 
-**Graybeard:** However, sometimes you do need to get things faster. The first
-thing you should do it profile.
+**Graybeard:** Once thing you want to do before optimizing is making sure you
+code works.
+
+**Youngstar:** Doh!
+
+**Graybeard:** You'd be surprised how many times people optimize bugs. Make sure
+you have a good regression/acceptance test before you start. Also spend time
+with the code and understand what it's doing.
+
+**Youngstar:** Makes sense.
+
+**Graybeard:** After you're ready, the first thing you should do is profile.
 
 **Youngstar:** I know about [the Python profilers][pyprof] and [pstats][pstats].
 
@@ -78,10 +88,13 @@ running profilers.
 
 **Youngstar:** Oh! "Lies, damn lies and benchmarks."[^lies]?
 
-**Graybeard:** Exactly.
+**Graybeard:** Exactly. Also note that there are several kind of profilers. You
+usually start with time based ones, but there are event based, memory and other
+profilers out there - know the tools.
 
-**Youngstar:** My system is more complex than just one component. How can I find
-out how much time each part takes?
+**Youngstar:** I'll make sure to have more than a hammer in my toolbox. However,
+my system is more complex than just one component. How can I find out how much
+time each part takes?
 
 **Graybeard:** I tend to use a timing decorator on functions. This decorator
 logs the function execution time and then I can see what's taking time. This
