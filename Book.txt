@@ -14,6 +14,6 @@ fast.md
 process.md
 time.md
 asking-questions.md
-appendix-a.md
+# appendix-a.md
 
 # vim:ft=markdown

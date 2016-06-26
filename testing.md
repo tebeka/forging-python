@@ -133,7 +133,8 @@ conventions, see Raymond Hettinger's talk called [Beyond PEP8][bpep8].
 **Youngstar:** Sounds like a lot of steps. Knowing you, you probably have a
 script to do this.
 
-**Graybeard:** Correct, [I'll mail it over if I remember](#appendix-a).
+**Graybeard:** Correct, I'll mail it over if I remember. But I'm sure you can
+code it yourself.
 
 **Youngstar:** I'll remind you.
 
