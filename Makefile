@@ -1,16 +1,16 @@
 files = Book.txt $(shell cat Book.txt| grep -v '\#')
-sitefiles = $(patsubst %.md,site/%.html,$(files))
+htmlfiles = $(patsubst %.md,html/%.html,$(files))
 email ?= true
 
 prjdir = ~/Dropbox/forging-python
 
 any:
-	$(error Please pick a target: sync, preview, status, view, site or publish)
+	$(error Please pick a target: sync, preview, status, view, html or publish)
 
 sync:
 	rsync \
 	    --exclude .hg --exclude README.md --exclude leanpub.key \
-	    --exclude *.sw[po] --exclude site \
+	    --exclude *.sw[po] --exclude html \
 	    -a . $(prjdir)/manuscript
 
 preview: sync
@@ -26,10 +26,10 @@ view:
 	xdg-open $(prjdir)/preview/forging-python-preview.pdf
 
 
-site/%.html: %.md
-	sed 's/I>/>/' $< | kramdown --template site/book.erb > $@
+html/%.html: %.md
+	sed 's/I>/>/' $< | kramdown --template html/book.erb > $@
 
-site: $(sitefiles)
+html: $(htmlfiles)
 
 publish: sync
 	sleep 10  # Give dropbox time to sync
@@ -41,4 +41,4 @@ publish: sync
 wc:
 	cat $(files) | wc
 
-.PHONY: any preview status view site publish wc
+.PHONY: any preview status view html publish wc
