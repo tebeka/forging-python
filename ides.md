@@ -41,7 +41,7 @@ SSH to a box and start editing. Oh - and you can write Vim scripts in Python.
 
 **Youngstar:** Isn't Vim old?
 
-**Graybeard:** In tech old usually means working.
+**Graybeard:** In tech old usually means working - take me for example.
 
 **Youngstar:** Ha! What's the other editor old developers use? The lispy one?
 
@@ -49,10 +49,9 @@ SSH to a box and start editing. Oh - and you can write Vim scripts in Python.
 
 **Youngstar:** That's the one.
 
-**Graybeard:** Emacs is a text editor that [does
-everything][bf]. It has excellent Python support with
-[python-mode](https://launchpad.net/python-mode) and many core Python developers
-use it.
+**Graybeard:** Emacs is a text editor that [does everything][bf]. It has
+excellent Python support with [python-mode][pymode] and many core Python
+developers use it.
 
 **Youngstar:** Then why don't you use it?
 
@@ -61,7 +60,7 @@ use it.
 **Youngstar:** And something more modern?
 
 **Graybeard:** Before going modern, I'd like to stress that both of these
-editors [take a lot of work to master][lc]. But once you "get" them, both will
+editors [take a lot of work to master][lc]. But once you grok them, both will
 offer you things that most other editors or IDEs will not.
 
 **Youngstar:** Noted, I'll invest some time learning one of them. Maybe emacs
@@ -71,7 +70,7 @@ just to annoy you.
 
 **Youngstar:** Something more modern?
 
-**Graybeard:** I'm seeing a lot of people using [PyCharm][pycharm] from
+**Graybeard:** I'm seeing a lot of people using [PyCharm][pycharm], from
 JetBrains the makers of IntelliJ. There also [PyDev][pydev] which sits on
 top of Eclipse.
 
@@ -101,7 +100,7 @@ support called [PTVS][ptvs].
 **Graybeard:** Some claim that Visual Studio is the best IDE out there, but then
 again - they are using Windows ;)
 
-**Youngstar:** Thank's but I don't think I'll switch to Windows just for that.
+**Youngstar:** Thanks but I don't think I'll switch to Windows just for that.
 
 **Graybeard:** Smart girl.
 
@@ -202,24 +201,25 @@ I>        IntelliJ or Eclipse (which PyCharm and PyDev are based off)
 I> * If you're in a Windows shop, give PTVS a try
 I> * If you're doing a lot of scientific Python - take a look at Spyder
 
-[atom]: http://atom.io/
 [aptana]: http://www.aptana.com/
+[atom]: http://atom.io/
 [bf]: http://xkcd.com/378/
 [edwar]: http://en.wikipedia.org/wiki/Editor_war 
+[edwiki]: https://wiki.python.org/moin/PythonEditors
 [emacs]: http://www.gnu.org/software/emacs/
+[flake8]: https://flake8.readthedocs.org/en/latest/
+[idewiki]: https://wiki.python.org/moin/IntegratedDevelopmentEnvironments
 [lc]: http://www.terminally-incoherent.com/blog/wp-content/uploads/2006/08/curves.jpg
 [ptvs]: http://microsoft.github.io/PTVS/
 [pycharm]: https://www.jetbrains.com/pycharm/
 [pydev]: http://www.pydev.org/
-[vim]: http://www.vim.org/
-[vs]: https://www.visualstudio.com/
+[pymode]: https://launchpad.net/python-mode
 [spyder]: https://github.com/spyder-ide/spyder
 [sublime]: http://www.sublimetext.com/
-[edwiki]: https://wiki.python.org/moin/PythonEditors
-[idewiki]: https://wiki.python.org/moin/IntegratedDevelopmentEnvironments
-[vimide]: http://unlogic.co.uk/2013/02/08/vim-as-a-python-ide/
-[flake8]: https://flake8.readthedocs.org/en/latest/
 [vim8]: https://github.com/nvie/vim-flake8
+[vim]: http://www.vim.org/
+[vimide]: http://unlogic.co.uk/2013/02/08/vim-as-a-python-ide/
+[vs]: https://www.visualstudio.com/
 
 [^ide]: Integrated Development Environment
 
