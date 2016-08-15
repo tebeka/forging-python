@@ -93,8 +93,8 @@ if some_complex_condition():
     from IPython.core.debugger import Pdb; Pdb().set_trace()
 ```
 
-**Youngstar:** And you make sure this is not left with the code in your [test
-script](#appendix-a).
+**Youngstar:** And you make sure this is not left with the code in your test
+script.
 
 **Graybeard:** Exactly.
 

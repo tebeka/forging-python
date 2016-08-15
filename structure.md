@@ -62,7 +62,7 @@ GrayBeard draws the following diagram on a napkin:
     archer
     ├── README.md
     ├── Makefile
-    ├── runtests.py
+    ├── run_tests.py
     ├── requirements.txt
     ├── archer
     │   └── __init__.py
@@ -95,7 +95,7 @@ Markdown, pick one and stick to it.
 
 **Graybeard:** What else? Oh, I usually have a main `Makefile` to automate some
 tasks, `requirements.txt` to specify external requirments. And *one* script to
-run all the tests. We'll discuss what's in `requirements.txt` and `runtests.py`
+run all the tests. We'll discuss what's in `requirements.txt` and `run_tests.py`
 when we talk about dependencies and testing.
 
 **Youngstar:** OK, I'll try to remind you - considering your one bit memory.
