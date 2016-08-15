@@ -17,7 +17,7 @@ if *writing* Python code and getting peer reviewed.
 
 ### The Python Tutorial
 If you already know how to program, 
-[The Python Tutorial](https://docs.python.org/2/tutorial/) from the official
+[The Python Tutorial](https://docs.python.org/3/tutorial/) from the official
 Python site is an excellent introduction to the language. It covers many topics
 with good idiomatic examples.
 
