@@ -1,4 +1,5 @@
 intro.md
+good-code.md
 distros.md
 ides.md
 structure.md
