@@ -13,7 +13,3 @@
 * supervisor & restarts in deploy.md
     * crash only software
 * https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing#The_fallacies
-* good-code.md
-    * naming
-    * how to write unmaintainable code
-    * coherent model

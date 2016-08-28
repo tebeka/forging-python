@@ -41,7 +41,7 @@ thing you can do to your code is to stop writing it the first time it works.".
 Also Fred Brooks said: "plan to throw one away; you will, anyhow." Which means
 it'll happen any way.
 
-**Youngstar:** Is this from [The Mytical Man Month][tmmm]? It's old.
+**Youngstar:** Is this from [The Mytical Man Month][tmmm]? That's an old book.
 
 **Graybeard:** It's old but about people, and people haven't changed that much
 since it was written.
@@ -75,6 +75,16 @@ their code. You might even find a good mentor.
 **Youngstar:** You keep telling yourself that. Anything else about writing good
 code.
 
+**Graybeard:** Read bad code.
+
+**Youngstar:** Learn from other people mistakes?
+
+**Graybeard:** Yes, but also look out for things you do. From time to time I go
+and read ["How to Write Unmaintainable Code"][unmaintain] and try to see if I do
+anything they say there in my code.
+
+**Youngstar:** OK, will pay it a visit. What else?
+
 **Graybeard:** What code does not have any bugs?
 
 **Youngstar:** Eh... none?
@@ -102,7 +112,7 @@ third-party packages.
 
 **Graybeard:** Also, a lot of times after awhile and due to specification
 changes - you have code that does nothing. Make sure to delete it. One of my
-most productive days was delete few thousand lines of unused code.
+most productive days was deleting few thousand lines of unused code.
 
 **Youngstar:** How did that happen?
 
@@ -162,8 +172,41 @@ Python etc... But you need to learn how to properly speak the language.
 
 **Youngstar:** OK, will do. Any other advice?
 
-**Graybeard:** I think this is mostly it. With time and practice you'll get it.
-Note that everyone has their own style - which is OK.
+**Graybeard:** The most important thing is to have a good mental mode of what
+you do. You'll have people talking about building an [ontology][ontology], which
+means figuring out how to talk about things.
+
+**Youngstar:** The ["two hard things..."][two]?
+
+**Graybeard:** Naming is important, especially in Python which is untyped.
+
+**Youngstar:** It's also hard to get right.
+
+**Graybeard:** Yeah, it usually takes me a couple of iterations until I get
+names right. A red flag are generic names like "object", "other", ...
+
+But back to ontology, it's important to define what "things" are. At a place I
+worked we got a bug report that we count unique users wrong. The code seems OK
+so my boss went to talk to people. Turned out we had four different definitions
+of "unique users" in the company.
+
+**Youngstar:** Ouch. I see what you mean - it start before you code.
+
+**Graybeard:** Sometimes things emerge as you write the code, then you need to
+revise your model.
+
+**Youngstar:** OK, will do. Anything else?
+
+**Graybeard:** There are may rules to follow - DRY[^dry], SPOT[^spot],
+minimizing coupling ... You'll find them as you go.
+
+**Youngstar:** Any reference?
+
+**Graybeard:** There good summary in ["The Art of Unix Programming"][taoup], and
+may [other][prin-good] other places.
+
+One trick you can do is see if you can understand your code [without the
+comments][uncomment].
 
 **Youngstar:** OK. I'll practice and read. More beer?
 
@@ -171,24 +214,33 @@ Note that everyone has their own style - which is OK.
 
 
 I> ## TL;DR
+I> * Have a good mental model
 I> * Aim for readability
 I> * Don't stop writing the first time the code works
 I> * Read other people's code
 I> * Find a mentor
 I> * Learn how to speak the language
 
+[^dry]: Do not repeat yourself
 [^kiss]: Keep it simple, Stupid.
-[sketch]: http://www.paulgraham.com/hp.html
-[spell]: http://norvig.com/spell-correct.html
-[tmmm]: https://en.wikipedia.org/wiki/The_Mythical_Man-Month
+[^spot]: Single point of truth
 [asoa]: http://aosabook.org/en/index.html
 [bdb]: http://aosabook.org/en/bdb.html
-[enemy]: http://www.skrenta.com/2007/05/code_is_our_enemy.html
-[xlrd]: https://pypi.python.org/pypi/xlrd
 [csv]: https://docs.python.org/3/library/csv.html
+[enemy]: http://www.skrenta.com/2007/05/code_is_our_enemy.html
 [monad]: https://wiki.haskell.org/Monad
+[ontology]: https://en.wikipedia.org/wiki/Ontology
+[prin-good]: http://www.artima.com/weblogs/viewpost.jsp?thread=331531
+[sketch]: http://www.paulgraham.com/hp.html
+[spell]: http://norvig.com/spell-correct.html
+[taoup]: http://www.catb.org/esr/writings/taoup/html/ch01s06.html
 [tdd-dead]: http://lmgtfy.com/?q=tdd+is+dead
 [tdd]: https://en.wikipedia.org/wiki/Test-driven_development
+[tmmm]: https://en.wikipedia.org/wiki/The_Mythical_Man-Month
+[two]: http://martinfowler.com/bliki/TwoHardThings.html 
+[uncomment]: http://bit.ly/2bu1ZGt
+[unmaintain]: http://mindprod.com/jgloss/unmain.html
+[xlrd]: https://pypi.python.org/pypi/xlrd
 [zen]: https://www.python.org/dev/peps/pep-0020/
 
 {::comment}
