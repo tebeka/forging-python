@@ -9,6 +9,7 @@ forgot.
 * Lior Rudnik
 * Ran Tavory
 * Shay Priel
+* Shmuel Amar
 * Udi Oron
 * Venkata Krishnan. V
 * Yaki Tebeka
