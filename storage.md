@@ -143,8 +143,8 @@ perform. After that you start modeling the data.
 
 Thinking and designing your data layer is very important. In "[The Mythical
 Man-Month][tmm]" Fred Brooks says: "Show me your flowcharts and conceal your
-tables, and I shall continue to be mystified. Show me your tables, and I won’t
-usually need your flowcharts; they’ll be obvious."
+tables, and I shall continue to be mystified. Show me your tables, and I won't
+usually need your flowcharts; they'll be obvious."
 
 **Youngstar:** flowcharts?
 
