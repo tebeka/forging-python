@@ -119,7 +119,7 @@ most productive days was deleting few thousand lines of unused code.
 **Graybeard:** Specification changes, libraries came about that did the same
 work ...
 
-**Youngstar:** I start see what you man by "code is our enemy". What else?
+**Youngstar:** I start to see what you mean by "code is our enemy". What else?
 
 **Graybeard:** Keep your functions short and with small number of parameters. A
 good rule of thumb is no more than forty lines of code per function.
