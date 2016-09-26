@@ -146,7 +146,7 @@ not just money but also reputation. Then prioritize and protect.
 
 **Youngstar:** Secrets? I don't have any.
 
-**Graybeard:** Sure you do. You're email password, keys to your hosting provider
+**Graybeard:** Sure you do. Your email password, keys to your hosting provider
 and more.
 
 **Youngstar:** Oh these, what about them?
