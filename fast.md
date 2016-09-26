@@ -23,7 +23,7 @@ became busy. I think I need to rewrite some of my modules in C.
 
 **Youngstar:** That one I get, but why avoid optimization?
 
-**Graybeard:** Because there are some many better ways to make things run faster
+**Graybeard:** Because there are so many better ways to make things run faster
 than writing code which is hard to understand and maintain.
 
 **Youngstar:** Do tell.
@@ -56,7 +56,7 @@ and two years to get as fast as I can."
 
 **Youngstar:** Nice!
 
-**Graybeard:** Once thing you want to do before optimizing is making sure you
+**Graybeard:** One thing you want to do before optimizing is making sure your
 code works.
 
 **Youngstar:** Doh!
