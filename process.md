@@ -101,7 +101,7 @@ scrum, code reviews and retrospectives.
 **Youngstar:** Sprint planning is where you decide on what to do this sprint?
 
 **Graybeard:** Yes. It depends on the length of the sprint, I like one week
-springs.
+sprint.
 
 **Youngstar:** Do you leave spare time to unknowns?
 
@@ -269,7 +269,7 @@ be fun... This reminds of another book.
 
 **Graybeard:** Exactly. It's an excellent read. You reminded me of it by talking
 about fun. In this book they talk how many companies don't calculate the price
-of replacing an employee - with is very high.
+of replacing an employee - which is very high.
 
 **Youngstar:** Recruiting, training ...
 
@@ -292,7 +292,7 @@ new process. Show them this (draws on a napkin)
 **Graybeard:** Note that process is procedure. You've succeeded once it becomes
 culture. Peter Drucker said "Culture Eats Strategy For Breakfast." When people
 come to standup because this is the way we communicate and not because the boss told
-them - that when you win.
+them - that's when you win.
 
 **Youngstar:** Interesting ... This also affects hiring.
 
