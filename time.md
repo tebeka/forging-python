@@ -195,7 +195,7 @@ early. Say 4pm.
 focus like nobody's business. I've seen many people doing long hours and hardly
 working.
 
-Anther good thing of short work days is it lets you charge. People get "burned"
+Another good thing of short work days is it lets you charge. People get "burned"
 when doing long hours.
 
 **Youngstar:** I can feel it, seems like my productivity isn't what it used to
