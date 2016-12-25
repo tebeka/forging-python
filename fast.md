@@ -36,7 +36,7 @@ you should ask is not "Can I make it faster?" but "Is it fast enough?".
 **Graybeard:** This is an excellent question, and a lot of companies are not
 asking it. Try to extract number from the product manager/business people. They
 need to understand that you'll build a totally different system if they need
-minutes or milliseconds.
+minutes or milliseconds response time.
 
 **Youngstar:** Minutes?
 
@@ -131,8 +131,8 @@ computer is a data center.".
 **Youngstar:** Oh, I need one of these.
 
 **Graybeard:** I sometime joke that the hardest part of my consulting gig is to
-convince people they don't need "big data" solution. Amazon is about to offer
-[instances with two terabyte of memory][x1].
+convince people they don't need "big data" solution. You can rent an 
+[instances with two terabyte of memory][x1] on AWS.
 
 **Youngstar:** Two terabyte? Wow!
 
@@ -210,8 +210,8 @@ There are some less painful options.
 
 **Youngstar:** [Cython][cython]?
 
-**Graybeard:** That's on popular option. There's also [numba][numba] which is a
-JIT compiler who also can shed work to the GPU, and you can use alternative
+**Graybeard:** That's one popular option. There's also [numba][numba] which is
+a JIT compiler who also can shed work to the GPU, and you can use alternative
 Python implementation such as [pypy][pypy].
 
 **Youngstar:** Hold on, you told me not to use pypy.
@@ -313,7 +313,7 @@ I> * Don't expect miracles, small steps will get you there
 [swig]: http://www.swig.org/
 [threading]: https://docs.python.org/3/library/threading.html
 [tspeed]: https://twitter.com/holly_cummins/status/530372145025908737
-[x1]: https://aws.amazon.com/blogs/aws/ec2-instance-update-x1-sap-hana-t2-nano-websites/
+[x1]: https://aws.amazon.com/ec2/instance-types/x1/
 [yslow]: https://yslow.org
 
 {::comment}

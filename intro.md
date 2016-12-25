@@ -39,8 +39,7 @@ great examples that a woman can make it in high tech.
 **Graybeard:** I think it was just when I was leaving that company to start
 freelancing. And you just arrived, still wet behind the ears.
 
-**Youngstar:** Yeah, I think we had about a month together before you left. Man
-those were big shoes to fill!
+**Youngstar:** Yeah, I think we had about a month together before you left. Man...  those were big shoes to fill!
 
 **Graybeard:** I hope the smell wasn't that bad.
 
@@ -74,8 +73,7 @@ things we talked about apply to other things as well.
 
 **Youngstar:** I agree. Well, that's about the time we have for the
 introduction. The attention span of the average reader nowadays is pretty low.
-Hope you'll have as much fun reading the book as we had in those drinking
-meeting.
+We hope you'll have as much fun reading the book as we had in those meeting.
 
 **Graybeard:** Cheers!
 
