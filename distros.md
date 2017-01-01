@@ -33,7 +33,7 @@ What else?
 **Graybeard:** Yes, a good ecosystem. Audry Tang said that "perl5 is just
 syntax; CPAN is the language". I believe this is true for Python as well.
 
-**Youngstar:** CPAN is Perl's [pypi][pypi]?
+**Youngstar:** CPAN is Perl's [PyPI][pypi]?
 
 **Graybeard:** Yes. What other reasons do you have for choosing Python?
 
@@ -104,7 +104,7 @@ reports. However it'll do for now. Looks like Python is a good fit for you.
 **Youngstar:** What a surprise...
 
 **Graybeard:** Huh! Now let's try to see which Python. What Python distributions
-do you know.
+do you know?
 
 **Youngstar:** There's [CPython][cpy], [Jython][jpy], [IronPython][irpy],
 [PyPy][pypy] and now I know of [MicroPython][mp]. Oh and there's the subject of
@@ -231,7 +231,7 @@ I>     * Or if you're in a Java shop and want to sneak Python in the back door
 I>       ;)
 I> * Similarly, choose [IronPyton][irpy] if you need
 I>   interaction with .NET
-I> * Choose [pypy][pypy] if you need some speed and love living on the edge
+I> * Choose [PyPy][pypy] if you need some speed and love living on the edge
 I> * Use [Anaconda][ana] distribution if you use a lot of scientific Python
 I>   packages
 
@@ -251,7 +251,3 @@ I>   packages
 [pypi]: https://pypi.python.org/
 [pypy]: http://pypy.org/
 [sp]: https://python3wos.appspot.com/
-
-{::comment}
-vim: ft=markdown spell
-{:/comment}

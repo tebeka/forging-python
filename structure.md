@@ -40,7 +40,8 @@ broken.
 
 **Youngstar:** Why shouldn't they?
 
-**Graybeard:** Ask github who had [a few hours of downtime][down] a while back. The cause was tests deleting the production database.
+**Graybeard:** Ask github who had [a few hours of downtime][down] a while back.
+The cause was tests deleting the production database.
 
 **Youngstar:** Ouch!
 
@@ -73,7 +74,7 @@ GrayBeard draws the following diagram on a napkin:
 **Graybeard:** Let's go over this. The top `archer` directory is your project -
 the one you clone from source control.
 
-The second `archer` directory is your Python package where the code is.  `tests`
+The second `archer` directory is your Python package where the code is. `tests`
 are *outside* of the code so they won't get deployed.
 
 **Youngstar:** And the rest of the files?
@@ -108,7 +109,7 @@ you start with it.
 
 **Youngstar:** Anything else?
 
-**Graybeard:** Yes, don't overthink this and spend too much on it. Start with
+**Graybeard:** Yes, don't over think this and spend too much on it. Start with
 something and only if it becomes a problem fix it.
 
 **Youngstar:** That's advice you give for many things.
@@ -197,7 +198,3 @@ I>    * But only if you need to
 [md]: https://daringfireball.net/projects/markdown/
 [rst]: http://docutils.sourceforge.net/rst.html
 [sph]: http://www.sphinx-doc.org/en/stable/
-
-{::comment}
-vim: ft=markdown spell
-{:/comment}

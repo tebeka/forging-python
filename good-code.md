@@ -38,10 +38,12 @@ not writing it.
 **Graybeard:** I don't think you can afford not to. As someone said: "The worst
 thing you can do to your code is to stop writing it the first time it works.".
 
+%% FIXME: Find quote
+
 Also Fred Brooks said: "plan to throw one away; you will, anyhow." Which means
 it'll happen any way.
 
-**Youngstar:** Is this from [The Mytical Man Month][tmmm]? That's an old book.
+**Youngstar:** Is this from [The Mythical Man Month][tmmm]? That's an old book.
 
 **Graybeard:** It's old but about people, and people haven't changed that much
 since it was written.
@@ -54,7 +56,7 @@ what else will help me write good code?
 **Youngstar:** Where will I find that? I know where to find bad code - it's
 everywhere.
 
-**Graybeard:** No everywhere. There are few places, where you can see amazing
+**Graybeard:** Not everywhere. There are a few places where you can see amazing
 code. For example, almost everything written by Peter Norvig.
 
 **Youngstar:** Yes, I've seen his [spell checker][spell], it's awesome!
@@ -126,8 +128,9 @@ good rule of thumb is no more than forty lines of code per function.
 
 **Youngstar:** Forty? Doesn't seem much.
 
-**Graybeard:** It not a law of nature, but it'll make you code nicer. It'll make
-you *think* on small pieces of code which are easier to understand and maintain.
+**Graybeard:** It not a law of nature, but it'll make your code nicer. It'll
+make you *think* on small pieces of code which are easier to understand and
+maintain.
 
 **Youngstar:** Also avoid globals?
 
@@ -137,7 +140,8 @@ you can't avoid state, [no matter how hard you try][monad].
 **Youngstar:** Sometimes [TDD][tdd] helps with that.
 
 **Graybeard:** Yes, especially when you start out. It forces you to write small
-pieces of code that are easy to test. However Google for ["TDD is dead"][tdd-dead] for some interesting discussion about TDD.
+pieces of code that are easy to test. However Google for ["TDD is
+dead"][tdd-dead] for some interesting discussion about TDD.
 
 **Youngstar:** OK. Any more?
 
@@ -153,7 +157,7 @@ output was "The vodka is good but the mean is rotten."
 
 **Youngstar:** Ha! Not that bad.
 
-**Graybeard:** The secret is in starting with low expectations.
+**Graybeard:** The secret is starting with low expectations.
 
 **Youngstar:** OK, and how is this related to what we're talking about?
 
@@ -242,7 +246,3 @@ I> * Learn how to speak the language
 [unmaintain]: http://mindprod.com/jgloss/unmain.html
 [xlrd]: https://pypi.python.org/pypi/xlrd
 [zen]: https://www.python.org/dev/peps/pep-0020/
-
-{::comment}
-vim: ft=markdown spell
-{:/comment}

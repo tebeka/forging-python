@@ -34,8 +34,8 @@ war][edwar] sometime.
 editing mode. However once you've mastered Vim you'll be super productive with
 it not just in Python but with almost any other language. Vim itself is pretty
 bare-bones editor, but it has a rich plugin ecosystem which can transform it to
-a powerful IDE. One of the main advantages (at least for backend developers like
-me) is that on most Unix like systems - it's already there. Vim can work in
+a powerful IDE. One of the main advantages, at least for backend developers like
+me, is that on most Unix like systems - it's already there. Vim can work in
 "terminal mode" which does not require a windowing system. This means you can
 SSH to a box and start editing. Oh - and you can write Vim scripts in Python.
 
@@ -66,7 +66,7 @@ offer you things that most other editors or IDEs will not.
 **Youngstar:** Noted, I'll invest some time learning one of them. Maybe emacs
 just to annoy you.
 
-**Graybeard:** I never get annoyed by stupid editors people pick.
+**Graybeard:** I never get annoyed by the stupid editors people pick.
 
 **Youngstar:** Something more modern?
 
@@ -112,7 +112,8 @@ again - they are using Windows ;)
 
 **Graybeard:** There are so many.
 
-[Spyder][spyder] is good you're doing a lot of scientific Python or coming from Matlab. It's not as polished but fits better with scientific development.
+[Spyder][spyder] is good you're doing a lot of scientific Python or coming from
+Matlab. It's not as polished but fits better with scientific development.
 
 There are also [Atom][atom], [Sublime][sublime], and many other good editors out
 there with Python support. There are Wiki pages for both [Editors Wiki][edwiki]
@@ -222,7 +223,3 @@ I> * If you're doing a lot of scientific Python - take a look at Spyder
 [vs]: https://www.visualstudio.com/
 
 [^ide]: Integrated Development Environment
-
-{::comment}
-vim: ft=markdown spell
-{:/comment}

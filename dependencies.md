@@ -10,8 +10,8 @@
 
 **Youngstar:** I was updating some packages ...
 
-**Graybeard:** and one of the new versions had a regression bug and it took you
-all day to figure it out.
+**Graybeard:** ... and one of the new versions had a regression bug and it took
+you all day to figure it out.
 
 **Youngstar:** What do you know? I'm not that special after all.
 
@@ -19,8 +19,8 @@ all day to figure it out.
 
 **Youngstar:** Funny! So how can I avoid bugs like this in the future.
 
-**Graybeard:** Congrats, you know that the best way to solve a bug is to make
-sure that it's impossible to introduce such bugs in the future.
+**Graybeard:** You know that the best way to solve a bug is to make sure that
+it's impossible to introduce such bugs in the future.
 
 **Youngstar:** Yeah, forgot who taught me that ...
 
@@ -119,11 +119,11 @@ new packages, you might break system scripts.
 
 **Youngstar:** One more reason to use virtual environments.
 
-**Graybeard:** Yup. Now what happens if [pypi][pypi] is down when you deploy?
+**Graybeard:** Yup. Now what happens if [PyPI][pypi] is down when you deploy?
 
 **Youngstar:** I'm pretty much screwed, but how can I overcome this?
 
-**Graybeard:** In some cases it might be OK to wait for pypi to get back it.
+**Graybeard:** In some cases it might be OK to wait for PyPI to get back up.
 It's has been more stable in recent years. If you need to deploy no matter what,
 then you need to pre build your dependencies and tell `pip` to install it from your
 servers.
