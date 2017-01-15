@@ -95,9 +95,9 @@ Markdown, pick one and stick to it.
 **Youngstar:** Markdown it is then.
 
 **Graybeard:** What else? Oh, I usually have a main `Makefile` to automate some
-tasks, `requirements.txt` to specify external requirments. And *one* script to
-run all the tests. We'll discuss what's in `requirements.txt` and `run_tests.py`
-when we talk about dependencies and testing.
+tasks, `requirements.txt` to specify external requirements. And *one* script to
+run all the tests. We'll discuss what's in `requirements.txt` and
+`run_tests.py` when we talk about dependencies and testing.
 
 **Youngstar:** OK, I'll try to remind you - considering your one bit memory.
 

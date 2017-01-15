@@ -34,7 +34,7 @@ it's impossible to introduce such bugs in the future.
 install -r requirements.txt` to install them.
 
 **Graybeard:** You know you can specify a specific version using `==`. For
-example `requests==2.9.1`
+example `requests==2.12.4`
 
 **Youngstar:** I didn't know that. But why would you do that - you won't get all
 the bug fixes ... Doh!
@@ -124,9 +124,9 @@ new packages, you might break system scripts.
 **Youngstar:** I'm pretty much screwed, but how can I overcome this?
 
 **Graybeard:** In some cases it might be OK to wait for PyPI to get back up.
-It's has been more stable in recent years. If you need to deploy no matter what,
-then you need to pre build your dependencies and tell `pip` to install it from your
-servers.
+It's has been more stable in recent years. If you need to deploy no matter
+what, then you need to pre build your dependencies and tell `pip` to install it
+from your servers.
 
 **Youngstar:** `pip` can do that?
 
@@ -146,7 +146,7 @@ libraries and header files. Some libraries require a Fortran compiler.
 
 **Youngstar:** Fortran?
 
-**Graybeard:** Yes, sometimes a Fortran compiler can do better optimization
+**Graybeard:** Yes, in some cases a Fortran compiler can do better optimization
 than a C compiler.
 
 **Youngstar:** How do people on the Windows world find a C compiler?
