@@ -24,8 +24,7 @@ MySQL.
 **Youngstar:** OK. Now that we clarified this issue, can we get back to my
 initial question?
 
-**Graybeard:** I don't think I know enough about your data to give you a good
-answer.
+**Graybeard:** I know enough about your data to give you a good answer.
 
 **Youngstar:** Currently I don't have much data. Some user information, some
 session data.  Things are very much in flux so it's hard to know.
@@ -213,7 +212,7 @@ Art of Unix Programming][taoup] Eric Raymond says the rule of Economy is:
 "Programmer time is expensive; conserve it in preference to machine time." This
 is true in most cases, whenever you can save developer time - do it.
 
-This is also why people like [Google App Engine][gae], zero ops.
+This is also why people like [Google App Engine][gae] - zero ops.
 
 **Youngstar:** I have to say now I'm totally confused.
 

@@ -20,4 +20,7 @@ process.md
 time.md
 asking-questions.md
 
+backmatter.md
+thanks.md
+
 # vim:ft=markdown
