@@ -22,6 +22,6 @@ Comments, [bugs](https://github.com/tebeka/forging-python/issues) and pull
 requests are more than welcomed.
 
 ---
-Copyright &copy; 2016 Miki Tebeka
+Copyright &copy; 2016-2017 Miki Tebeka
 
 [md]: https://leanpub.com/help/manual#leanpub-auto-markdown-the-easiest-way-to-format-your-text-for-e-publishing
