@@ -1,3 +1,7 @@
+frontmatter.md
+dedication.md
+
+mainmatter.md
 intro.md
 good-code.md
 distros.md
