@@ -174,7 +174,7 @@ The second thing is that most Python's SQL database drivers support accessing
 columns by name and not just by index. Accessing by index is both less readable
 and prone to error, someone changes the SQL query and suddenly `row[2]` is not
 the column you want. For example in [sqlite3][sq3] you need to set the
-connection `row_factroy` attribute to `sqlite3.Row` and then each column can be
+connection `row_factory` attribute to `sqlite3.Row` and then each column can be
 accessed both by position and by name.
 
 **Youngstar:** OK, I'll remember these. Now what about backup? How often to I

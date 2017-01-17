@@ -170,7 +170,7 @@ I> * *Understand* the bug before you fix it
 I> * Know how to work a debugger. Both from IDE and command line
 I> * When fixing a bug try to make sure these kind of bugs won't happen again
 I> * Use logs, err on the TMI side
-I> * Use automation to make sure debugging code don't get to the source tree
+I> * Use automation to make sure debugging code doesn't get to the source tree
 I> * Give your subconscious time to work
 
 [bp]: https://xkcd.com/323/

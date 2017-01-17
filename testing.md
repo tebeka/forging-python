@@ -17,7 +17,7 @@
 tests?
 
 **Graybeard:** Tests that guard against exactly what happened to you - that
-new changes didn't brake anything old. There are many kinds of tests and this is
+new changes didn't break anything old. There are many kinds of tests and this is
 an important one. 
 
 **Youngstar:** So I should do more regression testing?
