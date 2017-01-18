@@ -27,7 +27,9 @@ view:
 
 
 html/%.html: %.md
-	sed 's/I>/>/' $< | sed 's/^%%.*//' | kramdown --template html/book.erb > $@
+	sed 's/^[IC]>/>/' $< | \
+	sed 's/^%%.*//' | \
+	kramdown --template html/book.erb > $@
 
 html: $(htmlfiles)
 

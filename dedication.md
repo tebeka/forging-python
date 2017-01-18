@@ -1,3 +1,5 @@
 # Dedication
 
-To Adi & Shira. Who are young and their star shines ever so brightly.
+C> To Adi & Shira. 
+
+C> Who are young and their stars shine ever so brightly.
