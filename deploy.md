@@ -125,8 +125,8 @@ old format and some working with the new format.
 
 **Youngstar:** You can make breaking changes in NoSQL.
 
-**Graybeard:** That you can, but it's sometimes easier. You pay in other areas,
-pick your poison.
+**Graybeard:** That you can, but it's sometimes easier. However you pay in
+other areas, like lack of transactions. Pick your poison...
 
 **Youngstar:** OK. I'll think about what the data and try to automate the
 deployment as much as possible.
@@ -235,6 +235,8 @@ before my head explodes?
 **Graybeard:** I usually start with GAE which is zero ops and once things start
 to heat up - I look into other platform. Or stay in GAE if it gives me all that
 I need.
+
+Oh, and no deploys close to weekends or vacations.
 
 **Youngstar:** OK. I'll take a good look at my architecture and see if it can
 fit in one of the no-ops hosting. And now that beer please.

@@ -4,10 +4,11 @@
 > 
 >   *- General Robert H. Barrow*
 
-**Youngstar:** I now have two environment where the code run. We have a
+**Youngstar:** I now have two environments where the code run. We have a
 production environment but we also have a QA environment. I have an 
 `if env == 'PROD':`  in my code but I'm not to happy about it. I also remember
-you once said I should try to minimize `if` in my code. How would you handle it.
+you once said I should try to minimize `if` in my code. How would you handle
+it.
 
 **Graybeard:** What makes you think you have only two environment?
 
@@ -49,44 +50,20 @@ there's something even simpler.
 The only way it'll be simple if the configuration will already be in Python ...
 Oh - so I'll use Python.
 
-**Graybeard:** Yes. I usually use a system where I have `config.py` and just
-import it. Having said that, a YAML (or other format) based system is good as
-well. But start the simplest way you can.
+**Graybeard:** Yes. I usually start with a system where I have `config.py` and
+just import it. Having said that, a YAML (or other format) based system is good
+as well. But start the simplest way you can.
 
 **Youngstar:** But then how do I get a different configuration per system?
 
-**Graybeard:** You have a _overrides_ file where you place values per system,
-something like this in `config.py` (Graybeard write on a napkin)
+**Graybeard:** You can have an _overrides_ file where you place values per
+system, or use environment variables. Then I have a system that reads the
+overrides and update `config.py`.
 
-```python
-# config.py
-
-db_host = 'localhost'
-db_port = 8000
-
-try:
-    from config_local import *  # noqa
-except ImportError:
-    pass
-```
-
-**Youngstar:** What's `# noqa`?
-
-**Graybeard:** Oh, a force of habit. Most linters consider `import *` as an
-error. `# noqa` tells `flake8` to ignore this line. We talked about `flake8` a
-while ago when we talked about testing.
-
-**Youngstar:** Yeah I remember. So in your system if there is a
-`config_local.py` next to the file everything written there will override what's
-in `config.py`
-
-**Graybeard:** In the import path, not just next to `config.py`
-
-**Youngstar:** Yeah, and I see where you can use `PYTHONPATH` to get different
-`config_local.py` per environment.
+**Youngstar** How do you manager these override files?
 
 **Graybeard:** Yes. In most cases the deployment system, say [Ansible][ansible],
-will generate `config_local.py` based on the environment.
+will generate one based on the environment.
 
 **Youngstar:** And I guess the default in `config.py` should be for local
 development environment?
@@ -96,7 +73,9 @@ development environment?
 **Youngstar:** This system looks good enough to my usage, anything else?
 
 **Graybeard:** There are many ways to do configuration, and you should pick the
-one that fits your case. We talked about overrides, the usual order is default < configuration < environment variables < command line switches. You can use something like [ChainMap][chmap] for this.
+one that fits your case. We talked about overrides, the usual order is default
+< configuration < environment variables < command line switches. You can use
+something like [ChainMap][chmap] for this.
 
 **Youngstar:** OK. I guess adding command line support helps in quickly testing
 other systems.
@@ -116,8 +95,8 @@ complexity where there are more tests.
 
 **Youngstar:** What about storing configuration in a server?
 
-**Graybeard:** People do that as well, they use systems like [ZooKeeper][zk],
-[Consul][consul] and others for this.
+**Graybeard:** People do that as well, they use systems like [Consul][consul],
+[etcd][etcd], [ZooKeeper][zk] and others.
 
 **Youngstar:** Then you need just to know where the configuration server is.
 
@@ -133,13 +112,8 @@ environment variables.
 
 **Graybeard:** Read [the 12 factor app][ttfa] and see.
 
-**Youngstar:** Yay, more reading.
-
-**Graybeard:** As we said, the IT automation system (Ansible, docker ...) can
-generate fixed values. The database host will have the same name (say `elastic`)
-and the IP will change from system to system. 
-
-**Youngstar:** I am just using [fabric][fabric], should I switch to Ansible?
+**Youngstar:** Yay, more reading. By the way: I am using [fabric][fabric],
+should I switch to Ansible?
 
 **Graybeard:** Depends on the complexity of your deployment. fabric is very
 simple so it usually start there and switch to something more complex only when
@@ -162,20 +136,26 @@ when I need to.
 
 **Youngstar:** That's right. Anything else I should know regarding configuration?
 
-**Graybeard:** If you look at the code I wrote, only `db_host` and `db_port` are
-defined. But in some cases you'll need a URI, something like
-`pgsql://<db_host>:<db_port>`. Instead of having everyone constructing this URI
-themselves you can add a line `db_uri = 'pgsql://%s:%s' % (db_host, db_port)`
-*after* the import from `config_local`.
+**Graybeard:** Sometime you compose configuration values from other
+configuration values. Make sure to do that *after* you read the overrides. When
+I get there I usually add an `init` function to the configuration system and
+call it when the program starts.
 
-**Youngstar:** What if I want a totally different URI? Say add my own user and
-password?
+**Youngstar** Why not do it automatically on import?
 
-**Graybeard:** There's no end to where you can go with this. I usually find out
-these edge cases are not worth the trouble of supporting them. Sometimes I have
-a utility function `db_uri` which will generate the URI and it can be as complex
-as you want. But there will also be an edge case where you configuration system
-falls short. As long as it supports the majority of cases - you're fine.
+**Graybeard** You tell me.
+
+**Youngstar** Since I don't control the order of imports. Some module I import
+can import the configuration as well.
+
+**Graybeard** Also as the Zen says: "Explicit is better than implicit."
+
+**Youngstar:** Good old Tim, he knew what he was talking about. Anything else?
+
+**Graybeard:** Configuration can get very tricky, fight hard to keep it simple
+so you won't end up with a very complex set of rules. There will also be an
+edge case where you configuration system falls short. As long as it supports
+the majority of cases - you're fine.
 
 **Youngstar:** As usual, simple things go very deep with you.
 
@@ -200,13 +180,15 @@ I> * Learn about the various solutions out there and what people do, then adapt
 I>   to your system what works.
 I> * Give more than one way to specify configuration. Usually we have default <
 I>   configuration file < environment variables < command line switches
-I> * Make sure "secrets" are protected in your configuration system
+I> * Make sure "secrets" are protected in your configuration system and not
+I>   check into source control
 
 [ansible]: http://www.ansible.com/
 [chmap]: https://docs.python.org/3/library/collections.html#collections.ChainMap
 [consul]: https://www.consul.io/
 [docker]: https://www.docker.com/
 [dc]: https://docs.docker.com/compose/
+[etcd]: https://coreos.com/etcd/docs/latest/
 [fabric]: http://www.fabfile.org/
 [kb]: http://kubernetes.io/
 [ttfa]: http://12factor.net/

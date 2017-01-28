@@ -104,8 +104,8 @@ at `not urgent/important` area. If you find you spend most of your time in
 **Youngstar:** Funny! I guess I'll move "[Blink][blink]" to the top of my
 reading list.
 
-**Graybeard:** Nice prioritizing! Two common mistakes people do is not to follow
-their priorities and forgetting to prioritize things outside work.
+**Graybeard:** Nice prioritizing! Two common mistakes people do is not to
+follow their priorities and forgetting to prioritize things outside work.
 
 **Youngstar:** My boyfriend has been complaining I work too much.
 
@@ -119,7 +119,8 @@ more time at the office".
 **Youngstar:** I guess they didn't achieve much in their life either.
 
 **Graybeard:** Oh, you'll find lazy people accomplish a lot. According to Larry
-Wall the tree great virtues of a programmer are: Laziness, Impatience and Hubris.
+Wall the tree great virtues of a programmer are: Laziness, Impatience and
+Hubris.
 
 **Youngstar:** Larry Wall Of Perl?
 
@@ -141,9 +142,9 @@ called [getting in the flow][flow].
 
 **Youngstar:** Nope, I'll re-prioritize.
 
-**Graybeard:** Good call. The main idea it takes about 15-20 minutes to get into
-flow state where you can do things which require a lot of mental effort. Snapping
-out of it is matter of seconds.
+**Graybeard:** Good call. The main idea it takes about 15-20 minutes to get
+into flow state where you can do things which require a lot of mental effort.
+Snapping out of it is matter of seconds.
 
 **Youngstar:** That's why I do most of the good work early in the morning when
 no one is bothering me.
@@ -228,7 +229,3 @@ torturing yourself.
 [i0]: http://www.43folders.com/izero
 [miss]: http://www.npr.org/sections/monkeysee/2011/04/21/135508305/the-sad-beautiful-fact-that-were-all-going-to-miss-almost-everything
 [sleep]: http://sleepjunkies.com/features/sleep-deprivation-and-torture-a-brief-history/
-
-{::comment}
-vim: ft=markdown spell
-{:/comment}

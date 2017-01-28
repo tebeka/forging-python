@@ -76,7 +76,3 @@ introduction. The attention span of the average reader nowadays is pretty low.
 We hope you'll have as much fun reading the book as we had in those meeting.
 
 **Graybeard:** Cheers!
-
-{::comment}
-vim: ft=markdown spell
-{:/comment}

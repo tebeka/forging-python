@@ -306,7 +306,3 @@ I> * Have a process for evaluating new packages. Lean toward old and stable ones
 [virtenv]: https://virtualenv.pypa.io/
 [vwrap]: https://virtualenvwrapper.readthedocs.org/
 [wheel]: https://pypi.python.org/pypi/wheel
-
-{::comment}
-vim: ft=markdown spell
-{:/comment}

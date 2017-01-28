@@ -41,9 +41,10 @@ means you need a server, users, backup ...
 **Youngstar:** OK, so what do you suggest?
 
 **Graybeard:** When I need storage, I usually start with [shelve][shelve]. It's
-very much like a `dict` which is backed to disk. The main limitation is that the
-keys have to be strings, the values can be anything that [pickle][pickle] can
-handle. I don't have to worry about serialization, schemas and other things.
+very much like a `dict` which is backed to disk. The main limitation is that
+the keys have to be strings, the values can be anything that [pickle][pickle]
+can handle. I don't have to worry about serialization, schemas and other
+things.
 
 **Youngstar:** How do I query it?
 
@@ -189,10 +190,11 @@ had backups of their data but couldn't restore from it when time came.
 
 **Youngstar:** So backup is part of recovery. How often should I do it?
 
-**Graybeard:** Again, depending on your audit and recovery needs - this question
-can have very different answer. Another thing is that backups tend to grow in
-size and accumulate, have a good purging policy. One more thing is that if you
-use a hosted database - that might take care of backup and recovery for you.
+**Graybeard:** Again, depending on your audit and recovery needs - this
+question can have very different answer. Another thing is that backups tend to
+grow in size and accumulate, have a good purging policy. One more thing is that
+if you use a hosted database - that might take care of backup and recovery for
+you.
 
 **Youngstar:** Hosted?
 
@@ -205,12 +207,13 @@ they can process billions of records in seconds.
 
 **Youngstar:** Don't they cost money?
 
-**Graybeard:** TANSTAAFL[^tan]. Don't make the common mistake of underestimating
-the cost of running your own servers. Deployment, monitoring, alerting, backup
-and more - all take time and effort. And developer time is expensive. In [The
-Art of Unix Programming][taoup] Eric Raymond says the rule of Economy is:
-"Programmer time is expensive; conserve it in preference to machine time." This
-is true in most cases, whenever you can save developer time - do it.
+**Graybeard:** TANSTAAFL[^tan]. Don't make the common mistake of
+underestimating the cost of running your own servers. Deployment, monitoring,
+alerting, backup and more - all take time and effort. And developer time is
+expensive. In [The Art of Unix Programming][taoup] Eric Raymond says the rule
+of Economy is: "Programmer time is expensive; conserve it in preference to
+machine time." This is true in most cases, whenever you can save developer time
+- do it.
 
 This is also why people like [Google App Engine][gae] - zero ops.
 

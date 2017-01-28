@@ -45,8 +45,9 @@ debug, it's usually with the command line debugger that comes with Python -
 
 **Youngstar:** Why not a visual one?
 
-**Graybeard:** Since most of the time I'm in an SSH session to a server, or in a
-docker container - which makes UI hard or impossible. Also once you get to know `pdb` it's very effective.
+**Graybeard:** Since most of the time I'm in an SSH session to a server, which
+makes UI hard or impossible. Also once you get to know `pdb` it's very
+effective.
 
 **Youngstar:** Just like mastering Vim? OK, I'll spend some time with it.
 
@@ -67,8 +68,8 @@ becomes pretty complex.
 **Youngstar:** I thought `pdb` support conditional breakpoints.
 
 **Graybeard:** You're right.  I *can* do that in `pdb` or other debuggers but
-in some cases it's much easier to specify the condition in Python code. What you do
-it something like this (codes on napkin):
+in some cases it's much easier to specify the condition in Python code. What
+you do it something like this (codes on napkin):
 
 ```python
 if some_complex_condition():
@@ -85,18 +86,13 @@ this line.
 
 **Graybeard:** Then you run your code normally, not via `pdb`. And once the
 condition is met - you'll get the `pdb` prompt. If you have `IPython` installed
-you can use its debugger instead of `pdb`, its a bit nicer. You do it like
-this (codes again on a napkin):
-
-```python
-if some_complex_condition():
-    from IPython.core.debugger import Pdb; Pdb().set_trace()
-```
+you can use its debugger instead of `pdb`, its a bit nicer.
 
 **Youngstar:** And you make sure this is not left with the code in your test
 script.
 
-**Graybeard:** Exactly.
+**Graybeard:** Exactly. I have a rule in the script that runs the tests to
+check no stray `pdb.set_trace()` are in the code.
 
 But as I said earlier, I mostly use logs. It's an art to get the right balance
 between huge logs to to little information. Try to err on the TMI side.
@@ -116,9 +112,9 @@ great tools for log rotation, both in the standard library and Unix utilities.
 we'll talk about logging and monitoring later.
 
 Oh, and Python's logging module can [listen on a socket][logc] and change the
-logging configuration in run time. This way you can temporarily set a log level in
-one of your modules for a while, collect enough data and then return it back to
-the normal level.
+logging configuration in run time. This way you can temporarily set a log level
+in one of your modules for a while, collect enough data and then return it back
+to the normal level.
 
 **Youngstar:** Cool, I'll look it up. Anything else about debugging?
 
@@ -153,6 +149,8 @@ brain the works below the surface. It's the one that does most of the leaps in
 understanding but it needs time. Instead of heading back to the office, go home
 and watch a video called ["Hammock Driven Development"][hdd] by Rich Hickey.
 
+I can't tell you how many bugs I solved during jogging.
+
 **Youngstar:** Oh, we definitely need to talk about work/life balance and how
 you have time to learn all this stuff.
 
@@ -180,7 +178,3 @@ I> * Give your subconscious time to work
 [manhole]: http://www.lothar.com/tech/twisted/manhole.xhtml
 [pdb]: https://docs.python.org/3/library/pdb.html
 [sys2]: https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow
-
-{::comment}
-vim: ft=markdown spell
-{:/comment}

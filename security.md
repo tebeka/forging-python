@@ -36,10 +36,10 @@ I'm not a security expert.
 
 **Youngstar:** Ha. OK, rules?
 
-**Graybeard:** Let's start with the social aspect. All the security in the world
-won't help if you have weak passwords, if your computer doesn't ask for login when
-you turn it on, if the people write passwords on a sticky note, or blindly click
-on any link sent to them.
+**Graybeard:** Let's start with the social aspect. All the security in the
+world won't help if you have weak passwords, if your computer doesn't ask for
+login when you turn it on, if the people write passwords on a sticky note, or
+blindly click on any link sent to them.
 
 **Youngstar:** You mean [phishing][phishing]?
 
@@ -51,9 +51,9 @@ learning and educating people.
 **Graybeard:** Nah, just be careful - that's all. You don't think locking your
 door makes you a paranoid.
 
-**Youngstar:** You're right. But you told me that only the paranoids survive.
+**Youngstar:** You're right. But you told me that only the paranoid survive.
 
-**Graybeard:** That was Andy Grove, not me.
+**Graybeard:** That was [Andy Grove][ops], not me.
 
 **Youngstar:** OK. Apart from culture?
 
@@ -110,7 +110,7 @@ Linux][kali].
 **Graybeard:** Penetration testing. These companies will try to break into your
 site and will give you a report.
 
-**Youngstar:** Like in [Sneakers][sneakers]?
+**Youngstar:** Like in the [Sneakers][sneakers] movie?
 
 **Graybeard:** Yup.
 
@@ -132,8 +132,8 @@ technical term you're looking for is [SIEM][siem].
 more?
 
 **Graybeard:** Yeah they do, sometimes for free since it's their reputation as
-well, sometimes at cost. And there are companies who give security as serivce,
-[WAF][waf] for example.
+well, sometimes at cost. And there are companies who give security as a
+service, [WAF][waf] for example.
 
 **Youngstar:** I'll Google what WAF is. How much should I spend on security?
 
@@ -178,8 +178,8 @@ letter 13 places after it, in a cyclic manner.
 **Youngstar:** And since there are 26 letters in the English alphabet, if you
 `rot13` and `rot13` you'll get the original.
 
-**Graybeard:** Yes. Not that secure but I've seen people use it. You can implement it
-with a single `tr` command[^tr].
+**Graybeard:** Yes. Not that secure but I've seen people use it. You can
+implement it with a single `tr` command[^tr].
 
 **Youngstar:** You and your aliases. Let's get back to how can I fully automate
 my secrets.
@@ -223,16 +223,17 @@ I> * Have a process to keep secrets
 [avault]: http://docs.ansible.com/ansible/playbooks_vault.html
 [cloudflare]: https://www.cloudflare.com
 [gpg]: https://www.gnupg.org/
+[honey]: https://en.wikipedia.org/wiki/Honeypot_(computing)
 [hvault]: https://www.vaultproject.io/
 [kali]: https://www.kali.org/
 [mindset]: https://www.schneier.com/blog/archives/2008/03/the_security_mi_1.html
-[phishing]: https://en.wikipedia.org/wiki/Phishing
-[sneakers]: http://www.imdb.com/title/tt0105435/
-[xkmom]: https://xkcd.com/327/
-[honey]: https://en.wikipedia.org/wiki/Honeypot_(computing)
-[siem]: https://en.wikipedia.org/wiki/Security_information_and_event_management
-[waf]: https://www.owasp.org/index.php/Web_Application_Firewall
 [nih]: https://en.wikipedia.org/wiki/Not_invented_here
+[ops]: https://www.amazon.com/Only-Paranoid-Survive-Exploit-Challenge/dp/0385483821
+[phishing]: https://en.wikipedia.org/wiki/Phishing
+[siem]: https://en.wikipedia.org/wiki/Security_information_and_event_management
+[sneakers]: http://www.imdb.com/title/tt0105435/
+[waf]: https://www.owasp.org/index.php/Web_Application_Firewall
+[xkmom]: https://xkcd.com/327/
 
 [^tr]: `ge '[N-Mn-m]' '[A-MN-Za-mn-z]'`[^tr2]
 [^tr2]: The answer of course is encrypted with `rot13` ☺

@@ -275,7 +275,3 @@ this
 [tox]: https://tox.readthedocs.org/
 [unittest]: https://docs.python.org/3/library/unittest.html
 [xout]: https://nose.readthedocs.org/en/latest/plugins/xunit.html
-
-{::comment}
-vim: ft=markdown spell
-{:/comment}

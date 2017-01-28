@@ -1,6 +1,7 @@
 # Process
 
-> The only 'best practice' you should be using all the time is 'Use Your Brain'.
+> The only 'best practice' you should be using all the time is 'Use Your
+> Brain'.
 >
 >    *- Steven Robbins*
 
@@ -16,7 +17,7 @@
 
 **Graybeard:** I'm labeling you as true positive.
 
-**Youngstar:** That's a new one. Nice to be on the good side of the [confusion
+**Youngstar:** It's nice to be on the good side of the [confusion
 matrix][confmat].
 
 **Graybeard:** Do you see any changes once your size went up?
@@ -64,7 +65,7 @@ a free parking spot?
 **Graybeard:** Exactly. I see a process as set of rules that makes the group
 function better. It's very important that your team members will understand it
 and will see the benefit of the process. Otherwise it's just more red tape for
-them..
+them.
 
 **Youngstar:** OK. So process metrics should be visible?
 
@@ -105,15 +106,15 @@ sprint.
 
 **Youngstar:** Do you leave spare time to unknowns?
 
-**Graybeard:** If you have enough metrics, most of this unknowns will be "known
-unknowns". People go on vacation, get sick, bugs in production, new customer
-demo ... All of these are pretty predictable once you have enough data.
+**Graybeard:** If you have enough metrics, most of these unknowns will be
+"known unknowns". People go on vacation, get sick, bugs in production, new
+customer demo ... All of these are pretty predictable once you have enough
+data.
 
 **Youngstar:** What about the "unknown unknowns"?
 
 **Graybeard:** Deal with them when they happen. The hardest point is to make
-management/product team understand that that's it - nothing else will get into
-the sprint in that week.
+management/product team understand that there are no changes during sprint.
 
 **Youngstar:** What's called "feature creep"?
 
@@ -159,8 +160,8 @@ another task and starts to forget.
 
 **Graybeard:** Observe, Orient, Decide, Act. But the most important part is the
 loop. In retrospective you reflect on what you did and find out how to improve.
-A lot of research on successful teams shows that this is a key practice. Sadly a
-lot of teams skip it.
+A lot of research on successful teams shows that this is a key practice. Sadly
+a lot of teams skip it.
 
 **Youngstar:** And you use "5 whys" in the retrospectives?
 
@@ -218,9 +219,10 @@ plus ones.
 with many bells and whistles. Internally companies usually install a
 [Jabber](jabber) server. Oh, and don't forget IRC.
 
-**Youngstar:** IRC? With the hashtags and AFK? It's still a thing?
+**Youngstar:** IRC? With the hashtags and `AFK`? It's still a thing?
 
-**Graybeard:** Very much, it works and there's a lot tooling around it.
+**Graybeard:** Very much, it works and there's a lot tooling around it. It also
+sets the team mindset to group chats and not 1-to-1.
 
 **Youngstar:** I'll start with hosted, save me operations.
 
@@ -253,13 +255,18 @@ your machine, we're not shipping your machine."
 **Youngstar:** Ha. I've seen this "works on my machine" too many times.
 
 **Graybeard:** Another nice to have tool are all the bots in the chat room.
-Google [chatops][chatops] to see what you can do with these bots. It's also a
-lot of fun to write and use them.
+Google [chatops][chatops] to see what you can do with these bots,
+[github][hubot] for example uses them extensively. Not to mention it's a lot of
+fun to write and use these bots.
 
 **Youngstar:** And fun is important to keep people around.
 
-**Graybeard:** Not to mention that you spend a lot of time at work, so it better
-be fun... This reminds of another book.
+**Graybeard:** Don't underestimate fun, it's very important. Also, when you do
+chatops, you see the history of how people fix issues. Otherwise they need the
+discipline to paste output from their shell in the chat room.
+that you spend a lot of time at work, so it
+
+Oh, this reminds of another book.
 
 **Youngstar:** Great.
 
@@ -267,9 +274,9 @@ be fun... This reminds of another book.
 
 **Youngstar:** Like hardware but for people?
 
-**Graybeard:** Exactly. It's an excellent read. You reminded me of it by talking
-about fun. In this book they talk how many companies don't calculate the price
-of replacing an employee - which is very high.
+**Graybeard:** Exactly. It's an excellent read. You reminded me of it by
+talking about fun. In this book they talk how many companies don't calculate
+the price of replacing an employee - which is very high.
 
 **Youngstar:** Recruiting, training ...
 
@@ -289,15 +296,16 @@ new process. Show them this (draws on a napkin)
 
 **Youngstar:** I see, good one.
 
-**Graybeard:** Note that process is procedure. You've succeeded once it becomes
-culture. Peter Drucker said "Culture Eats Strategy For Breakfast." When people
-come to standup because this is the way we communicate and not because the boss told
-them - that's when you win.
+**Graybeard:** You've succeeded once process becomes culture. Peter Drucker
+said "Culture Eats Strategy For Breakfast." When people come to standup because
+this is the way we communicate and not because the boss told them - that's when
+you win.
 
 **Youngstar:** Interesting ... This also affects hiring.
 
 **Graybeard:** Very much. You need to think about the company you want to
-create. I prefer places where everything is allowed unless explicitly forbidden.
+create. I prefer places where everything is allowed unless explicitly
+forbidden.
 
 **Youngstar:** Don't we all? I'll think on that on my journey home.
 
@@ -332,6 +340,7 @@ I>     * After sprint: retrospective which yields new issues
 [avote]: http://www.apache.org/foundation/voting.html
 [chatops]: http://blogs.atlassian.com/2016/01/what-is-chatops-adoption-guide/
 [ci]: https://www.thoughtworks.com/continuous-integration
+[hubot]: https://github.com/github/hubot
 [confmat]: https://en.wikipedia.org/wiki/Confusion_matrix
 [gdocs]: https://www.google.com/docs/about/
 [genemy]: http://www.shirky.com/writings/herecomeseverybody/group_enemy.html

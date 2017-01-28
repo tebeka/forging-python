@@ -4,8 +4,8 @@
 >
 >    *- Joe Armstrong*
 
-**Youngstar:** We're starting to get traffic on our site and some of the servers
-became busy. I think I need to rewrite some of my modules in C.
+**Youngstar:** We're starting to get traffic on our site and some of the
+servers became busy. I think I need to rewrite some of my modules in C.
 
 **Graybeard:** You know the three rules of optimization[^c2]?
 
@@ -105,9 +105,9 @@ me understand what's going on.
 
 **Graybeard:** Not as fancy, but yes.
 
-Once you identified most promising candidates to optimize, it's time to evaluate
-how much it'll take to make it better and pick the one with best effort/speedup
-ratio.
+Once you identified most promising candidates to optimize, it's time to
+evaluate how much it'll take to make it better and pick the one with best
+effort/speedup ratio.
 
 **Youngstar:** Pain vs Gain again?
 
@@ -192,8 +192,8 @@ architecture.
 
 **Graybeard:** Yes. There's a huge performance penalty for a cache miss.
 
-**Youngstar:** Yeah, you've sent me that [tweet][tspeed]. I haven't watched [the
-video][cfriend] about "cache friendly algorithms" yet.
+**Youngstar:** Yeah, you've sent me that [tweet][tspeed]. I haven't watched
+[the video][cfriend] about "cache friendly algorithms" yet.
 
 **Graybeard:** So you *don't* do your homework? I'm confused now.
 
@@ -225,10 +225,10 @@ need with almost zero effort.
 
 **Youngstar:** OK. Anything else?
 
-**Graybeard:** There are many speed optimization tricks. They are related to the
-Python implementation you're using. Things like using [`__slots__`][slots] for
-memory reduction, avoiding dot lookup and may others. See [the wiki][perfwiki]
-for more, and you'll probably pick more as you go.
+**Graybeard:** There are many speed optimization tricks. They are related to
+the Python implementation you're using. Things like using [`__slots__`][slots]
+for memory reduction, avoiding dot lookup and may others. See [the
+wiki][perfwiki] for more, and you'll probably pick more as you go.
 
 **Youngstar:** OK.
 
@@ -257,8 +257,8 @@ better algorithm and better hardware. Going "big data" is painful.
 **Youngstar:** OK. And writing stuff in C?
 
 **Graybeard:** Once you *know* this is the right solution. You have several
-options, from the [native C API][capi] to [SWIG][swig] and others. But I'd start
-with [Cython][cython].
+options, from the [native C API][capi] to [SWIG][swig] and others. But I'd
+start with [Cython][cython].
 
 **Youngstar:** OK. So I'll start but not optimizing and see how it goes for me.
 
@@ -314,8 +314,4 @@ I> * Don't expect miracles, small steps will get you there
 [threading]: https://docs.python.org/3/library/threading.html
 [tspeed]: https://twitter.com/holly_cummins/status/530372145025908737
 [x1]: https://aws.amazon.com/ec2/instance-types/x1/
-[yslow]: https://yslow.org
-
-{::comment}
-vim: ft=markdown spell
-{:/comment}
+[yslow]: http://yslow.org/
