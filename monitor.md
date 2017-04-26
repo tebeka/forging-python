@@ -21,9 +21,9 @@ can do better.
 **Graybeard:** You need to know about problem before your customers.
 
 **Youngstar:** Well, we have great logging. But we look at the logs *after* we
-found out there's a problem. We do monitor our machines for load, disk space and other
-things. However this was an application crash and didn't cause a system problem,
-it actually reduced the load.
+found out there's a problem. We do monitor our machines for load, disk space
+and other things. However this was an application crash and didn't cause a
+system problem, it actually reduced the load.
 
 **Graybeard:** Two things: One is that monitoring without alerting is not that
 helpful - nobody is watching the graphs 24/7. Second is that there are better
@@ -54,10 +54,10 @@ secondary role.
 **Youngstar:** I don't believe that everyone can solve every problem.
 
 **Graybeard:** Yeah, but it's the [Pareto principle][pareto] - most errors are
-easy to solve. The big bonus is the *everyone* feels the pain of failing system
-and start write more robust code and also pay more attention in code reviews.
+easy to solve. The big bonus is that *everyone* feels the pain of failing system
+and start writing more robust code and also pay more attention in code reviews.
 
-I saw a great talk called "[Keys to SRE][ksre]" by the guy who started the SRE
+I saw a great talk called ["Keys to SRE"][ksre] by the guy who started the SRE
 team in Google.
 
 **Youngstar:** SRE?
@@ -200,7 +200,3 @@ I> * Have ops drills
 [sps]: http://techblog.netflix.com/2015/02/sps-pulse-of-netflix-streaming.html
 [5y]: https://en.wikipedia.org/wiki/5_Whys
 [ksre]: https://www.usenix.org/conference/srecon14/technical-sessions/presentation/keys-sre
-
-{::comment}
-vim: ft=markdown spell
-{:/comment}

@@ -17,7 +17,7 @@
 tests?
 
 **Graybeard:** Tests that guard against exactly what happened to you - that
-new changes didn't brake anything old. There are many kinds of tests and this is
+new changes didn't break anything old. There are many kinds of tests and this is
 an important one. 
 
 **Youngstar:** So I should do more regression testing?
@@ -101,7 +101,7 @@ tests. But this is usually the last thing in I run.
 
 **Youngstar:** Last? What do you run before it?
 
-**Graybeard:** Few things: I check that there are no called to `pdb` in the
+**Graybeard:** Few things: I check that there are no calls to `pdb` in the
 code.
 
 **Youngstar:** `pdb` is the Python debugger?
@@ -123,16 +123,18 @@ code. Since the `.pyc` of the old module is still there - your test will pass.
 **Youngstar:** Does `pep8` check for coding conventions?
 
 **Graybeard:** Yes, this is how I avoid wasting time on coding convention talks.
-If the code passes `pep8` - it's fine.
+If the code passes `pep8` - it's fine. However don't get too stuck on coding
+conventions, see Raymond Hettinger's talk called [Beyond PEP8][bpep8].
 
-**Youngstar:** Anything else?
+**Youngstar:** Will do, anything else?
 
 **Graybeard:** Nope. After that I run the test suite.
 
 **Youngstar:** Sounds like a lot of steps. Knowing you, you probably have a
 script to do this.
 
-**Graybeard:** Correct, [I'll mail it over if I remember](#appendix-a).
+**Graybeard:** Correct, I'll mail it over if I remember. But I'm sure you can
+code it yourself.
 
 **Youngstar:** I'll remind you.
 
@@ -140,7 +142,7 @@ script to do this.
 other members in your team don't forget steps. I'm not the only one with a one
 bit memory.
 
-**Youngstar:** I some cases I found out the tests run for a long time. Which
+**Youngstar:** In some cases I found out the tests run for a long time. Which
 makes it annoying to run them every time I make a change.
 
 **Graybeard:** My rule of thumb is that developers won't run tests that take
@@ -211,7 +213,7 @@ space.
 
 **Youngstar:** Really?
 
-**Graybeard:** Yup. But the have a system in place to fix bugs in outer space
+**Graybeard:** Yup. But they have a system in place to fix bugs in outer space
 as well.
 
 **Youngstar:** I guess I'll have to mock some parts of the system for testing,
@@ -255,6 +257,7 @@ this
 
  
 [elastic]: http://elastic.co/
+[bpep8]: https://www.youtube.com/watch?v=wf-BqAjZb8M
 [flake8]: https://pypi.python.org/pypi/flake8
 [flask]: http://flask.pocoo.org/
 [gr]: https://gettingreal.37signals.com/
@@ -272,7 +275,3 @@ this
 [tox]: https://tox.readthedocs.org/
 [unittest]: https://docs.python.org/3/library/unittest.html
 [xout]: https://nose.readthedocs.org/en/latest/plugins/xunit.html
-
-{::comment}
-vim: ft=markdown spell
-{:/comment}

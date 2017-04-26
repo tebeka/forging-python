@@ -10,8 +10,8 @@
 
 **Youngstar:** I was updating some packages ...
 
-**Graybeard:** and one of the new versions had a regression bug and it took you
-all day to figure it out.
+**Graybeard:** ... and one of the new versions had a regression bug and it took
+you all day to figure it out.
 
 **Youngstar:** What do you know? I'm not that special after all.
 
@@ -19,8 +19,8 @@ all day to figure it out.
 
 **Youngstar:** Funny! So how can I avoid bugs like this in the future.
 
-**Graybeard:** Congrats, you know that the best way to solve a bug is to make
-sure that it's impossible to introduce such bugs in the future.
+**Graybeard:** You know that the best way to solve a bug is to make sure that
+it's impossible to introduce such bugs in the future.
 
 **Youngstar:** Yeah, forgot who taught me that ...
 
@@ -34,7 +34,7 @@ sure that it's impossible to introduce such bugs in the future.
 install -r requirements.txt` to install them.
 
 **Graybeard:** You know you can specify a specific version using `==`. For
-example `requests==2.9.1`
+example `requests==2.12.4`
 
 **Youngstar:** I didn't know that. But why would you do that - you won't get all
 the bug fixes ... Doh!
@@ -98,7 +98,7 @@ need to teach my IDE which is the right Python.
 
 **Graybeard:** In general, it's preferred to leave the system Python alone since
 a lot of system utilities are written in Python and a system upgrade might break
-your code. [Red Hat][redhat] based distros uses *a lot* of Python.
+your code. [Red Hat][redhat] based distros use *a lot* of Python.
 
 **Youngstar:** I thought `virtualenv` makes sure you don't use any system
 package.
@@ -119,14 +119,14 @@ new packages, you might break system scripts.
 
 **Youngstar:** One more reason to use virtual environments.
 
-**Graybeard:** Yup. Now what happens if [pypi][pypi] is down when you deploy?
+**Graybeard:** Yup. Now what happens if [PyPI][pypi] is down when you deploy?
 
 **Youngstar:** I'm pretty much screwed, but how can I overcome this?
 
-**Graybeard:** In some cases it might be OK to wait for pypi to get back it.
-It's has been more stable in recent years. If you need to deploy no matter what,
-then you need to pre build your dependencies and tell `pip` to install it from your
-servers.
+**Graybeard:** In some cases it might be OK to wait for PyPI to get back up.
+It's has been more stable in recent years. If you need to deploy no matter
+what, then you need to pre build your dependencies and tell `pip` to install it
+from your servers.
 
 **Youngstar:** `pip` can do that?
 
@@ -146,7 +146,7 @@ libraries and header files. Some libraries require a Fortran compiler.
 
 **Youngstar:** Fortran?
 
-**Graybeard:** Yes, sometimes a Fortran compiler can do better optimization
+**Graybeard:** Yes, in some cases a Fortran compiler can do better optimization
 than a C compiler.
 
 **Youngstar:** How do people on the Windows world find a C compiler?
@@ -172,7 +172,7 @@ extension as a shared library.
 **Graybeard:** Some companies have a "build machine" which has all the required
 dependencies to build the packages. This way you don't need to install a lot of
 tools on your production machines. This build machine is usually also the one
-serves these third party packages. By the way, this process of keeping third
+serving these third party packages. By the way, this process of keeping third
 party dependencies locally is sometimes known as "vendoring".
 
 **Youngstar:** How deep does this rabbit hole go?
@@ -306,7 +306,3 @@ I> * Have a process for evaluating new packages. Lean toward old and stable ones
 [virtenv]: https://virtualenv.pypa.io/
 [vwrap]: https://virtualenvwrapper.readthedocs.org/
 [wheel]: https://pypi.python.org/pypi/wheel
-
-{::comment}
-vim: ft=markdown spell
-{:/comment}

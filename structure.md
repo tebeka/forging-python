@@ -40,7 +40,8 @@ broken.
 
 **Youngstar:** Why shouldn't they?
 
-**Graybeard:** Ask github who had [a few hours of downtime][down] a while back. The cause was tests deleting the production database.
+**Graybeard:** Ask github who had [a few hours of downtime][down] a while back.
+The cause was tests deleting the production database.
 
 **Youngstar:** Ouch!
 
@@ -62,7 +63,7 @@ GrayBeard draws the following diagram on a napkin:
     archer
     ├── README.md
     ├── Makefile
-    ├── runtests.py
+    ├── run_tests.py
     ├── requirements.txt
     ├── archer
     │   └── __init__.py
@@ -73,14 +74,14 @@ GrayBeard draws the following diagram on a napkin:
 **Graybeard:** Let's go over this. The top `archer` directory is your project -
 the one you clone from source control.
 
-The second `archer` directory is your Python package where the code is.  `tests`
+The second `archer` directory is your Python package where the code is. `tests`
 are *outside* of the code so they won't get deployed.
 
 **Youngstar:** And the rest of the files?
 
 **Graybeard:** Every project should have a `README` with at least an elevator
 pitch. This focuses people on what we're doing here. It should also contain
-instructions for developers not found in the docs
+instructions for developers not found in the docs.
 
 The `docs` directory is the generated documentation, I don't usually have docs
 other than what's in the code and in the `README`.
@@ -94,9 +95,9 @@ Markdown, pick one and stick to it.
 **Youngstar:** Markdown it is then.
 
 **Graybeard:** What else? Oh, I usually have a main `Makefile` to automate some
-tasks, `requirements.txt` to specify external requirments. And *one* script to
-run all the tests. We'll discuss what's in `requirements.txt` and `runtests.py`
-when we talk about dependencies and testing.
+tasks, `requirements.txt` to specify external requirements. And *one* script to
+run all the tests. We'll discuss what's in `requirements.txt` and
+`run_tests.py` when we talk about dependencies and testing.
 
 **Youngstar:** OK, I'll try to remind you - considering your one bit memory.
 
@@ -136,7 +137,7 @@ when you do stuff that is not that obvious - write good docstrings and comments.
 
 **Graybeard:** Of course. In the Python world we mostly use [Sphinx][sph]. It
 has a format for documentation strings and can generate HTML, PDF and maybe
-other format. A nice feature of Sphinx is that it can run [doctest][doct] tests.
+other formats. A nice feature of Sphinx is that it can run [doctest][doct] tests.
 
 **Youngstar:** `doctest` is where you write snippets of code in your docstrings?
 
@@ -184,9 +185,9 @@ source we can talk about it.
 **Graybeard:** Very good.
 
 I> ## TL;DR
-I> * Start with an established project structure (like GreaBeard's example above)
+I> * Start with an established project structure (like GreyBeard's example above)
 I> * Separate code from tests
-I> * Have a `README` with elevator pitch and development instructions
+I> * Have a `README` with an elevator pitch and development instructions
 I> * Use a `Makefile` or other tool to automate common tasks
 I> * Have *one* script to run the tests
 I> * Look into [Sphinx][sph] for generating documentation
@@ -197,7 +198,3 @@ I>    * But only if you need to
 [md]: https://daringfireball.net/projects/markdown/
 [rst]: http://docutils.sourceforge.net/rst.html
 [sph]: http://www.sphinx-doc.org/en/stable/
-
-{::comment}
-vim: ft=markdown spell
-{:/comment}

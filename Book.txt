@@ -1,4 +1,9 @@
+frontmatter.md
+dedication.md
+
+mainmatter.md
 intro.md
+good-code.md
 distros.md
 ides.md
 structure.md
@@ -7,9 +12,15 @@ storage.md
 testing.md
 config.md
 debugging.md
+deploy.md
 monitor.md
+security.md
+fast.md
+process.md
 time.md
 asking-questions.md
-appendix-a.md
+
+backmatter.md
+thanks.md
 
 # vim:ft=markdown

@@ -25,7 +25,7 @@ tend to make them.
 **Youngstar:** I'm most productive with Python. Going from zero to working is
 fastest.
 
-**Graybeard:** OK, so speed of development. Which is important in a startup.
+**Graybeard:** OK, so speed of development - which is important in a startup.
 What else?
 
 **Youngstar:** There are many great packages I can use.
@@ -33,7 +33,7 @@ What else?
 **Graybeard:** Yes, a good ecosystem. Audry Tang said that "perl5 is just
 syntax; CPAN is the language". I believe this is true for Python as well.
 
-**Youngstar:** CPAN is Perl's [pypi][pypi]?
+**Youngstar:** CPAN is Perl's [PyPI][pypi]?
 
 **Graybeard:** Yes. What other reasons do you have for choosing Python?
 
@@ -41,8 +41,8 @@ syntax; CPAN is the language". I believe this is true for Python as well.
 
 **Graybeard:** And why is that a good thing?
 
-**Youngstar:** It means nobody can take it away from me, change license. And
-worse case, I can fix bugs before a release.
+**Youngstar:** It means nobody can take it away from me. And worse case, I can
+fix bugs in Python before an official release.
 
 **Graybeard:** Yup. Gimme one more.
 
@@ -69,14 +69,14 @@ bill. Anything else Python's not good for?
 **Youngstar:** I guess if you need a lot of formal checking of your system.
 
 **Graybeard:** Yea. This leads me to what I call "the cost of error" which has
-implication on many areas of the development and business. For example, [Jane
-Street][jst] is a trading company who uses [OCaml][ocaml] - they claim it
-helps them make sure their code is correct.
+implication on many areas of both development and business. For example, [Jane
+Street][jst] is a trading company who uses [OCaml][ocaml] - they claim it helps
+them make sure their code is correct.
 
 **Youngstar:** I guess that in trading systems you feel the pain of bugs
 right away.
 
-**Graybeard:** Yeah, ask someone from [Knight capital][kcap] once. Oh the other
+**Graybeard:** Yeah, ask someone from [Knight capital][kcap] once. On the other
 hand, I worked in an HFT[^hft] firm once and we used Python *and* made money.
 
 **Youngstar:** Yeah, yeah - we all heard your war stories many times.
@@ -92,7 +92,7 @@ hand, I worked in an HFT[^hft] firm once and we used Python *and* made money.
 **Graybeard:** Yes, try to recruit some good [Haskell][haskell] programmers
 sometime.
 
-**Youngstar:** Try recruiting good programmers in any lanauge.
+**Youngstar:** Try recruiting good programmers in any language.
 
 **Graybeard:** Right. Remind me what your startup is all about.
 
@@ -104,7 +104,7 @@ reports. However it'll do for now. Looks like Python is a good fit for you.
 **Youngstar:** What a surprise...
 
 **Graybeard:** Huh! Now let's try to see which Python. What Python distributions
-do you know.
+do you know?
 
 **Youngstar:** There's [CPython][cpy], [Jython][jpy], [IronPython][irpy],
 [PyPy][pypy] and now I know of [MicroPython][mp]. Oh and there's the subject of
@@ -156,7 +156,7 @@ Python 3.
 
 **Graybeard:** OK. Python 3 is the future, choose it.
 
-**Youngstar:** That was easy. Should I tell it to all the people who still use
+**Youngstar:** That was easy! Should I tell it to all the people who still use
 Python 2?
 
 **Graybeard:** There are many good reasons to keep using Python 2.
@@ -172,15 +172,15 @@ Python 2?
 **Youngstar:** Because of dependencies?
 
 **Graybeard:** I'd say this is the main reason. However the situation has
-improved significantly in the last couple of year. If you head over to [Python 3
-Wall of Superpowers][sp] (which used to be call "Python 3 Wall of Shame") you'll
-see mostly green now, which means most "top downloaded" packages support Python
-3 now.
+improved significantly in the last couple of years. If you head over to [Python
+3 Wall of Superpowers][sp] (which used to be called "Python 3 Wall of Shame")
+you'll see mostly green now, which means most "top downloaded" packages support
+Python 3 now.
 
 **Youngstar:** What other reason are there? Legacy code?
 
 **Graybeard:** You won't believe how fast the new cool code you wrote a while
-ago becomes legacy code. Most of our time we improve existing code, not write
+ago becomes legacy code. Most of the time we improve existing code, not write
 new stuff. If you already have a decent code base, writing new code from scratch
 is a dangerous thing. Read "[Things You Should Never Do][notdo]" once.
 
@@ -193,24 +193,36 @@ edge, not your tech ... stability is sexy."
 
 **Youngstar:** I wonder how we make progress then.
 
-**Graybeard:** Sometimes the advantages of new technology overweigh the risk.
-Also, people are way too optimistic to their own good.
+**Graybeard:** Sometimes the advantages of new technology outweigh the risk.
+Also, people are way too optimistic for their own good.
 
-**Youngstar:** OK then, it's getting to the point where my boyfriend will get
-jealous of you.  Final recommendation?
+**Youngstar:** Oh, what about [Anaconda][ana]? I heard people talking about it.
 
-**Graybeard:** Don't be lazy, do your homework and find the right Python for
-you.  Note that switching from one Python to another shouldn't be that
-difficult. At one place we had to switch from Python 3 to 2 due to dependency
-issue, it took us about half a day to do that.
+**Graybeard:** Anaconda is based on CPython, and comes bundled with scientific
+packages. There are other scientific Python distributions out there but it seems
+to be the dominant one. If you plan to use a lot of scientific packages, such as
+`numpy`, `scipy`, `matplotlib` and others, give Anaconda a try.
+
+**Youngstar:** I don't have plan for that now, and as you said earlier switching
+is not that painful.
+
+**Graybeard:** Just make sure you have a good test suite.
+
+**Youngstar:** Will do, but testing is a big subject and we're getting to the
+point where my boyfriend gets jealous of you.  Final recommendation?
+
+**Graybeard:** Don't be lazy, do your homework and find the right Python, or
+other programming language, for you. Note that switching from one Python to
+another shouldn't be that difficult. At one place we had to switch from Python 3
+to 2 due to dependency issue, it took us about half a day to do that.
 
 **Youngstar:** So the decision is not that crucial?
 
-**Graybeard:** It is, don't take it lightly. We were lucky the switch was easy, you
-might not be.
+**Graybeard:** It is, don't take it lightly. We were lucky the switch was easy,
+you might not be.
 
 I> ## TL;DR
-I> * Choose CPython 3.x if you have a new project with not many dependencies
+I> * Choose CPython 3.x if you have a new project with few dependencies
 I>     * Python 3 is the future
 I> * Choose CPython 2.x if you have older code base or dependencies that does
 I>   not support Python 3
@@ -219,7 +231,7 @@ I>     * Or if you're in a Java shop and want to sneak Python in the back door
 I>       ;)
 I> * Similarly, choose [IronPyton][irpy] if you need
 I>   interaction with .NET
-I> * Choose [pypy][pypy] if you need some speed and love living on the edge
+I> * Choose [PyPy][pypy] if you need some speed and love living on the edge
 I> * Use [Anaconda][ana] distribution if you use a lot of scientific Python
 I>   packages
 
@@ -239,7 +251,3 @@ I>   packages
 [pypi]: https://pypi.python.org/
 [pypy]: http://pypy.org/
 [sp]: https://python3wos.appspot.com/
-
-{::comment}
-vim: ft=markdown spell
-{:/comment}

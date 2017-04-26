@@ -1,15 +1,16 @@
 # Time Management
 
-> Your time is limited, so don't waste it living someone else's life.
+
+> I love deadlines. I like the whooshing sound they make as they fly by.
 >
->    *- Steve Jobs*
+>    *- Douglas Adams*
 
 **Youngstar:** Sorry I'm late, got stuck at work.
 
 **Graybeard:** Happens a lot lately.
 
 **Youngstar:** Yeah. It feels like I'm no longer in control of my time. You on
-the other hand seems to have a lot of free time. How do you do it?
+the other hand seem to have a lot of free time. How do you do it?
 
 **Graybeard:** It's all about focus and priorities.
 
@@ -103,8 +104,8 @@ at `not urgent/important` area. If you find you spend most of your time in
 **Youngstar:** Funny! I guess I'll move "[Blink][blink]" to the top of my
 reading list.
 
-**Graybeard:** Nice prioritizing! Two common mistakes people do is not to follow
-their priorities and forgetting to prioritize things outside work.
+**Graybeard:** Nice prioritizing! Two common mistakes people do is not to
+follow their priorities and forgetting to prioritize things outside work.
 
 **Youngstar:** My boyfriend has been complaining I work too much.
 
@@ -118,7 +119,8 @@ more time at the office".
 **Youngstar:** I guess they didn't achieve much in their life either.
 
 **Graybeard:** Oh, you'll find lazy people accomplish a lot. According to Larry
-Wall the tree great virtues of a programmer are: Laziness, Impatience and Hubris.
+Wall the tree great virtues of a programmer are: Laziness, Impatience and
+Hubris.
 
 **Youngstar:** Larry Wall Of Perl?
 
@@ -140,9 +142,9 @@ called [getting in the flow][flow].
 
 **Youngstar:** Nope, I'll re-prioritize.
 
-**Graybeard:** Good call. The main idea it takes about 15-20 minutes to get into
-flow state where you can do things which require a lot of mental effort. Snapping
-out of it is matter of seconds.
+**Graybeard:** Good call. The main idea it takes about 15-20 minutes to get
+into flow state where you can do things which require a lot of mental effort.
+Snapping out of it is matter of seconds.
 
 **Youngstar:** That's why I do most of the good work early in the morning when
 no one is bothering me.
@@ -172,7 +174,7 @@ need [a place in time and space][cleese] to be creative.
 
 **Graybeard:** Allocate time for yourself, without interruptions. Use this time
 to think and reflect. Don't just get carried away with day to day. I do it when
-i jog.
+I jog.
 
 **Youngstar:** OK. I guess I need to start jogging.
 
@@ -180,7 +182,7 @@ i jog.
 
 **Youngstar:** What's the matter? Afraid I'll outrun you?
 
-**Graybeard:** You already do. And you're more than welcomed to join my silent
+**Graybeard:** You already do. And you're more than welcome to join my silent
 jogging.
 
 **Youngstar:** Will do. Anything else?
@@ -194,7 +196,7 @@ early. Say 4pm.
 focus like nobody's business. I've seen many people doing long hours and hardly
 working.
 
-Anther good thing of short work days is it lets you charge. People get "burned"
+Another good thing of short work days is it lets you charge. People get "burned"
 when doing long hours.
 
 **Youngstar:** I can feel it, seems like my productivity isn't what it used to
@@ -227,7 +229,3 @@ torturing yourself.
 [i0]: http://www.43folders.com/izero
 [miss]: http://www.npr.org/sections/monkeysee/2011/04/21/135508305/the-sad-beautiful-fact-that-were-all-going-to-miss-almost-everything
 [sleep]: http://sleepjunkies.com/features/sleep-deprivation-and-torture-a-brief-history/
-
-{::comment}
-vim: ft=markdown spell
-{:/comment}

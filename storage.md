@@ -24,8 +24,7 @@ MySQL.
 **Youngstar:** OK. Now that we clarified this issue, can we get back to my
 initial question?
 
-**Graybeard:** I don't think I know enough about your data to give you a good
-answer.
+**Graybeard:** I know enough about your data to give you a good answer.
 
 **Youngstar:** Currently I don't have much data. Some user information, some
 session data.  Things are very much in flux so it's hard to know.
@@ -42,9 +41,10 @@ means you need a server, users, backup ...
 **Youngstar:** OK, so what do you suggest?
 
 **Graybeard:** When I need storage, I usually start with [shelve][shelve]. It's
-very much like a `dict` which is backed to disk. The main limitation is that the
-keys have to be strings, the values can be anything that [pickle][pickle] can
-handle. I don't have to worry about serialization, schemas and other things.
+very much like a `dict` which is backed to disk. The main limitation is that
+the keys have to be strings, the values can be anything that [pickle][pickle]
+can handle. I don't have to worry about serialization, schemas and other
+things.
 
 **Youngstar:** How do I query it?
 
@@ -143,8 +143,8 @@ perform. After that you start modeling the data.
 
 Thinking and designing your data layer is very important. In "[The Mythical
 Man-Month][tmm]" Fred Brooks says: "Show me your flowcharts and conceal your
-tables, and I shall continue to be mystified. Show me your tables, and I won’t
-usually need your flowcharts; they’ll be obvious."
+tables, and I shall continue to be mystified. Show me your tables, and I won't
+usually need your flowcharts; they'll be obvious."
 
 **Youngstar:** flowcharts?
 
@@ -175,7 +175,7 @@ The second thing is that most Python's SQL database drivers support accessing
 columns by name and not just by index. Accessing by index is both less readable
 and prone to error, someone changes the SQL query and suddenly `row[2]` is not
 the column you want. For example in [sqlite3][sq3] you need to set the
-connection `row_factroy` attribute to `sqlite3.Row` and then each column can be
+connection `row_factory` attribute to `sqlite3.Row` and then each column can be
 accessed both by position and by name.
 
 **Youngstar:** OK, I'll remember these. Now what about backup? How often to I
@@ -190,10 +190,11 @@ had backups of their data but couldn't restore from it when time came.
 
 **Youngstar:** So backup is part of recovery. How often should I do it?
 
-**Graybeard:** Again, depending on your audit and recovery needs - this question
-can have very different answer. Another thing is that backups tend to grow in
-size and accumulate, have a good purging policy. One more thing is that if you
-use a hosted database - that might take care of backup and recovery for you.
+**Graybeard:** Again, depending on your audit and recovery needs - this
+question can have very different answer. Another thing is that backups tend to
+grow in size and accumulate, have a good purging policy. One more thing is that
+if you use a hosted database - that might take care of backup and recovery for
+you.
 
 **Youngstar:** Hosted?
 
@@ -206,14 +207,15 @@ they can process billions of records in seconds.
 
 **Youngstar:** Don't they cost money?
 
-**Graybeard:** TANSTAAFL[^tan]. Don't make the common mistake of underestimating
-the cost of running your own servers. Deployment, monitoring, alerting, backup
-and more - all take time and effort. And developer time is expensive. In [The
-Art of Unix Programming][taoup] Eric Raymond says the rule of Economy is:
-"Programmer time is expensive; conserve it in preference to machine time." This
-is true in most cases, whenever you can save developer time - do it.
+**Graybeard:** TANSTAAFL[^tan]. Don't make the common mistake of
+underestimating the cost of running your own servers. Deployment, monitoring,
+alerting, backup and more - all take time and effort. And developer time is
+expensive. In [The Art of Unix Programming][taoup] Eric Raymond says the rule
+of Economy is: "Programmer time is expensive; conserve it in preference to
+machine time." This is true in most cases, whenever you can save developer time
+- do it.
 
-This is also why people like [Google App Engine][gae], zero ops.
+This is also why people like [Google App Engine][gae] - zero ops.
 
 **Youngstar:** I have to say now I'm totally confused.
 
