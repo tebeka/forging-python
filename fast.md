@@ -264,7 +264,7 @@ start with [Cython][cython].
 
 **Graybeard:** Yes. Last thing to remember is not to expect miracles. Raymond
 Hettinger phrased it nicely: Much of the doubling of speed for core Python that
-has occurred over the last ten decade has occurred one little step at a time,
+has occurred over the last decade has occurred one little step at a time,
 none of the them being individually "dramatic"[^speedbug].
 
 **Youngstar:** OK, I'll remember that - baby steps.
