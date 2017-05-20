@@ -116,7 +116,7 @@ environment variables.
 should I switch to Ansible?
 
 **Graybeard:** Depends on the complexity of your deployment. fabric is very
-simple so it usually start there and switch to something more complex only when
+simple so I usually start there and switch to something more complex only when
 I need to. If you use `docker` based system like [docker-compose][dc] and
 [kubernetes][kb] have their own system for hooking containers together.
 
