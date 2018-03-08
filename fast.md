@@ -34,7 +34,7 @@ you should ask is not "Can I make it faster?" but "Is it fast enough?".
 **Youngstar:** What's "enough?"
 
 **Graybeard:** This is an excellent question, and a lot of companies are not
-asking it. Try to extract number from the product manager/business people. They
+asking it. Try to get hard numbers from the product manager/business people. They
 need to understand that you'll build a totally different system if they need
 minutes or milliseconds response time.
 
@@ -105,7 +105,7 @@ me understand what's going on.
 
 **Graybeard:** Not as fancy, but yes.
 
-Once you identified most promising candidates to optimize, it's time to
+Once you identified most promising candidates for optimiziation, it's time to
 evaluate how much it'll take to make it better and pick the one with best
 effort/speedup ratio.
 
@@ -260,7 +260,7 @@ better algorithm and better hardware. Going "big data" is painful.
 options, from the [native C API][capi] to [SWIG][swig] and others. But I'd
 start with [Cython][cython].
 
-**Youngstar:** OK. So I'll start but not optimizing and see how it goes for me.
+**Youngstar:** OK. I'll start out not optimizing and see how it goes for me.
 
 **Graybeard:** Yes. Last thing to remember is not to expect miracles. Raymond
 Hettinger phrased it nicely: Much of the doubling of speed for core Python that
@@ -281,7 +281,7 @@ I> * Know the tools and algorithms available to you
 I> * Cheat whenever you can
 I> * Think pain vs gain
 I> * Hardware is cheap comparing to developer time
-I> * Going multi-machine is painful, try to stay with one
+I> * Moving to multi-machine setup is painful, try to stay with one
 I> * Do whatever you can in Python before dropping to C
 I> * Don't expect miracles, small steps will get you there
 

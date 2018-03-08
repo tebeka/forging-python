@@ -35,11 +35,11 @@ I think it was his experience when working with Ken Thompson.
 
 **Graybeard:** Among other things.
 
-**Youngstar:** That's all very nice, but to get to understanding I need to debug
-some time.
+**Youngstar:** That's all very nice, but way to understanding goes through
+debugging some time.
 
 **Graybeard:** Right. However I'm a backend guy and most of the time debugging
-is impossible. I use mostly logging to understand what's going on. If I do
+is impossible. I mostly use logging to understand what's going on. If I do
 debug, it's usually with the command line debugger that comes with Python -
 [pdb][pdb].
 
@@ -69,7 +69,7 @@ becomes pretty complex.
 
 **Graybeard:** You're right.  I *can* do that in `pdb` or other debuggers but
 in some cases it's much easier to specify the condition in Python code. What
-you do it something like this (codes on napkin):
+you do it something like this (writes on napkin):
 
 ```python
 if some_complex_condition():
@@ -95,7 +95,7 @@ script.
 check no stray `pdb.set_trace()` are in the code.
 
 But as I said earlier, I mostly use logs. It's an art to get the right balance
-between huge logs to to little information. Try to err on the TMI side.
+between huge logs and too little information. Try to err on the TMI side.
 
 **Youngstar:** TMI as in "Too Much Information"?
 
@@ -144,7 +144,7 @@ the problem.
 
 **Youngstar:** System 2?
 
-**Graybeard:** Yeah, not very imaginative name. Think of it as the part of your
+**Graybeard:** Yeah, not a very imaginative name. Think of it as the part of your
 brain the works below the surface. It's the one that does most of the leaps in
 understanding but it needs time. Instead of heading back to the office, go home
 and watch a video called ["Hammock Driven Development"][hdd] by Rich Hickey.

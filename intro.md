@@ -9,18 +9,18 @@
 
 **Graybeard:** Why don't you introduce me and I'll introduce you?
 
-**Youngstar:** Great idea. Let's see - You've been around the IT industry since
-punch cards, you're also the best proof you can teach old dog new tricks. I have
-no idea how do you find time to learn all the cool stuff you know. You're smart
-and usually pretty quiet until you start talking about technology. You're
+**Youngstar:** Great idea. Let's see...  You've been around the IT industry since
+punch cards, you're also the best proof that you *can* teach old dog new tricks.
+I have no idea how do you find time to learn all the cool stuff you know. You're
+smart and usually pretty quiet until you start talking about technology. You're
 currently not doing much work but still manage to earn a lot. Oh - and you have
 a quirky sense of humor.
 
-**Graybeard:** Cute, I'm not *that* old though. About you ... You're somewhat
+**Graybeard:** Cute, I'm not *that* old though. About you... You're somewhat
 new to IT, finished college few years back. You're very bright and motivated and
 you sold your company not long ago for *way* too much money. You also like to
-learn and are one of the few people who get my humor. Oh - and you're one of the
-great examples that a woman can make it in high tech.
+learn and one of the few people who get my humor. Oh - and you're a great
+example that a woman can make it in high tech.
 
 **Youngstar:** Thanks. And yeah - I'm good at pretending to like your humor.
 
@@ -39,7 +39,8 @@ great examples that a woman can make it in high tech.
 **Graybeard:** I think it was just when I was leaving that company to start
 freelancing. And you just arrived, still wet behind the ears.
 
-**Youngstar:** Yeah, I think we had about a month together before you left. Man...  those were big shoes to fill!
+**Youngstar:** Yeah, I think we had about a month together before you left.
+Man...  those were big shoes to fill!
 
 **Graybeard:** I hope the smell wasn't that bad.
 
@@ -60,7 +61,7 @@ startup doing that online thingie.
 **Graybeard:** Yeah, and we keep meeting about once a week. But it has been less
 fun since you made all that money selling your company and became a snob.
 
-**Youngstar:** I truly hope you're joking. Also you saw some of that money, if
+**Youngstar:** I truly hope you're joking. Also you got some of that money, if
 you recall you got some equity for all the advice you gave.
 
 **Graybeard:** I'm joking. Money didn't spoil you, and once you're out of this
@@ -69,7 +70,7 @@ big company we might hack together on a new one.
 **Youngstar:** Anything else our readers need to know?
 
 **Graybeard:** The meetings we had were around Python. But I think most of the
-things we talked about apply to other things as well.
+things we talked about apply to other technologies as well.
 
 **Youngstar:** I agree. Well, that's about the time we have for the
 introduction. The attention span of the average reader nowadays is pretty low.

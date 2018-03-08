@@ -110,10 +110,10 @@ Also be polite and make sure to thank people. Oh, and don't feed the trolls.
 
 **Youngstar:** For real?
 
-**Graybeard:** You're never too old to have a bath with your rubber duck.  Has
+**Graybeard:** You're never too old to have a bath with your rubber duck. Has
 it ever happen to you that you were stuck on something, went to a co-worker for
 help, started to describe the problem and somewhere in the middle said - "never
-mind, found the solution."?
+mind, I found the solution."?
 
 **Youngstar:** Sure, several times. How does this relate to a rubber duck?
 

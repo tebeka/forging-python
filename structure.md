@@ -13,8 +13,7 @@ one directory and it looks messy.
 
 **Youngstar:** Not really, but I assume I should be more organized.
 
-**Graybeard:** As the bad guy in a very bad movie said: "Assumptions are the
-mother of all !#?@ups".
+**Graybeard:** As the bad guy said: "Assumptions are the mother of all !#?@ups".
 
 **Youngstar:** Which movie was that?
 
@@ -109,8 +108,8 @@ you start with it.
 
 **Youngstar:** Anything else?
 
-**Graybeard:** Yes, don't over think this and spend too much on it. Start with
-something and only if it becomes a problem fix it.
+**Graybeard:** Yes, don't overthink and spend too much on it. Start with
+one structure and only if it becomes a problem fix it.
 
 **Youngstar:** That's advice you give for many things.
 
@@ -136,8 +135,8 @@ when you do stuff that is not that obvious - write good docstrings and comments.
 **Youngstar:** Are there tools to generate nice documentation from docstrings?
 
 **Graybeard:** Of course. In the Python world we mostly use [Sphinx][sph]. It
-has a format for documentation strings and can generate HTML, PDF and maybe
-other formats. A nice feature of Sphinx is that it can run [doctest][doct] tests.
+has a format for documentation strings and can generate HTML, PDF and other
+formats. A nice feature of Sphinx is that it can run [doctest][doct] tests.
 
 **Youngstar:** `doctest` is where you write snippets of code in your docstrings?
 
@@ -159,11 +158,11 @@ nobody looks at.
 **Youngstar:** I'll start with simple documentation. Anything else about project
 structure?
 
-**Graybeard:** There are more files you might need. A `MANIFEST.in` files to
-help with packaging. `ChangeLog` to list changes, `NOTICE.txt` or `LICENSE.txt`
-for specifying license. `tox.ini` for running tests on multiple versions of
-Python and many other files. Start with the least amount of items and add new
-ones only when you need to.
+**Graybeard:** There are more files you might need. A `MANIFEST.in` to
+help with packaging. `ChangeLog` to list changes, `NOTICE.txt` or
+`LICENSE.txt` for specifying license. `tox.ini` for running tests on multiple
+versions of Python and many other files. Start with the least amount of items
+and add new ones only when you need to.
 
 **Youngstar:** Then trim and restructure periodically?
 

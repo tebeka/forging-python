@@ -35,13 +35,9 @@ not writing it.
 
 **Youngstar:** How do I find time to write several iterations of code? 
 
-**Graybeard:** I don't think you can afford not to. As someone said: "The worst
-thing you can do to your code is to stop writing it the first time it works.".
+**Graybeard:** As Fred Brooks said: "plan to throw one away; you will, anyhow."
 
-%% FIXME: Find quote
-
-Also Fred Brooks said: "plan to throw one away; you will, anyhow." Which means
-it'll happen any way.
+Code rewrites will happen, you need to allocate time for them.
 
 **Youngstar:** Is this from [The Mythical Man Month][tmmm]? That's an old book.
 
@@ -83,7 +79,7 @@ code.
 
 **Graybeard:** Yes, but also look out for things you do. From time to time I go
 and read ["How to Write Unmaintainable Code"][unmaintain] and try to see if I do
-anything they say there in my code.
+anything shown there in my code.
 
 **Youngstar:** OK, will pay it a visit. What else?
 
@@ -95,7 +91,7 @@ anything they say there in my code.
 
 **Youngstar:** You lost me there grandpa.
 
-**Graybeard:** The code you don't write, or delete.
+**Graybeard:** The code you don't write, or code that you delete.
 
 **Youngstar:** Oh. It's also the fastest.
 
@@ -112,9 +108,9 @@ third-party packages.
 
 **Youngstar:** I see.
 
-**Graybeard:** Also, a lot of times after awhile and due to specification
-changes - you have code that does nothing. Make sure to delete it. One of my
-most productive days was deleting few thousand lines of unused code.
+**Graybeard:** Also, many times due to specification changes - you'll have code
+that does nothing. Make sure to delete it. One of my most productive days was
+deleting few thousand lines of unused code.
 
 **Youngstar:** How did that happen?
 
@@ -134,7 +130,7 @@ maintain.
 
 **Youngstar:** Also avoid globals?
 
-**Graybeard:** Yup. I like functional code since easier to reason about. However
+**Graybeard:** Yup. I like functional programming since easier to reason about. However
 you can't avoid state, [no matter how hard you try][monad].
 
 **Youngstar:** Sometimes [TDD][tdd] helps with that.
@@ -149,11 +145,13 @@ dead"][tdd-dead] for some interesting discussion about TDD.
 
 **Youngstar:** Old and linguistics? Must be a good one - do tell.
 
-**Graybeard:** I'll make it brief. During the cold war the US created an
-automatic system for translating from Russian to English. When the system was
-ready they tested it by giving it English sentence, translate to Russian and
-back. The input was "The spirit is willing but the flash is weak." and the
-output was "The vodka is good but the mean is rotten."
+**Graybeard:** I'll make it brief.
+
+During the cold war the US created an automatic system for translating from
+Russian to English. When the system was ready they tested it by giving it
+English sentence, translate to Russian and back. The input was "The spirit is
+willing but the flash is weak." and the output was "The vodka is good but the
+mean is rotten."
 
 **Youngstar:** Ha! Not that bad.
 
@@ -176,8 +174,8 @@ Python etc... But you need to learn how to properly speak the language.
 
 **Youngstar:** OK, will do. Any other advice?
 
-**Graybeard:** The most important thing is to have a good mental mode of what
-you do. You'll have people talking about building an [ontology][ontology], which
+**Graybeard:** The most important thing is to have a good mental model of what
+you do. You'll hear people talking about building an [ontology][ontology], which
 means figuring out how to talk about things.
 
 **Youngstar:** The ["two hard things..."][two]?
@@ -194,7 +192,7 @@ worked we got a bug report that we count unique users wrong. The code seems OK
 so my boss went to talk to people. Turned out we had four different definitions
 of "unique users" in the company.
 
-**Youngstar:** Ouch. I see what you mean - it start before you code.
+**Youngstar:** Ouch. I see what you mean - it starts before you code.
 
 **Graybeard:** Sometimes things emerge as you write the code, then you need to
 revise your model.

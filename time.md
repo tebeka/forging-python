@@ -45,8 +45,9 @@ try more than you can swallow.
 
 **Youngstar:** Sounds hard.
 
-**Graybeard:** Yeah, I'm still learning to say "no". But this gives me enough
-time to work on the things I think are important and do them well.
+**Graybeard:** Yeah, I'm still learning to say "no" to new clients when I
+don't have time for them. But doing so gives me enough time to work on the things
+I think are important and do them well.
 
 **Youngstar:** What if the things that are important require a lot of time?
 

@@ -51,9 +51,9 @@ well. This makes sure that I didn't mess anything up, but also take more time.
 **Graybeard:** Yes. This is what the guys in [Getting Real][gr]
 call "mass". The more mass you have, the harder it is to make changes.
 
-The amount and kind of testing is influenced by the cost of error. If
-you're writing a life support system - you'll use much more testing than what
-you need in your little project right now.
+The amount and kind of testing is influenced by the cost of error. If you're
+writing a life support system - you'll use much more testing than what you
+need in your little project right now.
 
 The main point here is that testing is "pain vs gain" balance. Make sure the
 extra mass and time pain is worth the gain.
@@ -61,8 +61,8 @@ extra mass and time pain is worth the gain.
 **Youngstar:** Speaking of tests, do you practice [TDD][tdd]?
 
 **Graybeard:** Sometimes, mostly when working with new developers. I found out
-it helps them designing clean code. You should fit the methodology to the team
-your working with. I personally write test after the first or second draft of
+it helps them design cleaner code. You should fit the methodology to the team
+your working with. I personally write tests after the first or second draft of
 the code is working.
 
 **Youngstar:** How do you know it's working?
@@ -80,23 +80,23 @@ try next time.
 
 **Youngstar:** OK, I will. Which testing framework do you use?
 
-**Graybeard:** I personally prefer [nose](nose). But I've used [py.test][pytest]
-and [unittest][unittest] with `discover` mode as well - all of them are good.
+**Graybeard:** I personally prefer [pytest][pytest], I've used
+[unittest][unittest] with `discover` mode as well.
 
-**Youngstar:** Why do you prefer `nose`?
+**Youngstar:** Why do you prefer `pytest`?
 
-**Graybeard:** I find `nose` simpler, and I always go for simple. Also love
-their [test generators][testgen] which let you run the same test with different
+**Graybeard:** I find `pytest` simpler, and I always go for simple. Also love
+their [parametrize fixtures][param] which let you run the same test with different
 input (AKA table driven testing).  Their [xunit output][xout] is great for
 [Jenkins][jenkins] integration as well.
 
 Oh, and I also use [tox][tox] for testing the same code on multiple
 versions/implementations of Python.
 
-**Youngstar:** I'll start with `nose` then, don't need multi version testing
+**Youngstar:** I'll start with `pytest` then, don't need multi version testing
 currently. How do I run the tests?
 
-**Graybeard:** `nose` comes with `nosetests` script that discovers and executes
+**Graybeard:** `pytest` comes with `pytest` script that discovers and executes
 tests. But this is usually the last thing in I run.
 
 **Youngstar:** Last? What do you run before it?
@@ -120,10 +120,10 @@ code. Since the `.pyc` of the old module is still there - your test will pass.
 **Graybeard:** I also run linter, I use [flake8][flake8] which combines
 [pyflakes][pyflakes] and [pep8][pep8], before the tests and fail on any output.
 
-**Youngstar:** Does `pep8` check for coding conventions?
+**Youngstar:** Does `flake8` check for coding conventions?
 
 **Graybeard:** Yes, this is how I avoid wasting time on coding convention talks.
-If the code passes `pep8` - it's fine. However don't get too stuck on coding
+If the code passes `flake8` - it's fine. However don't get too stuck on coding
 conventions, see Raymond Hettinger's talk called [Beyond PEP8][bpep8].
 
 **Youngstar:** Will do, anything else?
@@ -134,9 +134,10 @@ conventions, see Raymond Hettinger's talk called [Beyond PEP8][bpep8].
 script to do this.
 
 **Graybeard:** Correct, I'll mail it over if I remember. But I'm sure you can
-code it yourself.
+code it yourself. The steps are: Clean `.pyc`, search for `pdb`, run `flake8`
+and finally run the tests.
 
-**Youngstar:** I'll remind you.
+**Youngstar:** I'll remind you to mail me.
 
 **Graybeard:** Thanks. Having one command to run your tests also makes sure
 other members in your team don't forget steps. I'm not the only one with a one
@@ -152,16 +153,18 @@ more than about a minute.
 
 **Graybeard:** With my friend [Jenkins][jenkins].
 
-**Youngstar:** It's the system that monitors your source tree and run tests on
+**Youngstar:** Is it the system that monitors your source tree and run tests on
 every change?
 
 **Graybeard:** Yes. It's called "continuous integration" or CI for short.
-Jenkins can do much more but at heart this is exactly what it does.
+Jenkins can do much more but at its heart this is exactly what it does.
 
 I separate the tests to faster ones that can run on a developer machine without
-too much setup and longer ones that run on Jenkins. Both `nose` and `pytest`
-have a way to mark tests and pick a subset of tests to run. In `unittest` I use
-environment variables and a special exception that's called `SkipTest`.
+too much setup and longer ones that run on Jenkins. 
+
+`pytest` have a way to mark tests and pick a subset of tests to run. In
+`unittest` I use environment variables and a special exception that's called
+`SkipTest`.
 
 **Youngstar:** And when Jenkins runs the tests it selects all of them?
 
@@ -207,7 +210,7 @@ still have data to debug if the tests fail.
 **Graybeard:** Testing is a mastery by itself, and done right it'll save you a
 lot of agony. But no matter how hard you test - bugs will get out into
 production and you need to be ready for that. Monitoring and altering is
-something we'll talk about next time. NASA [which has a very strict and thorough
+something we'll talk about another time. NASA [which has a very strict and thorough
 development process][nasdev], [still manage][nasbug] to ship bugs to outer
 space.
 
@@ -224,12 +227,12 @@ don't really test your system. Mocks are another "mass" you acquire and need to
 be updated to match what they are mocking. I've found out that with a little
 effort you can usually avoid mocking. I once worked at a company where we were
 doing web scraping, getting HTML pages, parsing them, analyzing and storing in a
-database ([Elasticsearch][elastic] by the way). At first someone suggest we'll
-mock the HTTP connection and get a canned HTML. But with a bit more coding we
-created an HTTP server using [Flask][flask] which returned canned HTML pages.
-This way we also tested our connection infrastructure and when we wanted to test
-accessing pages with user/password - it was easy to add these kind of pages to
-the test HTTP server.
+database. At first someone suggest we'll mock the HTTP connection and get a
+canned HTML. But with a bit more coding we created an HTTP server using
+[Flask][flask] which returned canned HTML pages. This way we also tested our
+connection infrastructure and when we wanted to test accessing pages with
+user/password - it was easy to add these kind of pages to the test HTTP
+server.
 
 However sometime the cost of not mocking is too much - "pain vs gain" again.
 There's a [mock][mock] package in the Python 3 and for Python 2 it's [available
@@ -249,14 +252,13 @@ I> * Have one script to run tests
 I> * Have a CI system, Jenkins is a good bet
 I> * Separate tests to ones developers run and ones Jenkins runs
 I> * Cleanup on `setup`
-I> * Make sure tests don't get into production
+I> * Make it impossible for tests to get into production
 I> * Avoid mocking as much as you can
 I> * No matter how hard your test, some bugs will slip though - be ready for
 this
 
 
  
-[elastic]: http://elastic.co/
 [bpep8]: https://www.youtube.com/watch?v=wf-BqAjZb8M
 [flake8]: https://pypi.python.org/pypi/flake8
 [flask]: http://flask.pocoo.org/
@@ -266,12 +268,11 @@ this
 [mock]: https://docs.python.org/3/library/unittest.mock.html
 [nasbug]: http://en.wikipedia.org/wiki/Mars_Climate_Orbiter
 [nasdev]: http://www.fastcompany.com/28121/they-write-right-stuff
-[nose]: https://nose.readthedocs.org/
+[param]: https://docs.pytest.org/en/latest/parametrize.html 
 [pep8]: https://pypi.python.org/pypi/pep8
 [pyflakes]: https://pypi.python.org/pypi/pyflakes
 [pytest]: http://pytest.org/
 [tdd]: https://en.wikipedia.org/wiki/Test-driven_development
-[testgen]: http://nose.readthedocs.org/en/latest/writing_tests.html#test-generators
 [tox]: https://tox.readthedocs.org/
 [unittest]: https://docs.python.org/3/library/unittest.html
-[xout]: https://nose.readthedocs.org/en/latest/plugins/xunit.html
+[xout]: https://docs.pytest.org/en/latest/usage.html#creating-junitxml-format-files

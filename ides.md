@@ -11,9 +11,9 @@
 **Youngstar:** Cool, so I'll start using it.
 
 **Graybeard:** Hold your horses. Mastering Vim is a long and sometimes a painful
-experience. I've been using it for more than 15 years and I'm still learning.
+experience. I've been using it for about 20 years and I'm still learning.
 
-**Youngstar:** Whoa! I don't have 15 years, I need to get productive now.
+**Youngstar:** Whoa! I don't have 20 years, I need to get productive now.
 
 **Graybeard:** Since you're going to spend most of your time inside an
 editor/IDE[^ide] - try to pick a good one and master it.
@@ -66,12 +66,12 @@ offer you things that most other editors or IDEs will not.
 **Youngstar:** Noted, I'll invest some time learning one of them. Maybe emacs
 just to annoy you.
 
-**Graybeard:** I never get annoyed by the stupid editors people pick.
+**Graybeard:** I never get annoyed by the stupid editors people use.
 
 **Youngstar:** Something more modern?
 
 **Graybeard:** I'm seeing a lot of people using [PyCharm][pycharm], from
-JetBrains the makers of IntelliJ. There also [PyDev][pydev] which sits on
+JetBrains, the makers of IntelliJ. There also [PyDev][pydev] which sits on
 top of Eclipse.
 
 **Youngstar:** IntelliJ? Eclipse? Aren't those Java IDEs?
@@ -112,6 +112,9 @@ again - they are using Windows ;)
 
 **Graybeard:** There are so many.
 
+Microsoft also makes [Visual Studio Code][vscode], which is cross platform
+and has good Python support, and a good Vi plugin.
+
 [Spyder][spyder] is good you're doing a lot of scientific Python or coming from
 Matlab. It's not as polished but fits better with scientific development.
 
@@ -121,10 +124,11 @@ and [IDEs Wiki][idewiki] on the Python web site if the above are not enough.
 
 **Youngstar:** As usual, I'm more confused than before.
 
-**Graybeard:** My advice - pick one or two (and make sure Vim is one of them ;))
-and try them out. Do a little project with each, see what fits your work style
-and then start specializing. I personally try a new one every now and then - but
-always get back to Vim eventually. Maybe I'm too old to learn new tricks.
+**Graybeard:** My advice - pick one or two, and make sure Vim is one of them
+;), and try them out. Do a little project with each, see what fits your work
+style and then start specializing. I personally try a new one every now and
+then - but always get back to Vim eventually. Maybe I'm too old to learn new
+tricks.
 
 **Youngstar:** OK. Anything I need to pay attention to while learning or using
 these IDEs?
@@ -135,8 +139,8 @@ enable it.
 **Youngstar:** Linters?
 
 **Graybeard:** Programs that check your code for common errors and coding
-conventions. We'll talk more on them when discussing testing, but the editor
-will mark lines with errors so you can fix them right away. For example I use
+conventions. We'll talk more on them later, but the editor will mark lines
+with errors so you can fix them right away. For example I use
 [flake8][flake8] integration [in Vim][vim8].
 
 **Youngstar:** Fixing errors closer to when you introduce them is always
@@ -158,15 +162,15 @@ to be patient.
 gene.
 
 **Graybeard:** You kids ... The point is that it takes time to master an editor
-or an IDE. Give it time, and you'll see your productivity jumping. I call it the
+or an IDE. Give it time, and you'll see your productivity soaring. I call it the
 "output" part of a programmer I/O.
 
-**Youngstar:** Programmer I/O? As in input/output?
+**Youngstar:** I/O? As in input/output?
 
 **Graybeard:** Yes. Most of your time as a developer should be spent thinking.
 However reading and writing are also part of the process and a good editor or
-IDE can increase the output part. Another thing that writing fast does is that
-you can write several drafts of your code and not lock into the first one you
+IDE can increase the output part. Another bonus of fast writing is that you
+can write several drafts of your code and not lock into the first one you
 write.
 
 **Youngstar:** Good point. I guess I'll brush on my speed reading to get the
@@ -195,11 +199,12 @@ bad turn so I'll stop here.
 I> ## TL;DR
 I> * Give Vim or Emacs a try, they will rock your world
 I>    * See [here][vimide] on how to turn Vim into a Python IDE
-I> * PyCharm or PyDev are a good choice
+I> * PyCharm is a good choice
 I>     * Make sure you have plenty of RAM
 I>     * Also if you're in a Java shop - there's probably a lot of knowledge on
-I>        IntelliJ or Eclipse (which PyCharm and PyDev are based off)
-I> * If you're in a Windows shop, give PTVS a try
+I>        IntelliJ (which PyCharm is based off)
+I> * Visual Studio Code great
+I> * If you're in a Windows shop, give Visual Studio a try
 I> * If you're doing a lot of scientific Python - take a look at Spyder
 
 [aptana]: http://www.aptana.com/
@@ -221,5 +226,6 @@ I> * If you're doing a lot of scientific Python - take a look at Spyder
 [vim]: http://www.vim.org/
 [vimide]: http://unlogic.co.uk/2013/02/08/vim-as-a-python-ide/
 [vs]: https://www.visualstudio.com/
+[vscode]: https://code.visualstudio.com/
 
 [^ide]: Integrated Development Environment

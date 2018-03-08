@@ -42,5 +42,6 @@ publish: sync
 
 wc:
 	cat $(files) | wc
+	wc -l $(files)
 
 .PHONY: any preview status view html publish wc

@@ -73,14 +73,14 @@ development environment?
 **Youngstar:** This system looks good enough to my usage, anything else?
 
 **Graybeard:** There are many ways to do configuration, and you should pick the
-one that fits your case. We talked about overrides, the usual order is default
+one that fits your case. We talked about overrides, the usual order is defaults
 < configuration < environment variables < command line switches. You can use
 something like [ChainMap][chmap] for this.
 
 **Youngstar:** OK. I guess adding command line support helps in quickly testing
 other systems.
 
-**Graybeard:** Yes, sometime the script that starts your program (say
+**Graybeard:** Yes, sometime the command that starts your program (say
 [docker][docker]) gives all the right switches. Then you can go without
 configuration system at all in your code.
 
@@ -105,20 +105,20 @@ on the server.
 
 **Youngstar:** Agree. Anything else about configuration?
 
-**Graybeard:** There's so much more.  Some people believe you should use just
+**Graybeard:** There's so much more. Some people believe you should use just
 environment variables.
 
 **Youngstar:** Why?
 
 **Graybeard:** Read [the 12 factor app][ttfa] and see.
 
-**Youngstar:** Yay, more reading. By the way: I am using [fabric][fabric],
-should I switch to Ansible?
+**Youngstar:** Yay, more reading. By the way: I am using [fabric][fabric] for
+deployment, should I switch to Ansible?
 
 **Graybeard:** Depends on the complexity of your deployment. fabric is very
 simple so I usually start there and switch to something more complex only when
 I need to. If you use `docker` based system like [docker-compose][dc] and
-[kubernetes][kb] have their own system for hooking containers together.
+[kubernetes][kb], they have their own system for hooking containers together.
 
 **Youngstar:** And then my code uses less configuration.
 
@@ -160,15 +160,14 @@ the majority of cases - you're fine.
 **Youngstar:** As usual, simple things go very deep with you.
 
 **Graybeard:** A good configuration system will reduce the complexity in your
-code. This complexity don't go away, but it's contained somewhere else which is
-a good thing.
+code. This complexity doesn't go away, but it's contained somewhere else
+which is a good thing.
 
 **Youngstar:** What about passwords and other "secret" stuff? Where do I store
 it?
 
 **Graybeard:** Make sure they don't make it to configuration or checked in by
-mistake. We'll have a talk on security later (and had one on configuration
-management already).
+mistake. We'll have a talk on security later...
 
 **Youngstar:** OK then.
 

@@ -27,7 +27,7 @@ much of my time ... not programming.
 
 **Graybeard:** Sounds typical.
 
-**Youngstar:** How can I beat typical and get to hacking?
+**Youngstar:** How can I beat typical and get back to hacking?
 
 **Graybeard:** It's called process.
 
@@ -215,7 +215,7 @@ plus ones.
 
 **Youngstar:** Yeah, we talked on this already. Anything specific?
 
-**Graybeard:** Both [Slack][slack] and [HipChat][hipchat] are nice and comes
+**Graybeard:** Both [Slack][slack] and [Stride][stride] are nice and comes
 with many bells and whistles. Internally companies usually install a
 [Jabber](jabber) server. Oh, and don't forget IRC.
 
@@ -256,8 +256,8 @@ your machine, we're not shipping your machine."
 
 **Graybeard:** Another nice to have tool are all the bots in the chat room.
 Google [chatops][chatops] to see what you can do with these bots,
-[github][hubot] for example uses them extensively. Not to mention it's a lot of
-fun to write and use these bots.
+[github][hubot] for example uses them extensively. Not to mention it's a lot
+of fun to write and use these bots.
 
 **Youngstar:** And fun is important to keep people around.
 
@@ -340,7 +340,6 @@ I>     * After sprint: retrospective which yields new issues
 [avote]: http://www.apache.org/foundation/voting.html
 [chatops]: http://blogs.atlassian.com/2016/01/what-is-chatops-adoption-guide/
 [ci]: https://www.thoughtworks.com/continuous-integration
-[hubot]: https://github.com/github/hubot
 [confmat]: https://en.wikipedia.org/wiki/Confusion_matrix
 [gdocs]: https://www.google.com/docs/about/
 [genemy]: http://www.shirky.com/writings/herecomeseverybody/group_enemy.html
@@ -348,12 +347,13 @@ I>     * After sprint: retrospective which yields new issues
 [git]: https://git-scm.com/
 [github]: https://github.com
 [greal]: https://gettingreal.37signals.com/
-[hipchat]: https://www.hipchat.com/
+[hubot]: https://github.com/github/hubot
 [jabber]: http://www.jabber.org/
 [jenkins]: https://jenkins.io/index.html
 [ooda]: https://en.wikipedia.org/wiki/OODA_loop
 [peopleware]: http://www.amazon.com/Peopleware-Productive-Projects-Second-Edition/dp/0932633439
 [scrum]: https://en.wikipedia.org/wiki/Scrum_(software_development)
 [slack]: https://slack.com/
+[stride]: https://www.stride.com/
 [tmmm]: https://en.wikipedia.org/wiki/The_Mythical_Man-Month
 [wiki]: https://en.wikipedia.org/wiki/Wiki

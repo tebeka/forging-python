@@ -54,8 +54,9 @@ secondary role.
 **Youngstar:** I don't believe that everyone can solve every problem.
 
 **Graybeard:** Yeah, but it's the [Pareto principle][pareto] - most errors are
-easy to solve. The big bonus is that *everyone* feels the pain of failing system
-and start writing more robust code and also pay more attention in code reviews.
+easy to solve. The big bonus is that *everyone* feels the pain of a failing
+system and start writing more robust code, and also pay more attention in code
+reviews.
 
 I saw a great talk called ["Keys to SRE"][ksre] by the guy who started the SRE
 team in Google.
@@ -93,7 +94,7 @@ the way update your "red book" for what to do when shit happens.
 
 **Youngstar:** Gee, that's helpful.
 
-**Graybeard:** Let me ask you - how's a disk 80% full affect your revenue?
+**Graybeard:** Let me ask you - how's an 80% full disk affect your revenue?
 
 **Youngstar:** Hmm. Well, it's an indication that I'm going to have a problem
 and this might drive out users. Hard to place a number on this.
@@ -175,7 +176,7 @@ customer shouting over the phone. Also other team members can look and learn.
 **Youngstar:** Isn't that what Netflix [chaos monkey][cmonkey] do?
 
 **Graybeard:** Sort of, but wait until you get there. By the way they have more
-tools that destroy things. It's called [the Simian Army][sarmy] now.
+tools that destroy things. By the way, it's called [the Simian Army][sarmy] now.
 
 **Youngstar:** Oh my... I need another drink to reflect on that. Want some?
 

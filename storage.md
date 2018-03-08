@@ -24,7 +24,7 @@ MySQL.
 **Youngstar:** OK. Now that we clarified this issue, can we get back to my
 initial question?
 
-**Graybeard:** I know enough about your data to give you a good answer.
+**Graybeard:** I don't know enough about your data to give you a good answer.
 
 **Youngstar:** Currently I don't have much data. Some user information, some
 session data.  Things are very much in flux so it's hard to know.
@@ -53,8 +53,7 @@ things.
 **Youngstar:** Isn't it slow?
 
 **Graybeard:** *sighs* Speed again? What's your speed requirement? How many
-objects do you have? Have you profiled your code?
-...
+objects do you have? Have you profiled your code? ...
 
 **Youngstar:** OK, OK ...
 
@@ -97,6 +96,9 @@ early stages when your data model is still in flux and schemas are just in your
 way. I usually start with [shelve][shelve] and switch to NoSQL database if I
 need support for large amount of data or client/server architecture.
 
+Note that in NoSQL the schema does exist, it's in the code instead of in the
+database.
+
 **Youngstar:** Will I need client/server support?
 
 **Graybeard:** My crystal ball is broken today. However the answer is probably
@@ -106,9 +108,10 @@ you'll want all of these servers looking at the same data.
 **Youngstar:** I guess if I can make my server stateless it'll be best.
 
 **Graybeard:** Good insight. In practice this is really hard to achieve, but a
-good goal to strive to. I worked at a company that stored all the data required
+good goal to strive to. I worked at a company that stored all the required data
 in HTTP cookies. This meant the client sent all the data we needed in every
-request. Which saved us a lot of database queries.
+request. This saved us a lot of database queries, however you need to be
+aware of the security risks of storing data on the client.
 
 **Youngstar:** When will you pick an SQL database?
 
@@ -119,12 +122,16 @@ it's a good thing. Also many tools, mainly reporting ones, work well with SQL.
 The other thing is that some of the SQL databases, I personally prefer
 [PostgreSQL][pg], are wicked fast when you have much more reads than writes.
 
+SQL databases have transactions, which means when you insert ten records
+either all of them will enter the database or none of them. In some NoSQL
+systems this is really hard to achieve.
+
 Also, SQL databases tend to be older, which means they are more stable and have
 more tooling and knowledge around them.
 
 **Youngstar:** *You* prefer older? You love all this new and shiny stuff.
 
-**Graybeard:** I know, but I've been bitten by "new" database. At one company we
+**Graybeard:** I know, but I've been bitten by "new" databases. At one company we
 worked with a two years old database. About 90% of our downtime was due to
 database issues.
 
@@ -165,7 +172,7 @@ opinion.
 **Graybeard:** Couple tidbits:
 
 You'll probably have some complex queries in your code. I recommend saving them
-in external files - SQL, JSON ...  and not in code. I once worked in a company
+in external files - SQL, YAML ...  and not in code. I once worked in a company
 who used the Spring framework.  They went half the way and stored the SQL
 queries in the Spring XML configuration files. It was really hard to read the
 SQL embedded in the XML, there was no syntax highlighting and viewing diffs was
@@ -192,18 +199,19 @@ had backups of their data but couldn't restore from it when time came.
 
 **Graybeard:** Again, depending on your audit and recovery needs - this
 question can have very different answer. Another thing is that backups tend to
-grow in size and accumulate, have a good purging policy. One more thing is that
-if you use a hosted database - that might take care of backup and recovery for
-you.
+grow in size and accumulate, have a good retention policy. 
+
+If you use a hosted database - that might take care of backup and recovery
+for you.
 
 **Youngstar:** Hosted?
 
 **Graybeard:** Yup. And considering that they take all the operations headache
 from you it might be a good solution. Google has [BigQuery][bigquery], Amazon
-has [Redshift][redshift], there's [compose][compose] and many others.
+has [Athena][athena]... and many others.
 
-An extra benefit for BigQuery and Redshift is that they scale. Both claim
-they can process billions of records in seconds.
+An extra benefit for BigQuery and Athena is that they scale. Both claim they
+can process billions of records in seconds.
 
 **Youngstar:** Don't they cost money?
 
@@ -263,8 +271,8 @@ I> * Pick a mature database
 I> * Make sure you can recover from backup
 I> * Have a policy to trim your backups
 
+[athena]: https://aws.amazon.com/athena/
 [bigquery]: https://cloud.google.com/bigquery/what-is-bigquery
-[compose]: https://www.compose.io/
 [couch]: http://couchdb.apache.org/
 [dal]: https://en.wikipedia.org/wiki/Data_access_layer
 [es]: https://www.elastic.co/products/elasticsearch
@@ -274,7 +282,6 @@ I> * Have a policy to trim your backups
 [pg]: http://www.postgresql.org/
 [pickle]: https://docs.python.org/3/library/pickle.html
 [redis]: http://redis.io/
-[redshift]: https://aws.amazon.com/redshift/
 [shelve]: https://docs.python.org/3/library/shelve.html
 [sq3]: https://docs.python.org/3/library/sqlite3.html
 [taoup]: http://www.catb.org/esr/writings/taoup/html

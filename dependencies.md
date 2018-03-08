@@ -10,14 +10,14 @@
 
 **Youngstar:** I was updating some packages ...
 
-**Graybeard:** ... and one of the new versions had a regression bug and it took
-you all day to figure it out.
+**Graybeard:** ... and one of the new versions had a regression bug that took
+you all day to figure out.
 
 **Youngstar:** What do you know? I'm not that special after all.
 
 **Graybeard:** Oh, you are unique - just like everybody else.
 
-**Youngstar:** Funny! So how can I avoid bugs like this in the future.
+**Youngstar:** Funny! So how can I avoid bugs like this in the future?
 
 **Graybeard:** You know that the best way to solve a bug is to make sure that
 it's impossible to introduce such bugs in the future.
@@ -49,7 +49,7 @@ the bug fixes ... Doh!
 management?
 
 **Graybeard:** As I said many times, one of the biggest factors in your
-development practices is the price of error, for example it's much harder to fix
+development practice is the price of error. For example it's much harder to fix
 a bug in an embedded system than in a small site web server. The bigger the cost
 of error the more strict you want to be with your requirements and enable stable
 builds.
@@ -65,28 +65,27 @@ globally in the system.
 
 **Graybeard:** Good, this is one more isolation level. By the way, newer
 versions of Python comes with [`venv`][venv] module which does basically the
-same work.
+same work. And there also a newer tool called [`pipenv`][pipenv].
 
-**Youngstar:** That's nice, one less dependency. Any differences between
-`virtualenv` and `venv`?
+**Youngstar:** That's nice, one less dependency. What are the differences
+between `virtualenv`, `venv` and `pipenv`?
 
-**Graybeard:** Two that I'm aware of. One is that with `virtualenv` you can
-specify a different Python interpreter, for example even if your default Python
-is 3 you can still create a virtual environment with the Python 2 interpreter.
-The second is that `virtualenv` has a Python module to setup the virtual
-environment from Python. This way you don't need to run `activate` before
-running your code, you can do it from your Python script.
+**Graybeard:** With `virtualenv` you can specify a different Python
+interpreter, for example even if your default Python is 3 you can still
+create a virtual environment with the Python 2 interpreter.
 
 Also since `venv` is in the Python standard library, it'll updated only when a
 new version of Python is released. `virtualenv` will probably have a faster
 release cycle.
+
+`pipenv` combines `pip` and `virtualenv` to one tool.
 
 **Youngstar:** Good to know. The downside of using virtual environments is I
 need to teach my IDE which is the right Python.
 
 **Graybeard:** Which IDE are you playing with right now?
 
-**Youngstar:** [atom][atom].
+**Youngstar:** [VSCode][vscode].
 
 **Graybeard:** That's a cool one, almost as good as Vim.
 
@@ -100,24 +99,22 @@ need to teach my IDE which is the right Python.
 a lot of system utilities are written in Python and a system upgrade might break
 your code. [Red Hat][redhat] based distros use *a lot* of Python.
 
-**Youngstar:** I thought `virtualenv` makes sure you don't use any system
-package.
+**Youngstar:** On the other side of things, if I upgrade a package that a
+system tool depends on - I might break a system tool.
 
-**Graybeard:** And 3'rd party package. But what will happen to your code once
-the next [debian][debian] ships with Python 3 as default?
+**Graybeard** Right.
 
-**Youngstar:** I see. Is debian a popular distro?
+What will happen to your code once the next [debian][debian] ships with
+Python 3 as default?
+
+**Youngstar:** I see, I'll install a Python for my application with the right
+version. Is debian a popular distro?
 
 **Graybeard:** Very, several other distros are based on debian, such as
-[Ubuntu][ubuntu], [Mint][mint] and others. Changes to debian will find their way
-to these distros eventually.
+[Ubuntu][ubuntu] and [Mint][mint]. Changes to debian will find their way to
+these distros eventually.
 
 **Youngstar:** I use Mint, now I remember reading somewhere it's debian based.
-
-**Graybeard:** And of course if you don't use a virtual environment and install
-new packages, you might break system scripts.
-
-**Youngstar:** One more reason to use virtual environments.
 
 **Graybeard:** Yup. Now what happens if [PyPI][pypi] is down when you deploy?
 
@@ -189,13 +186,12 @@ management is an old and unsolved problem. Pick any package manager: `yum`,
 
 **Graybeard:** Hold on, collecting my thoughts... OK. If you're doing a lot of
 scientific computing - `numpy`, `pandas`, `matplotlib` and other packages. `pip
-install`ing them can be a pain. Try installing `matplotlib` on OSX when you have
-some spare time.
+install`ing them can be a pain.
 
-**Youngstar:** Right... Should I wax my legs while doing it?
+**Youngstar:** Right... Should I wax my legs while doing this?
 
 **Graybeard:** Not sure what will hurt more. Anyway ... There's an alternate
-package manager called [conda][conda]. `conda` was developed by Continuum to
+package manager called [conda][conda]. `conda` was developed by Anacodna to
 solving the problem of installing scientific packages. Over time in became a
 general installer and you can install other packages with it. Note that not all
 of the packages on PyPI can be installed with `conda`.
@@ -206,7 +202,7 @@ of the packages on PyPI can be installed with `conda`.
 its own notion of "environments" and it installs `pip` in them for just this
 case. `conda` supports Linux, Windows, OSX, ARM ...
 
-**Youngstar:** Do you get royalties from Continuum?
+**Youngstar:** Do you get royalties from Anaconda?
 
 **Graybeard:** Nope, but since I've been doing a lot of scientific Python lately
 it had saved me tons of time and agony. Going deeper ...
@@ -256,10 +252,10 @@ time.
 
 **Graybeard:** Ha!
 
-Another thing you should do is test before you use. Pick a
-package or two and try it out to see how it behaves. Try to simulate real
-environment and load as much as you can and always make sure to write code in a
-way that makes switching packages easy as possible.
+Another thing you should do is test before you use. Pick a package or two and
+try it out to see how it behaves. Try to simulate real environment and load
+as much as you can and always make sure to write code in a way that makes
+switching packages easy as possible.
 
 **Youngstar:** Do I really need to do so much even before writing even one line
 of code?
@@ -281,14 +277,13 @@ time to go home.
 
 I> ## TL;DR
 I> * Depending on the cost of error - pick a strategy for versioning
-I> * Version your dependencies and write them down
+I> * Version your dependencies, write them down and place them in source control
 I> * Use `wheel`s when possible
 I> * `conda` is a good alternative to `pip`
 I> * `docker` will give you even more control but it comes with a cost
 I> * You might want to invest in your own internal package repository
 I> * Have a process for evaluating new packages. Lean toward old and stable ones
 
-[atom]: http://atom.io/
 [clang]: http://clang.llvm.org/
 [conda]: http://conda.pydata.org/
 [debian]: https://www.debian.org/
@@ -299,10 +294,12 @@ I> * Have a process for evaluating new packages. Lean toward old and stable ones
 [mint]: http://www.linuxmint.com/
 [msgp]: http://msgpack.org/
 [pip]: http://pip.readthedocs.org/en/latest/index.html
+[pipenv]: https://docs.pipenv.org/
 [pypi]: https://pypi.python.org/pypi
 [redhat]: http://www.redhat.com/en
 [ubuntu]: http://www.ubuntu.com/
 [venv]: https://docs.python.org/3/library/venv.html
 [virtenv]: https://virtualenv.pypa.io/
+[vscode]: https://code.visualstudio.com/
 [vwrap]: https://virtualenvwrapper.readthedocs.org/
 [wheel]: https://pypi.python.org/pypi/wheel

@@ -32,12 +32,12 @@ than the local IT.
 **Graybeard:** We'll fix that later. However today it's more common for
 companies to host data outside. And even companies that say "we host data
 ourselves" usually mean "on our hosted servers". Sometimes you can't host data
-outside due to legal reasons or some compliance policies.
+outside due to legal reasons or some regulation.
 
 **Youngstar:** IANAL, but I think I'm OK with hosting data outside.
 
-**Graybeard:** What most companies underestimate, is the cost of having your own
-servers. Scaling up becomes much more painful. And you need people doing
+**Graybeard:** What most companies underestimate is the cost of having your own
+servers. Scaling up becomes much more painful, and you need people doing
 rotation who can drive at 3AM to some Colo, have the right keys and know how to
 reboot the servers.
 
@@ -128,8 +128,8 @@ old format and some working with the new format.
 **Graybeard:** That you can, but it's sometimes easier. However you pay in
 other areas, like lack of transactions. Pick your poison...
 
-**Youngstar:** OK. I'll think about what the data and try to automate the
-deployment as much as possible.
+**Youngstar:** OK. I'll think about it and try to automate my deployment as
+much as possible.
 
 **Graybeard:** Good plan. Another thing which is hard in some platforms is zero
 downtime.
@@ -143,7 +143,7 @@ GAE do it for you.
 **Youngstar:** Cool. They scale as well?
 
 **Graybeard:** Yes. So does AWS and others. You need to take care to limit
-scaling otherwise a spike in load can make you bankrupt.
+scaling otherwise a spike in load can get you bankrupt.
 
 **Youngstar:** Ouch!
 
@@ -218,8 +218,8 @@ helpful now. Every release is a risk.
 **Youngstar:** And we don't like risk.
 
 **Graybeard:** Yeah. In ["Keys to SRE"][ksre] Ben Treynor talks about "error
-budget". If a deployment went bad and there's down time - it takes out of your
-error budget and you release less.
+budget". If a deployment went bad and there's down time - it's taken out of
+your error budget and you release less.
 
 **Youngstar:** Sound reasonable. It seems there's so much infrastructure to build and process to develop.
 

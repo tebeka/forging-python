@@ -38,13 +38,13 @@ I'm not a security expert.
 
 **Graybeard:** Let's start with the social aspect. All the security in the
 world won't help if you have weak passwords, if your computer doesn't ask for
-login when you turn it on, if the people write passwords on a sticky note, or
+login when you turn it on, if employees write passwords on a sticky note, or
 blindly click on any link sent to them.
 
 **Youngstar:** You mean [phishing][phishing]?
 
 **Graybeard:** Yup. And other social hacks. The key is to be aware, keep
-learning and educating people.
+learning and educate people.
 
 **Youngstar:** Good paranoid culture, sounds like fun.
 
@@ -59,8 +59,8 @@ door makes you a paranoid.
 
 **Graybeard:** One more thing about culture is that you need to make security
 part of the process. Make security reviews to your code - Both as part of code
-reviews and dedicated security audits. Appoint someone in your company to be in
-charge of security.
+reviews and dedicated security audits. Appoint someone in your company to be the
+security tsar.
 
 **Youngstar:** Anything special I should look for in those reviews?
 
@@ -153,7 +153,7 @@ and more.
 
 **Graybeard:** How do you keep them safe?
 
-**Youngstar:** I have an encrypted file with [gpg][gpg] with these. The master
+**Youngstar:** I have file encrypted with [gpg][gpg] for these. The master
 password is in my head.
 
 **Graybeard:** And if you have software that needs some of these keys?
@@ -194,13 +194,15 @@ databases][hvault] for managing secrets and some companies role their own.
 
 **Youngstar:** Any other things I should know?
 
+**Graybeard:** I think we've covered the major points.
+
 **Youngstar:** Right. Now I'm heading back to my place, and will make sure the
 door is locked.
 
 **Graybeard:** Sadly they didn't invent virtual guard dogs like the beast you
 have at home.
 
-**Youngstar:** What do you mean beast? He's a cutie!
+**Youngstar:** What do you mean by "beast"? He's a cutie!
 
 **Graybeard:** He is cute, but also very big and scary sometimes.
 

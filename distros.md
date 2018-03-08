@@ -69,9 +69,9 @@ bill. Anything else Python's not good for?
 **Youngstar:** I guess if you need a lot of formal checking of your system.
 
 **Graybeard:** Yea. This leads me to what I call "the cost of error" which has
-implication on many areas of both development and business. For example, [Jane
-Street][jst] is a trading company who uses [OCaml][ocaml] - they claim it helps
-them make sure their code is correct.
+implication on many areas both in development and in business. For example,
+[Jane Street][jst] is a trading company who uses [OCaml][ocaml] - they claim
+it helps them make sure their code is correct.
 
 **Youngstar:** I guess that in trading systems you feel the pain of bugs
 right away.
@@ -81,7 +81,7 @@ hand, I worked in an HFT[^hft] firm once and we used Python *and* made money.
 
 **Youngstar:** Yeah, yeah - we all heard your war stories many times.
 
-**Graybeard:** Be nice to your elders. Anything else did we miss?
+**Graybeard:** Be nice to your elders! Anything else?
 
 **Youngstar:** I can't think of anything else - do tell.
 
@@ -110,9 +110,9 @@ do you know?
 [PyPy][pypy] and now I know of [MicroPython][mp]. Oh and there's the subject of
 Python 2 and Python 3.
 
-**Graybeard:** IronPyton is for .NET shops, which you're not. Jython is for Java
-shops or you need to use Java libraries - and I don't think this is your case
-either.
+**Graybeard:** IronPyton is for .NET shops, which you're not. Jython is for
+Java shops or when you need to use Java libraries - and I don't think this is
+your case either.
 
 **Youngstar:** And I'm running on hosted servers so MicroPython is not for me as
 well.
@@ -140,16 +140,17 @@ should do for you. So let me ask you - what are your speed requirements?
 
 **Youngstar:** The faster the better?
 
-**Graybeard:** Then why not pick assembly as your programming language?
+**Graybeard:** Then why not pick assembly as your programming language? Even
+better - manufacture your own hardware.
 
 **Youngstar:** I see what you mean. I need write some business requirements and
 then see if Python fits them. I have a hunch it will.
 
 **Graybeard:** In God we trust; all others must bring data.
 
-**Youngstar:** Good one, yours?.
+**Youngstar:** Good one. Yours?.
 
-**Graybeard:** Not mine - W. Edwards Deming's.
+**Graybeard:** Not mine - W. Edwards Deming.
 
 **Youngstar:** I'll spec and measure. Now let's talk on Python 2 vs
 Python 3.
@@ -167,22 +168,18 @@ Python 2?
 
 **Youngstar:** Sure, can I finish my beer first?
 
-**Graybeard:** Funny. You might find yourself using Python 2 eventually.
-
-**Youngstar:** Because of dependencies?
-
-**Graybeard:** I'd say this is the main reason. However the situation has
-improved significantly in the last couple of years. If you head over to [Python
-3 Wall of Superpowers][sp] (which used to be called "Python 3 Wall of Shame")
-you'll see mostly green now, which means most "top downloaded" packages support
-Python 3 now.
+**Graybeard:** I'd say dependencies are the main reason. However the situation
+has improved significantly in the last couple of years. If you head over to
+[Python 3 Wall of Superpowers][sp] (which used to be called "Python 3 Wall of
+Shame") you'll see mostly green now, which means most "top downloaded"
+packages support Python 3 now.
 
 **Youngstar:** What other reason are there? Legacy code?
 
 **Graybeard:** You won't believe how fast the new cool code you wrote a while
 ago becomes legacy code. Most of the time we improve existing code, not write
 new stuff. If you already have a decent code base, writing new code from scratch
-is a dangerous thing. Read "[Things You Should Never Do][notdo]" once.
+is a dangerous thing. Read "[Things You Should Never Do][notdo]" sometime.
 
 **Youngstar:** *How* do you find the time to read all of these things?
 
