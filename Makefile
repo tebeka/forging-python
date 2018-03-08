@@ -1,6 +1,7 @@
 files = Book.txt $(shell cat Book.txt| grep -v '\#')
 htmlfiles = $(patsubst %.md,html/%.html,$(files))
 email ?= true
+api_key = $(shell cat leanpub.key)
 
 prjdir = ~/Dropbox/forging-python
 
@@ -15,11 +16,11 @@ sync:
 
 preview: sync
 	sleep 10  # Give dropbox time to sync
-	curl -d "api_key=$(shell cat leanpub.key)" \
+	curl -d "api_key=$(api_key)" \
 	    https://leanpub.com/forging-python/preview.json
 
 status:
-	curl -s -d "api_key=$(shell cat leanpub.key)" \
+	curl -s -d "api_key=$(api_key)" \
 	    https://leanpub.com/forging-python/book_status | jq .
 
 view:
