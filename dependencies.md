@@ -215,7 +215,7 @@ your application on the host.
 
 **Youngstar:** OK.
 
-**Graybeard:** Alan Key once said "People who are really serious about software
+**Graybeard:** Alan Kay once said "People who are really serious about software
 should make their own hardware." 
 
 **Youngstar:** Let's stop here, I have no intention of starting a hardware
