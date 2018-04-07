@@ -19,9 +19,10 @@ preview: sync
 	curl -d "api_key=$(api_key)" \
 	    https://leanpub.com/forging-python/preview.json
 
+# FIXME: This doesn't work
 status:
-	curl -s -d "api_key=$(api_key)" \
-	    https://leanpub.com/forging-python/book_status | jq .
+	curl -s \
+	    https://leanpub.com/forging-python/job_status\?api_key=$(api_key)
 
 view:
 	xdg-open $(prjdir)/preview/forging-python-preview.pdf
