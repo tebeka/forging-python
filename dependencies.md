@@ -128,7 +128,7 @@ from your servers.
 **Youngstar:** `pip` can do that?
 
 **Graybeard:** `pip` can do many things, this is one of them. See the
-`--index-url` and `--find-link` options if `pip install`.
+`--index-url` and `--find-link` options of `pip install`.
 
 **Youngstar:** OK.
 
