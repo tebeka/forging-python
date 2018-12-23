@@ -10,14 +10,14 @@
 **Graybeard:** Why don't you introduce me and I'll introduce you?
 
 **Youngstar:** Great idea. Let's see...  You've been around the IT industry since
-punch cards, you're also the best proof that you *can* teach old dog new tricks.
-I have no idea how do you find time to learn all the cool stuff you know. You're
+punch cards, you're also the best proof that you *can* teach an old dog new tricks.
+I have no idea how  you find time to learn all the cool stuff you know. You're
 smart and usually pretty quiet until you start talking about technology. You're
 currently not doing much work but still manage to earn a lot. Oh - and you have
 a quirky sense of humor.
 
 **Graybeard:** Cute, I'm not *that* old though. About you... You're somewhat
-new to IT, finished college few years back. You're very bright and motivated and
+new to IT, finished college a few years back. You're very bright and motivated and
 you sold your company not long ago for *way* too much money. You also like to
 learn and one of the few people who get my humor. Oh - and you're a great
 example that a woman can make it in high tech.
@@ -30,14 +30,14 @@ example that a woman can make it in high tech.
 
 **Graybeard:** We are?
 
-**Youngstar:** Don't pretend you don't know it. How does that make you feel?
+**Youngstar:** Don't pretend you don't know. How does that make you feel?
 
 **Graybeard:** Really? This is not that kind of book.
 
 **Youngstar:** Can you recall how we met?
 
 **Graybeard:** I think it was just when I was leaving that company to start
-freelancing. And you just arrived, still wet behind the ears.
+freelancing. And you'd just arrived, still wet behind the ears.
 
 **Youngstar:** Yeah, I think we had about a month together before you left.
 Man...  those were big shoes to fill!
@@ -45,7 +45,7 @@ Man...  those were big shoes to fill!
 **Graybeard:** I hope the smell wasn't that bad.
 
 **Youngstar:** It was OK, I killed most of the fungus. Can you tell the readers
-about this book.
+about this book?
 
 **Graybeard:** After I left, we decided to meet about once a week in "The
 Forge".
@@ -72,8 +72,8 @@ big company we might hack together on a new one.
 **Graybeard:** The meetings we had were around Python. But I think most of the
 things we talked about apply to other technologies as well.
 
-**Youngstar:** I agree. Well, that's about the time we have for the
-introduction. The attention span of the average reader nowadays is pretty low.
+**Youngstar:** I agree. Well, that's about all the time we have for the
+introduction. The attention span of the average reader nowadays is pretty short.
 We hope you'll have as much fun reading the book as we had in those meeting.
 
 **Graybeard:** Cheers!
