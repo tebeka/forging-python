@@ -24,7 +24,7 @@ some of the highlights?
 **Graybeard:** Somewhat. As developers, we spend most of our time reading code,
 not writing it.
 
-**Youngstar:** Which means it need to be readable.
+**Youngstar:** Which means it needs to be readable.
 
 **Graybeard:** Exactly.
 
@@ -57,10 +57,10 @@ code. For example, almost everything written by Peter Norvig.
 
 **Youngstar:** Yes, I've seen his [spell checker][spell], it's awesome!
 
-**Graybeard:** It is. There also some good code and advice in the [ASOA
+**Graybeard:** It is. There's also some good code and advice in the [ASOA
 book][asoa].
 
-**Youngstar:** Oh, I read some chapters. The one [Berkely DB][bdb] was good.
+**Youngstar:** Oh, I've read some chapters. The one [Berkely DB][bdb] was good.
 I'll keep on reading this book.
 
 **Graybeard:** Yup, and along the way you'll find people to follow and read
@@ -71,11 +71,11 @@ their code. You might even find a good mentor.
 **Graybeard:** Like wine, I get better with age.
 
 **Youngstar:** You keep telling yourself that. Anything else about writing good
-code.
+code?
 
 **Graybeard:** Read bad code.
 
-**Youngstar:** Learn from other people mistakes?
+**Youngstar:** Learn from other people's mistakes?
 
 **Graybeard:** Yes, but also look out for things you do. From time to time I go
 and read ["How to Write Unmaintainable Code"][unmaintain] and try to see if I do
@@ -110,27 +110,27 @@ third-party packages.
 
 **Graybeard:** Also, many times due to specification changes - you'll have code
 that does nothing. Make sure to delete it. One of my most productive days was
-deleting few thousand lines of unused code.
+deleting a few thousand lines of unused code.
 
 **Youngstar:** How did that happen?
 
 **Graybeard:** Specification changes, libraries came about that did the same
 work ...
 
-**Youngstar:** I start to see what you mean by "code is our enemy". What else?
+**Youngstar:** I'm beginning to see what you mean by "code is our enemy". What else?
 
-**Graybeard:** Keep your functions short and with small number of parameters. A
+**Graybeard:** Keep your functions short and with a small number of parameters. A
 good rule of thumb is no more than forty lines of code per function.
 
-**Youngstar:** Forty? Doesn't seem much.
+**Youngstar:** Forty? Doesn't seem like much.
 
-**Graybeard:** It not a law of nature, but it'll make your code nicer. It'll
+**Graybeard:** It's not a law of nature, but it'll make your code nicer. It'll
 make you *think* on small pieces of code which are easier to understand and
 maintain.
 
 **Youngstar:** Also avoid globals?
 
-**Graybeard:** Yup. I like functional programming since easier to reason about. However
+**Graybeard:** Yup. I like functional programming since it's easier to reason about. However
 you can't avoid state, [no matter how hard you try][monad].
 
 **Youngstar:** Sometimes [TDD][tdd] helps with that.
@@ -148,10 +148,10 @@ dead"][tdd-dead] for some interesting discussion about TDD.
 **Graybeard:** I'll make it brief.
 
 During the cold war the US created an automatic system for translating from
-Russian to English. When the system was ready they tested it by giving it
-English sentence, translate to Russian and back. The input was "The spirit is
-willing but the flash is weak." and the output was "The vodka is good but the
-mean is rotten."
+Russian to English. When the system was ready they tested it by giving it an 
+English sentence to translate to Russian and back. The input was "The spirit is
+willing but the flesh is weak" and the output was "The vodka is good but the
+meat is rotten."
 
 **Youngstar:** Ha! Not that bad.
 
@@ -159,10 +159,10 @@ mean is rotten."
 
 **Youngstar:** OK, and how is this related to what we're talking about?
 
-**Graybeard:** The idea is that every language has different way of saying the
-same things. In Python we call it "pythonic code".
+**Graybeard:** The idea is that every language has a different way of saying the
+same thing. In Python we call it "pythonic code".
 
-**Youngstar:** I heard that term before. Mostly with reference to the [Zen of
+**Youngstar:** I've heard that term before. Mostly with reference to the [Zen of
 Python ][zen].
 
 **Graybeard:** Good old Tim Peters, he is someone to learn from.
@@ -204,7 +204,7 @@ minimizing coupling ... You'll find them as you go.
 
 **Youngstar:** Any reference?
 
-**Graybeard:** There good summary in ["The Art of Unix Programming"][taoup], and
+**Graybeard:** There's a good summary in ["The Art of Unix Programming"][taoup], and
 may [other][prin-good] other places.
 
 One trick you can do is see if you can understand your code [without the
