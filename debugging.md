@@ -20,7 +20,7 @@ What I'm saying that I don't debug in the traditional sense of using a debugger.
 
 **Graybeard:** Ever heard about Rob Pike?
 
-**Youngstar:** The names rings a bell, not sure from where.
+**Youngstar:** The name rings a bell, not sure from where.
 
 **Graybeard:** Look him up, he did a lot. Anyway he once said:
 
@@ -35,8 +35,8 @@ I think it was his experience when working with Ken Thompson.
 
 **Graybeard:** Among other things.
 
-**Youngstar:** That's all very nice, but way to understanding goes through
-debugging some time.
+**Youngstar:** That's all very nice, but the road to understanding goes through
+debugging sometimes.
 
 **Graybeard:** Right. However I'm a backend guy and most of the time debugging
 is impossible. I mostly use logging to understand what's going on. If I do
@@ -51,7 +51,7 @@ effective.
 
 **Youngstar:** Just like mastering Vim? OK, I'll spend some time with it.
 
-**Graybeard:** However, if you use good IDE it'll have a visual debugger and
+**Graybeard:** However, if you use a good IDE it'll have a visual debugger and
 sometimes these are nice. As we talked before, knowing your IDE well will save
 you tons of time.
 
@@ -61,15 +61,15 @@ you tons of time.
 
 **Youngstar:** Since with you there's always more.
 
-**Graybeard:** Fair point. One of the tricks I used is sometime to place a
+**Graybeard:** Fair point. One of the tricks I use is to sometimes place a
 "hard" breakpoint in the code. I do this when the condition for the breakpoint
 becomes pretty complex.
 
-**Youngstar:** I thought `pdb` support conditional breakpoints.
+**Youngstar:** I thought `pdb` supports conditional breakpoints.
 
 **Graybeard:** You're right.  I *can* do that in `pdb` or other debuggers but
 in some cases it's much easier to specify the condition in Python code. What
-you do it something like this (writes on napkin):
+you do is something like this (writes on napkin):
 
 ```python
 if some_complex_condition():
@@ -86,20 +86,20 @@ this line.
 
 **Graybeard:** Then you run your code normally, not via `pdb`. And once the
 condition is met - you'll get the `pdb` prompt. If you have `IPython` installed
-you can use its debugger instead of `pdb`, its a bit nicer.
+you can use its debugger instead of `pdb`, it's a bit nicer.
 
 **Youngstar:** And you make sure this is not left with the code in your test
 script.
 
 **Graybeard:** Exactly. I have a rule in the script that runs the tests to
-check no stray `pdb.set_trace()` are in the code.
+make sure no stray `pdb.set_trace()` are in the code.
 
 But as I said earlier, I mostly use logs. It's an art to get the right balance
 between huge logs and too little information. Try to err on the TMI side.
 
 **Youngstar:** TMI as in "Too Much Information"?
 
-**Graybeard:** Yes. Storage is very cheap comparing to programmer time.
+**Graybeard:** Yes. Storage is very cheap compared to programmer time.
 
 **Youngstar:** But what if the logs get too big?
 
@@ -112,14 +112,14 @@ great tools for log rotation, both in the standard library and Unix utilities.
 we'll talk about logging and monitoring later.
 
 Oh, and Python's logging module can [listen on a socket][logc] and change the
-logging configuration in run time. This way you can temporarily set a log level
+logging configuration at run time. This way you can temporarily set a log level
 in one of your modules for a while, collect enough data and then return it back
 to the normal level.
 
 **Youngstar:** Cool, I'll look it up. Anything else about debugging?
 
-**Graybeard:** Today's systems are usually have more than one part. Debugging
-such a system is even more complicated. One thing I found that helps is to pass
+**Graybeard:** Today's systems usually have more than one part. Debugging
+such a system is even more complicated. One thing I've found that helps is to pass
 around a context object between sub systems. This way you can search the logs
 and get a logical view of an operation between several sub systems.
 
@@ -128,7 +128,7 @@ and get a logical view of an operation between several sub systems.
 **Graybeard:** Anything you think is useful. The bare minimum is just an
 identifier for the current operation/session.
 
-Another thing people do it sometimes connect to a running service and inspect
+Another thing people do is sometimes connect to a running service and inspect
 what's going on with the Python `REPL`. There are several such systems, see
 [Twisted manhole][manhole] for example.
 
@@ -145,16 +145,16 @@ the problem.
 **Youngstar:** System 2?
 
 **Graybeard:** Yeah, not a very imaginative name. Think of it as the part of your
-brain the works below the surface. It's the one that does most of the leaps in
+brain that works below the surface. It's the one that does most of the leaps in
 understanding but it needs time. Instead of heading back to the office, go home
 and watch a video called ["Hammock Driven Development"][hdd] by Rich Hickey.
 
-I can't tell you how many bugs I solved during jogging.
+I can't tell you how many bugs I've solved while jogging.
 
 **Youngstar:** Oh, we definitely need to talk about work/life balance and how
 you have time to learn all this stuff.
 
-Now that you mention this and I see my empty beer glass. I'm guess I'm over my
+Now that you mention this and I see my empty beer glass. I guess I'm over my
 ["Ballmer Peak"][bp], so I'll go home and watch that video.
 
 **Graybeard:** Kudos on knowing your XKCD.
